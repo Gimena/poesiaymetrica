@@ -1,0 +1,173 @@
+
+<?xml-model href="../Gimena/cendari/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>Non tengo que siente la naturaleza</title>
+                    
+           
+                <title type="incipit">Non tengo que siente la naturaleza </title>
+             
+                <author>Bachiller en Artes de Salamanca</author>
+            
+                
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+  
+                        <idno n="1226">Dutton 1226</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=86&entry=ID1226#PN186ID1226]]></ref>
+                    </bibl>
+                      
+                
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="31r" to="31v">31r-31v</locus>
+                            <index>
+                                <term type="PN1-86"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                   <person xml:id="AAV">
+                       
+                       <persName type="standard">Alfonso Álvarez de Villasandino</persName>
+                       <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
+                   </person>
+                  
+                    <person xml:id="BSA">
+                        <persName type="standard">Bachiller en Artes de Salamanca</persName>
+                        <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3534Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DBachiller+de+Salamanca%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
+                    </person>
+             
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                   
+                    <place xml:id="VI1">
+                   
+                            <placeName>Villasandino</placeName>
+                            <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
+                        </place>
+                    <place xml:id="SA1">
+                        <placeName>Salamanca</placeName>
+                        <idno type="VIAF">http://viaf.org/viaf/141322263/</idno>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <textClass>
+                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
+                    <term n="162">Pregunta</term>
+                    <term n="163">Respuesta</term>
+                    <term n="113">Religión</term>
+                    <term n="43">Contrafactum</term>
+                    <term n="174">Fazer</term>
+                    <term n="175">Ordenar</term>
+                </keywords>
+            </textClass>
+
+            <creation>
+             
+                <origDate notAfter="1430" notBefore="1465">1426-1465
+                        </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-02" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <head type="rúbrica"> 
+            Esta <term cRef="PMC:162">pregunta</term> <rs ref="#PMC:174">fizo</rs> e <rs ref="#PMC:175"> ordenó</rs> el dicho <persName ref="#BSA">Bachiller Maestro en Artes</persName> contra el dicho <persName ref="#AAV">Alfonso Álvarez 
+                de <placeName ref="#VI1">Villasandino</placeName></persName>
+         
+            </head>
+  
+
+        <sp who="#AAV">
+           <speaker>Bachiller en Artes de Salamanca</speaker>
+            <lg type="poema" subtype="pregunta" met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10" rhyme="ABBAACCA/AAB">
+                <note> Se trata de una pieza de arte mayor. Falta la respuesta</note>
+                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
+                    <l xml:id="L1"><rs ref="#AAV">Maestro </rs>, <rs ref="#BSA">yo fallo</rs> por cierta pesqu<rhyme label="isa">isa</rhyme></l>
+                        <l xml:id="L2">que todos los omnes gentiles pol<rhyme label="idos">idos</rhyme></l>
+                        <l xml:id="L3">si son de la muerte crüel mal fer<rhyme label="idos">idos</rhyme></l>
+                        <l xml:id="L4">que luego se torna en polvo e cen<rhyme label="isa">iza</rhyme></l>
+                        <l xml:id="L5">por ende la vuestra memoria env<rhyme label="isa">issa</rhyme></l>
+                            <l xml:id="L6">luego me responda e dé su raz<rhyme label="on">"on</rhyme>,</l>
+                            <l xml:id="L7">aquesta demanda e ruda quisti<rhyme label="ón">ón</rhyme></l>
+                    <l xml:id="L8">que <rs ref="#BSA">yo</rs> <rs ref="#AAV">vos</rs> <rs ref="#BSA">propongo</rs> aquesta gu<rhyme label="isa">issa</rhyme>.</l>
+                    </lg>
+                    
+                <lg  n="2"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
+                    <l xml:id="L9"><rs ref="#AAV">Amigo señor</rs>, que Dios <rs ref="#AAV">vos</rs> ay<rhyme label="ude">ude</rhyme></l>
+                    <l xml:id="L10">que <rs ref="#BSA">me</rs> <rs ref="#AAV">respondades</rs> aquesta <term cRef="PMC:162">preg<rhyme label="unta">unta</rhyme></term></l>
+                    <l xml:id="L11">que há grandes días que <rs ref="#BSA">mi cor </rs> ap<rhyme label="unta">unta</rhyme></l>
+                    <l xml:id="L12">e de ella <term cRef="#PMC:163">respuesta</term> fallar nunca <rs ref="#BSA">p<rhyme label="ude">ude</rhyme></rs></l>
+                        <l xml:id="L13">qué cossa es muerte e cómo rec<rhyme label="ude">ude</rhyme>,</l>
+                        <l xml:id="L14">pues non dexo cosa en aqueste m<rhyme label="undo">undo</rhyme></l>
+                        <l xml:id="L15">e por que recelo el su mal prof<rhyme label="undo">undo</rhyme></l>
+                        <l xml:id="L16">de su grave cossa conviene que d<rhyme label="ude">ubde</rhyme>.</l>
+                    </lg>
+                    
+                <lg  n="3"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
+                    <l xml:id="L17">Ca <rs ref="#BSA">veo</rs> que muere de qualquier est<rhyme label="ado">ado</rhyme></l>
+                        <l xml:id="L18">de grandes, pequeños, ninguno non esc<rhyme label="apa">apa</rhyme>,</l>
+                        <l xml:id="L19">obispos e frailes, abades e P<rhyme label="apa">apa</rhyme>,</l>
+                        <l xml:id="L20">tienen morarquíia e diversso gr<rhyme label="ado">ado</rhyme></l>
+                        <l xml:id="L21">en todas las leyes aquesto es prov<rhyme label="ado">ado</rhyme></l>
+                        <l xml:id="L22">que non dexa pobre nin rico nin f<rhyme label="uerte">uerte</rhyme>,</l>
+                    <l xml:id="L23">por ende, <rs ref="#AAV">señor</rs>, que Dios <rs ref="#AAV">vos</rs> conf<rhyme label="uerte">uerte</rhyme>,</l>
+                    <l xml:id="L24">que esto <rs ref="#BSA">me sea</rs> por <rs ref="#AAV">vos</rs> declar<rhyme label="ado">ado</rhyme>.</l>
+                    </lg>
+                    
+                <lg  n="4"  type="finda" met="10,10, 10" rhyme="AAB">     
+                    <l xml:id="L25">E <rs ref="#AAV">datme</rs> <term cRef="#PMC:163">respuesta</term> qual <rs ref="#AAV">vedes</rs>a <rhyme label="esto">esto</rhyme></l>
+                    <l xml:id="L26">que poco <rs ref="#AAV">vos cuesta</rs> e <rs ref="#BSA">yo seré pr<rhyme label="esto">esto</rhyme></rs></l>
+                    <l xml:id="L27">a <rs ref="#AAV">vuestro servicio</rs> e <rs ref="#BSA">ser vos mand<rhyme label="ado">ado</rhyme></rs>.</l>
+                    </lg>
+                    
+                   
+                    
+                    
+            </lg>
+        </sp>
+    </body>
+</text>
+</TEI>
+

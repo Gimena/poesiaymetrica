@@ -1,0 +1,170 @@
+
+<?xml-model href="../Gimena/cendari/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>Todos los discretos perder deven rissa</title>
+                    
+           
+                <title type="incipit">Todos los discretos perder deven rissa</title>
+             
+                <author>Bachiller en Artes de Salamanca</author>
+            
+                
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+  
+                        <idno n="1227">Dutton 1227</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=87&entry=ID1227%20R%201226#PN187ID1227_R_1226]]></ref>
+                    </bibl>
+                      
+                
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="30v" to="31r">30v-31r</locus>
+                            <index>
+                                <term type="PN1-84"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                   <person xml:id="AAV">
+                       
+                       <persName type="standard">Alfonso Álvarez de Villasandino</persName>
+                       <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
+                   </person>
+                  
+                    <person xml:id="BSA">
+                        <persName type="standard">Bachiller en Artes de Salamanca</persName>
+                        <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3534Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DBachiller+de+Salamanca%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
+                    </person>
+             
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                   
+                    <place xml:id="VI1">
+                   
+                            <placeName>Villasandino</placeName>
+                            <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
+                        </place>
+                    <place xml:id="SA1">
+                        <placeName>Salamanca</placeName>
+                        <idno type="VIAF">http://viaf.org/viaf/141322263/</idno>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <textClass>
+                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
+                    <term n="162">Pregunta</term>
+                    <term n="163">Respuesta</term>
+                    <term n="113">Religión</term>
+                    <term n="43">Contrafactum</term>
+                </keywords>
+            </textClass>
+
+            <creation>
+             
+                <origDate notAfter="1430" notBefore="1465">1426-1465
+                        </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-02" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <head type="rúbrica"> 
+            Esta <term cRef="PMC:163">respuesta</term> fizo e ordenó el dicho <persName ref="#AAV">Alfonso Álvarez de Villasandino</persName> contra la <term cRef="PMC:162">pregunta</term> qu´el dicho <persName ref="#BSA">Bachiller</persName> le fizo
+            <note>Corrijo la primera aparición de la palabra *pregunta* por *respuesta* en un claro error por atracción de parte del copista. </note>
+            </head>
+  
+
+        <sp who="#BSA">
+            <speaker>Alfonso Álvarez de Villasandino</speaker>
+            <lg type="poema" subtype="pregunta" met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10" rhyme="ABBAACCA/AAB">
+                <note> Se trata de una pieza de arte mayor</note>
+                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
+                    <l xml:id="L1">Todos los discretos perder deven r<rhyme label="issa">issa</rhyme></l>
+                    <l xml:id="L2">fablando en la muerte a que son dev<rhyme label="idos">idos</rhyme></l>
+                    <l xml:id="L3">por natural debdo sin su grado am<rhyme label="idos">idos</rhyme>,</l>
+                    <l xml:id="L4">pues que precita les fue esta dev<rhyme label="issa">issa</rhyme>,</l>
+                    <l xml:id="L5">ca fue la persona del Padre rep<rhyme label="issa">issa</rhyme></l>
+                    <l xml:id="L6">porque fizo al mundo muger nin var<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L7">assí quantos fueron e serán e s<rhyme label="on">on</rhyme></l>
+                    <l xml:id="L8">pagaron e pagan esta amarga s<rhyme label="issa">issa</rhyme>.</l>
+                </lg>
+                
+                <lg  n="2"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
+                    <l xml:id="L9">Por ende, <rs ref="#BSA">amigo</rs>, todo omne se esc<rhyme label="ude">ude</rhyme></l>
+                    <l xml:id="L10">con la penitencia si muerte barr<rhyme label="unta">unta</rhyme></l>
+                    <l xml:id="L11">contriçión con obra seya luego j<rhyme label="unta">unta</rhyme>,</l>
+                    <l xml:id="L12">de la ley de Cristo jamás non se m<rhyme label="ude">ude</rhyme>,</l>
+                    <l xml:id="L13">de mal penssamiento luego se desn<rhyme label="ude">ude</rhyme>,</l>
+                    <l xml:id="L14">el tal será salvo, en esto me f<rhyme label="undo">undo</rhyme>,</l>
+                    <l xml:id="L15">si al entendedes non so <rs ref="#AAV">yo</rs> el seg<rhyme label="undo">undo</rhyme></l>
+                    <l xml:id="L16">que busca cuidados vanos en que c<rhyme label="ude">ude</rhyme>.</l>
+                </lg>
+                    <lg  n="3"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
+                        <l xml:id="L17"><rs ref="#BSA">Amigo señor</rs>, <rs ref="#AAV">yo bien he pens<rhyme label="ado">ado</rhyme></rs></l>
+                        <l xml:id="L18">maguera <rs ref="#BSA">me vedes</rs> con pobre galdr<rhyme label="apa">apa</rhyme></l>
+                    <l xml:id="L19">en cómo la muerte a todos arr<rhyme label="apa">apa</rhyme></l>
+                    <l xml:id="L20">e non fue nin es nin será fall<rhyme label="ado">ado</rhyme></l>
+                    <l xml:id="L21">tan sabio tan rico nin tan esforç<rhyme label="ado">ado</rhyme></l>
+                    <l xml:id="L22">que pueda foir de su triste s<rhyme label="%rte">uerte</rhyme>,</l>
+                        <l xml:id="L23">si <rs ref="#BSA">vos</rs> al <rs ref="#BSA">sabedes</rs> con que <rs ref="#AAV">me dep<rhyme label="%rte">orte</rhyme></rs>.</l>
+                        <l xml:id="L24"><rs ref="#BSA">dezidmelo</rs> luego quiza <rs ref="#AAV">ando err<rhyme label="ado">ado</rhyme></rs>.</l>
+                </lg>
+                
+                    <lg  n="4"  type="finda" met="10,10, 10" rhyme="AAB">     
+                        <l xml:id="L25">Pero <rs ref="#AAV">yo entiendo con mi simple g<rhyme label="esto">esto</rhyme></rs> </l>
+                    <l xml:id="L26">mostrar certidunbre por glossa por t<rhyme label="esto">esto</rhyme></l>
+                        <l xml:id="L27">que lo por <rs ref="#AAV">mí dicho</rs> es atentic<rhyme label="ado">ado</rhyme>.</l>
+                </lg>
+                
+             
+                
+            
+                    
+            </lg>
+        </sp>
+    </body>
+</text>
+</TEI>
+
