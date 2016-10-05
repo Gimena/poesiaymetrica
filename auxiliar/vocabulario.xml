@@ -35,56 +35,75 @@
       </encodingDesc>
    </teiHeader>
    <text>
-      <body><entryFree>
-         <term n="43">Contrafactum</term>
-      </entryFree>
-      <entryFree>
-         <term n="89">Razón</term>
-      </entryFree>
-      <entryFree>
-         <term n="113">Religión</term>
-      </entryFree>
-      <entryFree>
-            <term n="162">Pregunta</term>
-         </entryFree>
-      <entryFree>
-         <term n="163">Respuesta</term>
-      </entryFree>
-      <entryFree>
-         <term n="169">Apocalipsis</term>
-      </entryFree>
-      <entryFree>
-         <term n="171">Sotil</term>
-      </entryFree>
-      <entryFree>
-         <term n="173">Bien fundado</term>
-      </entryFree>
-      <entryFree>
-         <term n="174">Fazer</term>
-      </entryFree>
-      <entryFree>
-         <term n="175">Ordenar</term>
-      </entryFree>
-      <entryFree>
-         <term n="178">Linda poetría</term>
-      </entryFree>
-      <entryFree>
-         <term n="179">Declarar</term>
-      </entryFree>
-      <entryFree>
-         <term n="180">Dezir</term>
-      </entryFree>
-      <entryFree>
-         <term n="187">Dezir</term>
-      </entryFree>
-      <entryFree>
-         <term n="189">Limado</term>
-      </entryFree>
-      <entryFree>
-         <term n="190">Sabio</term>
-      </entryFree>
-      <entryFree>
-         <term n="191">Engeñoso</term>
-      </entryFree></body>
+      <body>
+        <div corresp="#PMC">
+            <entryFree>
+               <term n="43">Contrafactum</term>
+            </entryFree>
+            <entryFree>
+               <term n="89">Razón</term>
+            </entryFree>
+            <entryFree>
+               <term n="113">Religión</term>
+            </entryFree>
+            <entryFree>
+               <term n="162">Pregunta</term>
+            </entryFree>
+            <entryFree>
+               <term n="163">Respuesta</term>
+            </entryFree>
+            <entryFree>
+               <term n="166">Consonantes</term>
+            </entryFree>
+            <entryFree>
+               <term n="169">Apocalipsis</term>
+            </entryFree>
+            <entryFree>
+               <term n="171">Sotil</term>
+            </entryFree>
+            <entryFree>
+               <term n="173">Bien fundado</term>
+            </entryFree>
+            <entryFree>
+               <term n="174">Fazer</term>
+            </entryFree>
+            <entryFree>
+               <term n="175">Ordenar</term>
+            </entryFree>
+            <entryFree>
+               <term n="178">Linda poetría</term>
+            </entryFree>
+            <entryFree>
+               <term n="179">Declarar</term>
+            </entryFree>
+            <entryFree>
+               <term n="180">Dezir</term>
+            </entryFree>
+            <entryFree>
+               <term n="182">Poeta</term>
+            </entryFree>
+            <entryFree>
+               <term n="183">Sabidor</term>
+            </entryFree>
+            <entryFree>
+               <term n="184">Letrado</term>
+            </entryFree>
+            <entryFree>
+               <term n="186">Artezilla</term>
+            </entryFree>
+            <entryFree>
+               <term n="187">Dezir</term>
+            </entryFree>
+            <entryFree>
+               <term n="189">Limado</term>
+            </entryFree>
+            <entryFree>
+               <term n="190">Sabio</term>
+            </entryFree>
+            <entryFree>
+               <term n="191">Engeñoso</term>
+            </entryFree>
+         </div>
+      </body>
    </text>
 </TEI>
