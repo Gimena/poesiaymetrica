@@ -1,0 +1,122 @@
+
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>Señor, non tomedes enojo nin saña</title>
+                    
+           
+                <title type="incipit">Señor, non tomedes enojo nin saña</title>
+             
+                <author>Bachiller en Artes de Salamanca</author>
+            
+                
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+  
+                        <idno n="1228">Dutton 1228</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=88&entry=ID1228#PN188ID1228]]></ref>
+                    </bibl>
+                      
+                
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="31v" to="31v">31v</locus>
+                            <index>
+                                <term type="PN1-88"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    
+        <profileDesc>
+
+            <creation>
+             
+                <origDate notAfter="1430" notBefore="1465">1426-1465
+                        </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-02" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <head type="rúbrica"> 
+            
+            <term cRef="PMC:162">Pregunta</term> del dicho <persName ref="#BSA">Bachiller</persName> contra <persName ref="#AAV">Alfonso Álvarez</persName>
+                        </head>
+  
+
+        <sp who="#AAV">
+            <speaker>Bachiller en Artes de Salamanca</speaker>
+            <lg type="poema" subtype="pregunta" met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10" rhyme="ABBAACCA/AAB">
+                <note> Se trata de una pieza de arte mayor</note>
+                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
+                 
+                        <l xml:id="L1">Señor, non tomedes enojo nin s<rhyme>aña</rhyme></l>
+                        <l xml:id="L2">por vos preguntar quien poco depr<rhyme>isso</rhyme>,</l>
+                        <l xml:id="L3">que bien se que sodes cortés e env<rhyme>iso</rhyme></l>
+                        <l xml:id="L4">e muy bien criado de noble conp<rhyme>aña</rhyme></l>
+                        <l xml:id="L5">porque yo veo cossa muy estr<rhyme>aña</rhyme></l>
+                        <l xml:id="L6">en razón del cielo e de su esp<rhyme>era</rhyme></l>
+                        <l xml:id="L7">que siempre se muda de una man<rhyme>era</rhyme></l>
+                        <l xml:id="L8">dezid quien la muda siendo tam<rhyme>aña</rhyme>.</l>
+                    </lg>
+                    
+                <lg  n="2"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
+                        <l xml:id="L9">Ca non se mueve d´allí do es pu<rhyme>esta</rhyme></l>
+                        <l xml:id="L10">desque fue criada del primer movimi<rhyme label="ent%">ento</rhyme></l>
+                        <l xml:id="L11">maguer faze cursso tan súbitam<rhyme label="ent%">ente</rhyme></l>
+                        <l xml:id="L12">a parte adverssa jamás non ac<rhyme>uesta</rhyme></l>
+                        <l xml:id="L13">a esto me dad, señor, la resp<rhyme>uesta</rhyme></l>
+                        <l xml:id="L14">por los almanques de filosof<rhyme>ía</rhyme></l>
+                        <l xml:id="L15">o por vuestra bondat o por cortes<rhyme>ía</rhyme></l>
+                        <l xml:id="L16">ca en lo dezir muy poco vos cu<rhyme>esta</rhyme>.</l>
+                    </lg>
+                
+                <lg  n="2"  type="finda" met="10,10, 10" rhyme="AAB">   
+                        <l xml:id="L17">Ruego vos mucho por amor de m<rhyme label="í">i</rhyme></l>
+                        <l xml:id="L18">que esta demanda que vos fago aqu<rhyme label="í">i</rhyme></l>
+                        <l xml:id="L19">me sea por vos con razón espu<rhyme>esta</rhyme>.</l>
+                    
+                </lg>
+                    
+                    
+            </lg>
+        </sp>
+    </body>
+</text>
+</TEI>
+

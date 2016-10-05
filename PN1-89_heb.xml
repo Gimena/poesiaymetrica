@@ -1,0 +1,82 @@
+
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>Non siento tal lego, amigo, en España</title>
+                    
+           
+                <title type="incipit">Non siento tal lego, amigo, en España</title>
+             
+                <author>Alfonso Álvarez de Villasandino</author>
+            
+                
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+  
+                        <idno n="1229">Dutton 1229</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=89&entry=ID1229%20R%201228#PN189ID1229_R_1228]]></ref>
+                    </bibl>
+                      
+                
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="31v" to="32r">31v-32r. </locus>
+                            <index>
+                                <term type="PN1-89"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    
+        <profileDesc>
+            <creation>
+             
+                <origDate notAfter="1430" notBefore="1465">1426-1465
+                        </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-02" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+</teiHeader>
+
+<text>
+    <body>
+      
+        <!--O texto era igual que o anterior! 
+        
+        -->
+    </body>
+</text>
+</TEI>
+

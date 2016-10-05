@@ -1,0 +1,137 @@
+
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Oh, criaturas tan organizadas</title>
+
+
+                <title type="incipit">Oh, criaturas tan organizadas</title>
+
+                <author>Bachiller en Artes de Salamanca</author>
+
+
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts </publisher>
+                        <idno n="1230">Dutton 1230</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=90&entry=ID1230#PN190ID1230]]></ref>
+                    </bibl>
+
+
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="32r" to="32r">32r. </locus>
+                            <index>
+                                <term type="PN1-90"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <creation>
+                <origDate notAfter="1430" notBefore="1465">1426-1465 </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-04" who="#GDR">Changes are made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head type="rúbrica"> Esta <term cRef="PMC:162">pregunta</term>
+                <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho
+                    <persName ref="#BSA">Bachiller e maestro en artes</persName> contra el dicho
+                    <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1"
+                        >Villasandino</placeName></persName></head>
+
+
+            <sp who="#AAV">
+                <speaker>Bachiller en Artes de Salamanca</speaker>
+                <lg type="poema" subtype="pregunta"
+                    met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10" rhyme="ABBAACCA/ABBA">
+                    <note> Se trata de una pieza de arte mayor</note>
+                    <lg n="1" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+
+                        <l xml:id="L1">Oh, criaturas tan organiz<rhyme>adas</rhyme></l>
+                        <l xml:id="L2">a la imagen del muy poder<rhyme>oso</rhyme>,</l>
+                        <l xml:id="L3">ved si meresçe el tan vertu<rhyme>oso</rhyme></l>
+                        <l xml:id="L4">ser coronado en gemas preci<rhyme>adas</rhyme>,</l>
+                        <l xml:id="L5">e deve vevir en ricas mor<rhyme>adas</rhyme></l>
+                        <l xml:id="L6">entre talladas de azul e de <rhyme>oro</rhyme>,</l>
+                        <l xml:id="L7">muy abondoso de ryco tes<rhyme>oro</rhyme>,</l>
+                        <l xml:id="L8">amado, querido de gentes honr<rhyme>adas</rhyme>.</l>
+
+                        <note> la rima del verso cuatro está errada en el mansucrito por un simple
+                            error por atracción (y banalización) del copista: *preciosas* por
+                            *preciadas*</note>
+                    </lg>
+
+                    <lg n="2" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                        <l xml:id="L9">Non fue in neutro nin hoy es fall<rhyme>ado</rhyme></l>
+                        <l xml:id="L10">más lindo, sabio, intepetr<rhyme>ador</rhyme></l>
+                        <l xml:id="L11">nin hay en dotores tal espon<rhyme>edor</rhyme></l>
+                        <l xml:id="L12">nin tan excelente discreto not<rhyme>ado</rhyme>,</l>
+                        <l xml:id="L13">en la poetría tan muy esmer<rhyme>ado</rhyme>,</l>
+                        <l xml:id="L14">segunt lo demuestra sus conpusic<rhyme>iones</rhyme>,</l>
+                        <l xml:id="L15">de sílabas, tiempos e pies e dic<rhyme>iones</rhyme>,</l>
+                        <l xml:id="L16">que le doctan a ser profundo letr<rhyme>ado</rhyme>.</l>
+
+                        <note> en el verso 5 error por atracción *esmerador* por *esmerado* </note>
+                    </lg>
+
+                    <lg n="3" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                        <l xml:id="L17">Non se ofrece la mi navez<rhyme>illa</rhyme></l>
+                        <l xml:id="L18">a se marear en ondas mar<rhyme>inas</rhyme>,</l>
+                        <l xml:id="L19">pues alabanças nos son atan d<rhyme>inas</rhyme>,</l>
+                        <l xml:id="L20">quales merescen el muy sin manz<rhyme>illa</rhyme>,</l>
+                        <l xml:id="L21">si con la fortuna demande or<rhyme>illa</rhyme>,</l>
+                        <l xml:id="L22">por la aspereza del fuerte cam<rhyme>ino</rhyme>,</l>
+                        <l xml:id="L23">yo pido mercet a Villasand<rhyme>ino</rhyme>,</l>
+                        <l xml:id="L24">que non lo tenga por grand marav<rhyme>illa</rhyme>.</l>
+                    </lg>
+
+                    <lg n="4" type="finda" met="10,10, 10, 10" rhyme="ABBA">
+                        <l xml:id="L25">Mas bien inclinada está <rs ref="#BSA">mi rod<rhyme>illa</rhyme></rs>,</l>
+                        <l xml:id="L26">segund que disciplo muy insip<rhyme>iente</rhyme>,</l>
+                        <l xml:id="L27">con grant reverencia e muy obed<rhyme>iente</rhyme>,</l>
+                        <l xml:id="L28">a <rs ref="#AAV"> él le</rs>
+                            <rs ref="#BSA">presento</rs> aquesta <rs ref="#PMC:186">artez<rhyme>illa</rhyme></rs>.</l>
+                    </lg>
+
+                </lg>
+            </sp>
+        </body>
+    </text>
+</TEI>

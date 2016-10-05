@@ -1,5 +1,6 @@
 
-<?xml-model href="myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -87,9 +88,9 @@
                 </lg>
 
                 <lg n="2">
-                    <l xml:id="L13">En el tiempo en que sol<rhyme>ìa </rhyme></l>
+                    <l xml:id="L13">En el tiempo en que sol<rhyme label="ía">ìa </rhyme></l>
                     <l xml:id="L14">yo coger d' aquestas fl<rhyme>ores</rhyme>, </l>
-                    <l xml:id="L15">d' al cuidado non av<rhyme>'ia</rhyme>
+                    <l xml:id="L15">d' al cuidado non av<rhyme label="ía">'ia</rhyme>
                     </l>
                     <l xml:id="L16">desque vi los sus am<rhyme>ores</rhyme>; </l>
                     <l xml:id="L17">e non se per qual vent<rhyme>ura</rhyme>
@@ -127,7 +128,7 @@
 
                     <l xml:id="L37">- Yo soy la flor de las fr<rhyme>ores</rhyme>
                     </l>
-                    <l xml:id="L38">de que tu coger sol<rhyme>ias</rhyme>.</l>
+                    <l xml:id="L38">de que tu coger sol<rhyme label="ías">ias</rhyme>.</l>
                     <l xml:id="L39">¡Cuitado de mis am<rhyme>ores</rhyme>, </l>
                     <l xml:id="L40">bien sé lo que tú quer<rhyme>ías</rhyme>! </l>
                     <l xml:id="L41">Dios lo ha puesto por tal gu<rhyme>isa</rhyme>
