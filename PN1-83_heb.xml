@@ -1,5 +1,6 @@
 
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -118,18 +119,20 @@
                     </lg>
 
                     <lg n="3" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
-                        <l xml:id="L17">El onrrado viejo justo Sime<rhyme label="ón">ón</rhyme></l>
+                    <!--  Nos casos en que non fai falta a acentuación para diferenciar hiatos e ditongos, habería que incluir
+                    o acento?  -->
+                        <l xml:id="L17">El onrrado viejo justo Sime<rhyme label="on">ón</rhyme></l>
                         <l xml:id="L18">diz que lo tovo en sí abraç<rhyme>ad</rhyme>o</l>
                         <l xml:id="L19">quando en el templo le fue present<rhyme>ado</rhyme></l>
-                        <l xml:id="L20">el sancto cordero sin comparaci<rhyme label="ón"
+                        <l xml:id="L20">el sancto cordero sin comparaci<rhyme label="on"
                             >ón</rhyme></l>
-                        <l xml:id="L21">de la santa virgen canta Salam<rhyme label="ón"
+                        <l xml:id="L21">de la santa virgen canta Salam<rhyme label="on"
                             >ón</rhyme></l>
-                        <l xml:id="L22">a tantos loores tan sin egual<rhyme label="ança"
+                        <l xml:id="L22">a tantos loores tan sin egual<rhyme
                                 >ança</rhyme></l>
-                        <l xml:id="L23">al qual sesso de omnes aqui non alc<rhyme label="ança"
+                        <l xml:id="L23">al qual sesso de omnes aqui non alc<rhyme
                                 >ança</rhyme></l>
-                        <l xml:id="L24">nin la fermosura del grant Asal<rhyme label="ón"
+                        <l xml:id="L24">nin la fermosura del grant Asal<rhyme label="on"
                             >ón</rhyme>.</l>
                     </lg>
 
@@ -141,7 +144,7 @@
                         <l xml:id="L29">nin quantas estorias son nuevas e vi<rhyme>ejas</rhyme></l>
                         <l xml:id="L30">non son bastantes a loar su gr<rhyme>ey</rhyme></l>
                         <l xml:id="L31">daqueste que sienpre guarda bien la l<rhyme>ey</rhyme></l>
-                        <l xml:id="L32">e non se pagava de otras cons<rhyme label="ejas "
+                        <l xml:id="L32">e non se pagava de otras cons<rhyme
                                 >ejas</rhyme>.</l>
                     </lg>
 
@@ -195,7 +198,7 @@
                         <l xml:id="L67">que non siento omne que en tierra non c<rhyme>aya</rhyme></l>
                         <l xml:id="L68">temiendo sentencia de grant redent<rhyme>or</rhyme></l>
                         <l xml:id="L69">pues para que vivamos sin todo renc<rhyme>or</rhyme></l>
-                        <l xml:id="L70">sigamos las obras de los esle<rhyme>ídos</rhyme>,</l>
+                        <l xml:id="L70">sigamos las obras de los esle<rhyme label="idos">ídos</rhyme>,</l>
                         <l xml:id="L71">santos confesores de Dios escog<rhyme>idos</rhyme>,</l>
                         <l xml:id="L72">e así vivieremos en gloria e dulç<rhyme>or</rhyme>.</l>
 
