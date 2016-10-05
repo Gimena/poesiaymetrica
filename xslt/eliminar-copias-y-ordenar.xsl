@@ -22,12 +22,12 @@
             <xsl:apply-templates select="@* | node()" mode="ordenar"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:template match="body" mode="ordenar">
-        <body>
+    <xsl:template match="body/div" mode="ordenar">
+        <div corresp="#PMC">
             <xsl:for-each select="entryFree">
                 <xsl:sort select="term/number(@n)"/>
                 <xsl:copy-of select="."/>
             </xsl:for-each>
-        </body>
+        </div>
     </xsl:template>
 </xsl:stylesheet>
