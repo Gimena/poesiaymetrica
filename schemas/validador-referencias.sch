@@ -21,6 +21,9 @@
         <rule context="tei:origDate">
             <assert test="number(@notBefore) lt number(@notAfter)">La correlación de fechas es errónea</assert>
         </rule>
-        
+        <rule context="tei:lg[not(@type eq 'poema')]">
+            <assert test="count(tokenize(@met, ',')) eq count(tei:l)">El número de versos no coincide con el patrón métrico</assert>
+            <assert test="string-length(@rhyme) eq count(tei:l)">El número de versos no coincide con el patrón rimático</assert>
+        </rule>
     </pattern>
 </schema>

@@ -5,14 +5,12 @@
 <teiHeader>
     <fileDesc>
             <titleStmt>
-                <title>Non tengo que siente la naturaleza</title>
-                    
+                <title>Non tengo que siente la naturaleza</title>                
            
                 <title type="incipit">Non tengo que siente la naturaleza </title>
              
                 <author>Bachiller en Artes de Salamanca</author>
-            
-                
+                           
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -26,7 +24,7 @@
                     <bibl type="url"> 
                         <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
   
-                        <idno n="1224"> Duuton 1224</idno>
+                        <idno n="1224">Duuton 1224</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=84&entry=ID1224#PN184ID1224]]></ref>
                     </bibl>
                       
@@ -34,15 +32,20 @@
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Biblioteca Nacional de Francia </repository>
-                        <idno>Espagnol 37 </idno>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37</idno>
                         <altIdentifier>
                             <idno type="PN1"/>                        
 </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="30v" to="31r">30v-31r</locus>
+                            <locus from="30v" to="31r">30v-31r</locus> <!--É innecesario introducir contido textual cando os atributos aportan a mesma información.
+                                                                           Creei unha función válida para XQuery e XSLT que procesa os atributos @from e @to e se
+                                                                           o contido é igual (ex. from="30v" to="30v") só extrae "30v", se o número de fólio é o mesmo
+                                                                           pero mudo o lado (ex. from="30r" to="30v"), extrae "30r-v", e evidentemente, nun caso como
+                                                                           este extraería "30v-31r" 
+                                                                           En todo caso, esta repetición de contidos é insignificante -->
                             <index>
                                 <term type="PN1-84"/>
                             </index>
@@ -80,13 +83,18 @@
 
         <sp who="#AAV">
            <speaker>Bachiller en Artes de Salamanca</speaker>
+                    <!--Eu non me preocuparía de se hai espazos entre os valores de @met de maneira regular.
+                    Simplemente hai que lembrarse á hora de facer a visualización de utilizar unha función que o regularice -->
             <lg type="poema" subtype="pregunta" met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10" rhyme="ABBAACCA/ABBA">
                 <note> Se trata de una pieza de arte mayor</note>
                 <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
                   
-                    <l xml:id="L1">Non <rs ref="#BSA">tengo</rs> que siente la natural<rhyme>eza</rhyme></l>
-                        <l xml:id="L2">nin puede sentir en sí la raz<rhyme label="ón">ón</rhyme></l>
-                        <l xml:id="L3">de omne prudente de grant discreci<rhyme label="ón">ón</rhyme></l>
+                    <l xml:id="L1">Non <rs ref="#BSA">tengo</rs> que siente la natural<rhyme>eza</rhyme></l> <!--Especificar como @label de <rhyme> o mesmo contido textual que xa está e
+                                                                                                                encerrado dentro do elemento, paréceme innecesario. Nestas copias só mantiven
+                                                                                                                aqueles en que non había coincidencias -->
+                        <l xml:id="L2">nin puede sentir en sí la raz<rhyme label="on">ón</rhyme></l> <!-- Penso que os acentos só deberían utilizarse neste atributo con ditongos/hiatos para
+                                                                                                           resolver ambigüídades. Un simple "on" só pode ser tónico-->
+                        <l xml:id="L3">de omne prudente de grant discreci<rhyme label="on">ón</rhyme></l>
                         <l xml:id="L4">que menor de otro le sobre en alt<rhyme>eza</rhyme></l>
                     <l xml:id="L5">pero <rs ref="#BSA">yo</rs> bien creo de cierta firm<rhyme>eza</rhyme></l>
                         <l xml:id="L6">que menor de ángel le puja en est<rhyme>ado</rhyme>,</l>
@@ -107,8 +115,8 @@
                     
                 <lg  n="3"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
                         <l xml:id="L17">La quistión tercera es maravill<rhyme>osa</rhyme></l>
-                        <l xml:id="L18">por ser muy dubdada en la asoluci<rhyme label="ón">ón</rhyme></l>
-                        <l xml:id="L19">ca deve tener sotil coraç<rhyme label="ón">ón</rhyme></l>
+                        <l xml:id="L18">por ser muy dubdada en la asoluci<rhyme label="on">ón</rhyme></l>
+                        <l xml:id="L19">ca deve tener sotil coraç<rhyme label="on">ón</rhyme></l>
                         <l xml:id="L20">quien adevinare tan escura c<rhyme>osa</rhyme></l>
                         <l xml:id="L21">un padre casado ya con su esp<rhyme>osa</rhyme></l>
                         <l xml:id="L22">en tanto que vivo non pudo engendr<rhyme>ar</rhyme></l>
