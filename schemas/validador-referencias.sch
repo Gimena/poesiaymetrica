@@ -12,6 +12,9 @@
         <rule context="tei:persName/@ref">
             <assert test=". = $persoas">Este agente no está declarado. Comprueba que no haya un error tipográfico o que esta persona esté indexada</assert>
         </rule>
+        <rule context="tei:sp/@who">
+            <assert test=". = $persoas">Este agente no está declarado. Comprueba que no haya un error tipográfico o que esta persona esté indexada</assert>
+        </rule>
         <rule context="tei:rs/@ref">
             <assert test=". = $termos or . = $persoas">Esta referencia no está declarada. Comprueba que no haya un error tipográfico o que la referencia esté indexada</assert>
         </rule>
