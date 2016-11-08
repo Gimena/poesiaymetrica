@@ -1,17 +1,16 @@
 
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
             <titleStmt>
-                <title>Non tengo que siente la naturaleza</title>
-                    
+                <title>Non tengo que siente la naturaleza</title>                
            
                 <title type="incipit">Non tengo que siente la naturaleza </title>
              
                 <author>Bachiller en Artes de Salamanca</author>
-            
-                
+                           
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -25,7 +24,7 @@
                     <bibl type="url"> 
                         <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
   
-                        <idno n="1224"> Duuton 1224</idno>
+                        <idno n="1224">Duuton 1224</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=84&entry=ID1224#PN184ID1224]]></ref>
                     </bibl>
                       
@@ -33,15 +32,20 @@
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Biblioteca Nacional de Francia </repository>
-                        <idno>Espagnol 37 </idno>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37</idno>
                         <altIdentifier>
                             <idno type="PN1"/>                        
 </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="30v" to="31r">30v-31r</locus>
+                            <locus from="30v" to="31r">30v-31r</locus> <!--É innecesario introducir contido textual cando os atributos aportan a mesma información.
+                                                                           Creei unha función válida para XQuery e XSLT que procesa os atributos @from e @to e se
+                                                                           o contido é igual (ex. from="30v" to="30v") só extrae "30v", se o número de fólio é o mesmo
+                                                                           pero mudo o lado (ex. from="30r" to="30v"), extrae "30r-v", e evidentemente, nun caso como
+                                                                           este extraería "30v-31r" 
+                                                                           En todo caso, esta repetición de contidos é insignificante -->
                             <index>
                                 <term type="PN1-84"/>
                             </index>
@@ -52,46 +56,7 @@
     </fileDesc>
     
         <profileDesc>
-            <particDesc>
-                <listPerson>
-                   <person xml:id="AAV">
-                       
-                       <persName type="standard">Alfonso Álvarez de Villasandino</persName>
-                       <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
-                   </person>
-                  
-                    <person xml:id="BSA">
-                        <persName type="standard">Bachiller en Artes de Salamanca</persName>
-                        <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3534Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DBachiller+de+Salamanca%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
-                    </person>
-             
-                </listPerson>
-            </particDesc>
-            <settingDesc>
-                <listPlace>
-                   
-                    <place xml:id="VI1">
-                   
-                            <placeName>Villasandino</placeName>
-                            <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
-                        </place>
-                    <place xml:id="SA1">
-                        <placeName>Salamanca</placeName>
-                        <idno type="VIAF">http://viaf.org/viaf/141322263/</idno>
-                    </place>
-                </listPlace>
-            </settingDesc>
-            <textClass>
-                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
-                    <term n="162">Pregunta</term>
-                    <term n="113">Religión</term>
-                    <term n="43">Contrafactum</term>
-                    <term n="182">Poeta</term>
-                    <term n="183">Sabidor</term>
-                    <term n="184">Letrado</term>
-                </keywords>
-            </textClass>
-
+          
             <creation>
              
                 <origDate notAfter="1430" notBefore="1465">1426-1465
@@ -118,58 +83,63 @@
 
         <sp who="#AAV">
            <speaker>Bachiller en Artes de Salamanca</speaker>
+                    <!--Eu non me preocuparía de se hai espazos entre os valores de @met de maneira regular.
+                    Simplemente hai que lembrarse á hora de facer a visualización de utilizar unha función que o regularice -->
             <lg type="poema" subtype="pregunta" met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10" rhyme="ABBAACCA/ABBA">
                 <note> Se trata de una pieza de arte mayor</note>
                 <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
                   
-                    <l xml:id="L1">Non <rs ref="#BSA">tengo</rs> que siente la natural<rhyme label="eza">eza</rhyme></l>
-                        <l xml:id="L2">nin puede sentir en sí la raz<rhyme label="ón">ón</rhyme></l>
-                        <l xml:id="L3">de omne prudente de grant discreci<rhyme label="ón">ón</rhyme></l>
-                        <l xml:id="L4">que menor de otro le sobre en alt<rhyme label="eza">eza</rhyme></l>
-                    <l xml:id="L5">pero <rs ref="#BSA">yo</rs> bien creo de cierta firm<rhyme label="eza">eza</rhyme></l>
-                        <l xml:id="L6">que menor de ángel le puja en est<rhyme label="ado">ado</rhyme>,</l>
-                    <l xml:id="L7"><rs ref="#BSA">deseo</rs> saber d’ algunt grant <rs ref="#PMC:184">letr<rhyme label="ado">ado</rhyme></rs></l>
-                        <l xml:id="L8">quien es que meresce aver tal franqu<rhyme label="eza">eza</rhyme>.</l>
+                    <l xml:id="L1">Non <rs ref="#BSA">tengo</rs> que siente la natural<rhyme>eza</rhyme></l> <!--Especificar como @label de <rhyme> o mesmo contido textual que xa está e
+                                                                                                                encerrado dentro do elemento, paréceme innecesario. Nestas copias só mantiven
+                                                                                                                aqueles en que non había coincidencias -->
+                        <l xml:id="L2">nin puede sentir en sí la raz<rhyme label="on">ón</rhyme></l> <!-- Penso que os acentos só deberían utilizarse neste atributo con ditongos/hiatos para
+                                                                                                           resolver ambigüídades. Un simple "on" só pode ser tónico-->
+                        <l xml:id="L3">de omne prudente de grant discreci<rhyme label="on">ón</rhyme></l>
+                        <l xml:id="L4">que menor de otro le sobre en alt<rhyme>eza</rhyme></l>
+                    <l xml:id="L5">pero <rs ref="#BSA">yo</rs> bien creo de cierta firm<rhyme>eza</rhyme></l>
+                        <l xml:id="L6">que menor de ángel le puja en est<rhyme>ado</rhyme>,</l>
+                    <l xml:id="L7"><rs ref="#BSA">deseo</rs> saber d’ algunt grant <rs ref="#PMC:184">letr<rhyme>ado</rhyme></rs></l>
+                        <l xml:id="L8">quien es que meresce aver tal franqu<rhyme>eza</rhyme>.</l>
                     </lg>
                     
                 <lg  n="2"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                        <l xml:id="L9">De otra quistión asaz bien esc<rhyme label="ura">ura</rhyme></l>
-                        <l xml:id="L10">cobdiçio tanbién ser certific<rhyme label="ado">ado</rhyme></l>
-                        <l xml:id="L11">que como podria estar engendr<rhyme label="ado">ado</rhyme></l>
-                        <l xml:id="L12">un padre sin dubda de su fija p<rhyme label="ura">ura</rhyme></l>
-                        <l xml:id="L13">que a mi paresce ser cosa muy d<rhyme label="ura">ura</rhyme></l>
-                        <l xml:id="L14">ser antes la fija que nasca su p<rhyme label="adre">adre</rhyme></l>
-                        <l xml:id="L15">o quando la pudo fazer en su m<rhyme label="adre">adre</rhyme></l>
-                        <l xml:id="L16">pues que el non era in rerum nat<rhyme label="ura">ura</rhyme>.</l>
+                        <l xml:id="L9">De otra quistión asaz bien esc<rhyme>ura</rhyme></l>
+                        <l xml:id="L10">cobdiçio tanbién ser certific<rhyme>ado</rhyme></l>
+                        <l xml:id="L11">que como podria estar engendr<rhyme>ado</rhyme></l>
+                        <l xml:id="L12">un padre sin dubda de su fija p<rhyme>ura</rhyme></l>
+                        <l xml:id="L13">que a mi paresce ser cosa muy d<rhyme>ura</rhyme></l>
+                        <l xml:id="L14">ser antes la fija que nasca su p<rhyme>adre</rhyme></l>
+                        <l xml:id="L15">o quando la pudo fazer en su m<rhyme>adre</rhyme></l>
+                        <l xml:id="L16">pues que el non era in rerum nat<rhyme>ura</rhyme>.</l>
                     </lg>
                     
                 <lg  n="3"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                        <l xml:id="L17">La quistión tercera es maravill<rhyme label="osa">osa</rhyme></l>
-                        <l xml:id="L18">por ser muy dubdada en la asoluci<rhyme label="ón">ón</rhyme></l>
-                        <l xml:id="L19">ca deve tener sotil coraç<rhyme label="ón">ón</rhyme></l>
-                        <l xml:id="L20">quien adevinare tan escura c<rhyme label="osa">osa</rhyme></l>
-                        <l xml:id="L21">un padre casado ya con su esp<rhyme label="osa">osa</rhyme></l>
-                        <l xml:id="L22">en tanto que vivo non pudo engendr<rhyme label="ar">ar</rhyme></l>
-                        <l xml:id="L23">después que fue muerto del nasció su p<rhyme label="ar">ar</rhyme></l>
-                        <l xml:id="L24">un fijo gracioso mas fino que r<rhyme label="osa">osa</rhyme>.</l>
+                        <l xml:id="L17">La quistión tercera es maravill<rhyme>osa</rhyme></l>
+                        <l xml:id="L18">por ser muy dubdada en la asoluci<rhyme label="on">ón</rhyme></l>
+                        <l xml:id="L19">ca deve tener sotil coraç<rhyme label="on">ón</rhyme></l>
+                        <l xml:id="L20">quien adevinare tan escura c<rhyme>osa</rhyme></l>
+                        <l xml:id="L21">un padre casado ya con su esp<rhyme>osa</rhyme></l>
+                        <l xml:id="L22">en tanto que vivo non pudo engendr<rhyme>ar</rhyme></l>
+                        <l xml:id="L23">después que fue muerto del nasció su p<rhyme>ar</rhyme></l>
+                        <l xml:id="L24">un fijo gracioso mas fino que r<rhyme>osa</rhyme>.</l>
                     </lg>
                     
                 <lg  n="4"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                        <l xml:id="L25">La quarta pregunta es tan intric<rhyme label="ada">ada</rhyme></l>
-                        <l xml:id="L26">que la discretiva se turba en prov<rhyme label="iso">iso</rhyme></l>
-                        <l xml:id="L27">aunque sea omne discreto e env<rhyme label="isa">isso</rhyme></l>
-                        <l xml:id="L28">fasta la memoria estar soseg<rhyme label="ada">ada</rhyme></l>
-                        <l xml:id="L29">seyendo la madre encinta preñ<rhyme label="ada">ada</rhyme></l>
-                        <l xml:id="L30">el fijo al padre mató cruelm<rhyme label="ente">ente</rhyme></l>
-                        <l xml:id="L31">cosa verdadera fue esto en Ori<rhyme label="ente">ente</rhyme></l>
-                        <l xml:id="L32">en una cibdat notable esmer<rhyme label="ada">ada</rhyme>.</l>
+                        <l xml:id="L25">La quarta pregunta es tan intric<rhyme>ada</rhyme></l>
+                        <l xml:id="L26">que la discretiva se turba en prov<rhyme>iso</rhyme></l>
+                        <l xml:id="L27">aunque sea omne discreto e env<rhyme>isso</rhyme></l>
+                        <l xml:id="L28">fasta la memoria estar soseg<rhyme>ada</rhyme></l>
+                        <l xml:id="L29">seyendo la madre encinta preñ<rhyme>ada</rhyme></l>
+                        <l xml:id="L30">el fijo al padre mató cruelm<rhyme>ente</rhyme></l>
+                        <l xml:id="L31">cosa verdadera fue esto en Ori<rhyme>ente</rhyme></l>
+                        <l xml:id="L32">en una cibdat notable esmer<rhyme>ada</rhyme>.</l>
                 </lg>
                     
                     <lg  n="5"  type="finda" met="10,10, 10, 10" rhyme="ABBA">     
-                        <l xml:id="L33"><rs ref="#AAV">Quien</rs> diere <term cRef="#PMC:163">respuesta</term>bien <term cRef="#PMC:168">metrific<rhyme label="ada">ada</rhyme></term></l>
-                        <l xml:id="L34">será ensalçado entre <rs ref="'#PMC:183">sabid<rhyme label="ores">ores</rhyme></rs>,</l>
-                        <l xml:id="L35"><rs ref="#PMC:182">poetas famossos</rs> darán d’el lo<rhyme label="ores">ores</rhyme></l>
-                        <l xml:id="L36">si naturalmente es abtoriz<rhyme label="ada">ada</rhyme>.</l>
+                        <l xml:id="L33"><rs ref="#AAV">Quien</rs> diere <term cRef="#PMC:163">respuesta</term>bien <term cRef="#PMC:168">metrific<rhyme>ada</rhyme></term></l>
+                        <l xml:id="L34">será ensalçado entre <rs ref="'#PMC:183">sabid<rhyme>ores</rhyme></rs>,</l>
+                        <l xml:id="L35"><rs ref="#PMC:182">poetas famossos</rs> darán d’el lo<rhyme>ores</rhyme></l>
+                        <l xml:id="L36">si naturalmente es abtoriz<rhyme>ada</rhyme>.</l>
                     </lg>
             </lg>
         </sp>
