@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="incipit">En un tiempo cogi flores</title>
-                <author>Álvaro Afonso</author>
+                <author ref="#AA">Álvaro Afonso</author>
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -29,7 +29,7 @@
                         <msItem>
                             <locus from="65r" to="65r">65</locus>
                             <index>
-                                <term type="V-410"/>
+                                <term key="V-410"/>
                             </index>
                         </msItem>
                     </msContents>
@@ -88,7 +88,7 @@
                 </lg>
 
                 <lg n="2">
-                    <l xml:id="L13">En el tiempo en que sol<rhyme label="ía">ìa </rhyme></l>
+                    <l xml:id="L13">En el tiempo en que sol<rhyme label="ía">ìa</rhyme></l>
                     <l xml:id="L14">yo coger d' aquestas fl<rhyme>ores</rhyme>, </l>
                     <l xml:id="L15">d' al cuidado non av<rhyme label="ía">'ia</rhyme>
                     </l>

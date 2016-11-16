@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>Señor Alfonso Álvarez, grant sabio perfeto</title>
                 <title type="incipit">Señor Alfonso Álvarez, grant sabio perfeto</title>
-                <author>Pedro de Colunga</author>
+                <author ref="#PCO">Pedro de Colunga</author>
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -27,7 +27,9 @@
                     <msContents>
                         <msItem>
                             <locus from="29v" to="30r">29v-30r</locus>
-                            <index/>
+                            <index>
+                                <term key="PN1-82"></term>
+                            </index>
                         </msItem>
                     </msContents>
                 </msDesc>
@@ -49,7 +51,7 @@
     </teiHeader>
     <text>
         <body>
-            <head type="rúbrica"> Esta <term cRef="#PMC:162">pregunta</term> muy <term
+            <head type="rúbrica">Esta <term cRef="#PMC:162">pregunta</term> muy <term
                     cRef="#PMC:171">sotil</term> e <term cRef="#PMC:173">bien fundada</term>
                 <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term>
                 <persName ref="#PCO">Frey Pedro de <placeName ref="#CO1"
@@ -58,8 +60,7 @@
                         <placeName ref="#VI1">Villasandino</placeName></persName>, rogándole que le
                     <term cRef="#PMC:179">declarase</term> algunas figuras oscuras del <term
                     cRef="#PMC:169">Apocalipsis</term>, la cual <term cRef="#PMC:162"
-                    >pregunta</term>
-                <rs ref="#PMC:180">dize</rs> en esta manera</head>
+                    >pregunta</term>  <rs ref="#PMC:180">dize</rs> en esta manera</head>
 
 
             <sp>

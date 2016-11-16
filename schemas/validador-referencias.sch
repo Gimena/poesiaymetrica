@@ -28,5 +28,12 @@
             <assert test="count(tokenize(@met, ',')) eq count(tei:l)">El número de versos no coincide con el patrón métrico</assert>
             <assert test="string-length(@rhyme) eq count(tei:l)">El número de versos no coincide con el patrón rimático</assert>
         </rule>
+        <rule context="tei:msItem">
+            <assert test="tei:index/tei:term/@key">Identificador del texto</assert>
+        </rule>
+        <rule context="tei:titleStmt">
+            <report test="count(tei:author/@ref) lt 1">Falta identificación del autor</report>
+            <assert test="tei:author/@ref = $persoas">El autor no está declarado. Comprueba que no haya un error tipográfico o que esta persona esté indexada</assert>
+        </rule>
     </pattern>
 </schema>

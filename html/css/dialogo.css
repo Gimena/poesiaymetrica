@@ -28,6 +28,7 @@ header{
 
 header > h1{
     color: #D77F30;
+    text-align: left;
 }
 menu{
     display: flex;
@@ -56,6 +57,7 @@ menu > ul > li{
 
 h1{
     color: #A4450C;
+    text-align:center;
 }
 
 h2{
@@ -63,9 +65,36 @@ h2{
 }
 
 a{
-    text-decoration: none
+    text-decoration: none;
+    color: #A4450C;
 }
 
 menu a{
     color: #F4E2D2;
+}
+
+fieldset{
+    margin-bottom:2%;
+}
+
+fieldset ul {
+    list-style:none;
+}
+.header {
+    padding: 1% 0% 1%;
+}
+
+.header h2 {
+    font-size: 130%;
+    font-style: italic;
+    color: #3E1000;
+}
+
+.body {
+    display:flex;
+    margin-bottom: 2%;
+}
+
+.texto{
+    margin: 1% 2% 1% 0%;
 }

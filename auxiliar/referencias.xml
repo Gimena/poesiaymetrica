@@ -38,7 +38,7 @@
                   <![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/1081Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DPedro+de+Colunga%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
             </person>
             <person xml:id="AA">
-               <persName type="standard">Álvaro Alfonso </persName>
+               <persName type="standard">Álvaro Alfonso</persName>
                <persName type="form">Cantor do senhor Infante</persName>
 
                <idno type="MEDDB"

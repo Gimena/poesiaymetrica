@@ -9,7 +9,7 @@
 
                 <title type="incipit">Fray Pedro señor, aqueste respeto </title>
 
-                <author>Alfonso Álvarez de Villasandino</author>
+                <author ref="#AAV">Alfonso Álvarez de Villasandino</author>
 
 
                 <editor xml:id="GDR">Gimena del Rio</editor>
@@ -41,7 +41,7 @@
                         <msItem>
                             <locus from="30r" to="30v">30r-30v</locus>
                             <index>
-                                <term type="PN1-83"/>
+                                <term key="PN1-83"/>
                             </index>
                         </msItem>
                     </msContents>
@@ -53,7 +53,7 @@
              <!-- Estas datas están mal: @notBefore non pode ser maior ca @notAfter -->
 
             <creation>
-                <origDate notAfter="1430" notBefore="1465">1426-1465 </origDate>
+                <origDate notBefore="1430" notAfter="1465">1426-1465 </origDate>
             </creation>
 
             <langUsage>

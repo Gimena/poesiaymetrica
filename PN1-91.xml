@@ -1,11 +1,12 @@
-<?xml-model href="myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Amigo maestro, ya otras vegadas</title>
                 <title type="incipit">Amigo maestro, ya otras vegadas</title>
-                <author>Alfonso Álvarez de Villasandino</author>
+                <author ref="#AAV">Alfonso Álvarez de Villasandino</author>
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -35,7 +36,7 @@
                         <msItem>
                             <locus from="32r" to="32r">32r. </locus>
                             <index>
-                                <term type="PN1-91"/>
+                                <term key="PN1-91"/>
                             </index>
                         </msItem>
                     </msContents>
@@ -46,7 +47,7 @@
         <profileDesc>
 
             <creation>
-                <origDate notAfter="1430" notBefore="1465">1426-1465 </origDate>
+                <origDate notBefore="1430" notAfter="1465">1426-1465</origDate>
             </creation>
 
             <langUsage>
@@ -63,12 +64,12 @@
 
     <text>
         <body>
-            <head type="rúbrica"> Esta <term cRef="PMC:163">respuesta</term>
+            <head type="rúbrica">Esta <term cRef="#PMC:163">respuesta</term>
                 <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho
                     <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1"
-                        >Villasandino</placeName></persName>(…) <persName ref="#BSA">maestro en
-                    artes</persName> a la <term cRef="PMC:162">pregunta</term> que le <rs
-                    ref="#PMC:174">fizo</rs> (...) </head>
+                        >Villasandino</placeName></persName> (…) <persName ref="#BSA">maestro en
+                    artes</persName> a la <term cRef="#PMC:162">pregunta</term> que le <rs
+                    ref="#PMC:174">fizo</rs> (…)</head>
 
             <sp who="#BSA">
                 <speaker>Alfonso Álvarez de Villasandino</speaker>
@@ -76,12 +77,9 @@
                     met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10" rhyme="ABBAACCA/ABBA">
                     <note> Se trata de una pieza de arte mayor</note>
                     <lg n="1" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
-
                         <l xml:id="L1"><rs ref="#BSA">Amigo maestro</rs>, ya otras
                                 veg<rhyme>adas</rhyme></l>
-                        <l xml:id="L2"><rs ref="#AAV">vi</rs>
-                            <rs ref="#BSA">vuestros</rs>
-                            <rs ref="#PMC:187">dezires</rs> con que <rs ref="#AAV">fui
+                        <l xml:id="L2"><rs ref="#AAV">vi</rs> <rs ref="#BSA">vuestros</rs> <rs ref="#PMC:187">dezires</rs> con que <rs ref="#AAV">fui
                                     goz<rhyme>oso</rhyme></rs></l>
                         <l xml:id="L3">por quanto parescen de <rs ref="#PMC:190">sabio</rs>
                                 engeñ<rhyme>oso</rhyme></l>
@@ -128,7 +126,7 @@
                                 s<rhyme>illa</rhyme>.</l>
                     </lg>
 
-                    <lg n="4" type="finda" met="10,10, 10, 10," rhyme="ABBA">
+                    <lg n="4" type="finda" met="10,10, 10, 10" rhyme="ABBA">
                         <l xml:id="L25">El sabio sessudo quanto más se om<rhyme>illa</rhyme>,</l>
                         <l xml:id="L26">tanto se onra, pues Dios acrec<rhyme>iente</rhyme></l>
                         <l xml:id="L27">la vuestra salud, <rs ref="#BSA">amigo e

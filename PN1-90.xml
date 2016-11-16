@@ -1,5 +1,6 @@
 
 <?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -9,7 +10,7 @@
 
                 <title type="incipit">Oh, criaturas tan organizadas</title>
 
-                <author>Bachiller en Artes de Salamanca</author>
+                <author ref="#BSA">Bachiller en Artes de Salamanca</author>
 
 
                 <editor xml:id="GDR">Gimena del Rio</editor>
@@ -43,7 +44,7 @@
                         <msItem>
                             <locus from="32r" to="32r">32r. </locus>
                             <index>
-                                <term type="PN1-90"/>
+                                <term key="PN1-90"/>
                             </index>
                         </msItem>
                     </msContents>
@@ -53,7 +54,7 @@
 
         <profileDesc>
             <creation>
-                <origDate notAfter="1430" notBefore="1465">1426-1465 </origDate>
+                <origDate notBefore="1430" notAfter="1465">1426-1465 </origDate>
             </creation>
 
             <langUsage>
@@ -70,7 +71,7 @@
 
     <text>
         <body>
-            <head type="rúbrica"> Esta <term cRef="PMC:162">pregunta</term>
+            <head type="rúbrica"> Esta <term cRef="#PMC:162">pregunta</term>
                 <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho
                     <persName ref="#BSA">Bachiller e maestro en artes</persName> contra el dicho
                     <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1"
