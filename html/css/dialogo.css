@@ -57,7 +57,7 @@ menu > ul > li{
 
 h1{
     color: #A4450C;
-    text-align:center;
+    text-align: center;
 }
 
 h2{
@@ -74,27 +74,60 @@ menu a{
 }
 
 fieldset{
-    margin-bottom:2%;
+    margin-bottom: 2%;
 }
 
-fieldset ul {
-    list-style:none;
+fieldset ul{
+    list-style: none;
 }
-.header {
+.header{
     padding: 1% 0% 1%;
 }
 
-.header h2 {
+.header h2{
     font-size: 130%;
     font-style: italic;
     color: #3E1000;
 }
 
-.body {
-    display:flex;
+.body{
+    display: flex;
     margin-bottom: 2%;
 }
 
 .texto{
     margin: 1% 2% 1% 0%;
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #A4450C;
+}
+
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -o-max-content;
+    background-color: #3E1000;
+    color: #F4E2D2;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.note{
+    border-bottom: none;
+}
+
+.note .tooltiptext{
+    width: 500px;
+    text-align: justify;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
 }
