@@ -42,7 +42,7 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="32r" to="32r">32r. </locus>
+                            <locus from="32r" to="32r">32r</locus>
                             <index>
                                 <term key="PN1-90"/>
                             </index>
@@ -54,7 +54,7 @@
 
         <profileDesc>
             <creation>
-                <origDate notBefore="1430" notAfter="1465">1426-1465 </origDate>
+                <origDate notBefore="1430" notAfter="1465"/>
             </creation>
 
             <langUsage>
@@ -82,7 +82,7 @@
                 <speaker>Bachiller en Artes de Salamanca</speaker>
                 <lg type="poema" subtype="pregunta"
                     met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10" rhyme="ABBAACCA/ABBA">
-                    <note> Se trata de una pieza de arte mayor</note>
+                    <note>Se trata de una pieza de arte mayor</note>
                     <lg n="1" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
 
                         <l xml:id="L1">Oh, criaturas tan organiz<rhyme>adas</rhyme></l>
@@ -94,7 +94,7 @@
                         <l xml:id="L7">muy abondoso de ryco tes<rhyme>oro</rhyme>,</l>
                         <l xml:id="L8">amado, querido de gentes honr<rhyme>adas</rhyme>.</l>
 
-                        <note> la rima del verso cuatro está errada en el mansucrito por un simple
+                        <note>La rima del verso cuatro está errada en el mansucrito por un simple
                             error por atracción (y banalización) del copista: *preciosas* por
                             *preciadas*</note>
                     </lg>
@@ -109,7 +109,7 @@
                         <l xml:id="L15">de sílabas, tiempos e pies e dic<rhyme>iones</rhyme>,</l>
                         <l xml:id="L16">que le doctan a ser profundo letr<rhyme>ado</rhyme>.</l>
 
-                        <note> en el verso 5 error por atracción *esmerador* por *esmerado* </note>
+                        <note>En el verso 5 error por atracción *esmerador* por *esmerado* </note>
                     </lg>
 
                     <lg n="3" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">

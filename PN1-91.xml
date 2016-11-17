@@ -34,7 +34,7 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="32r" to="32r">32r.</locus>
+                            <locus from="32r" to="32r">32r</locus>
                             <index>
                                 <term key="PN1-91"/>
                             </index>
@@ -47,7 +47,7 @@
         <profileDesc>
 
             <creation>
-                <origDate notBefore="1430" notAfter="1465">1426-1465</origDate>
+                <origDate notBefore="1430" notAfter="1465"/>
             </creation>
 
             <langUsage>
@@ -99,7 +99,7 @@
                     <lg n="2" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
                         <l xml:id="L9">Nin <rs ref="#AAV">yo me siento tan
                                     desacord<rhyme>ado</rhyme></rs></l>
-                        <l xml:id="L10">que por <rs ref="#AAV">mí</rs>tomasse tan fino
+                        <l xml:id="L10">que por <rs ref="#AAV">mí</rs> tomasse tan fino
                                 lo<rhyme>or</rhyme>,</l>
                         <l xml:id="L11">e si lo <rs ref="#AAV">feziese</rs> seria grant
                                 err<rhyme>or</rhyme>,</l>
