@@ -1,11 +1,14 @@
 xquery version "3.0";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
-(:declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
+declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 declare option output:method "xhtml";
 declare option output:indent "yes";
-declare option output:encoding "UTF-8";:)
+declare option output:encoding "UTF-8";
 declare variable $textos := collection('/db/VTLGP/gimena/xml')//tei:TEI;
 declare variable $autores := doc('/db/VTLGP/gimena/xml/auxiliar/referencias.xml')//tei:person[concat('#', @xml:id) = $textos/descendant::tei:titleStmt/tei:author/@ref];
+declare variable $parameter := <parameters><param
+        name="tipos-estrofes"
+        value="{$textos//tei:lg/tei:lg/@type}"/></parameters>;
 declare variable $query := request:get-parameter("texto", ());
 let $seleccion := tokenize($query, ',+')
 let $ediciones := $textos[descendant::tei:msItem//tei:term/@key = $seleccion]
@@ -17,5 +20,6 @@ return
         <h3>{$edicion//tei:author/string()}</h3></div>,
     <div
         class="body">
-        {transform:transform($edicion, 'xmldb:exist:///db/VTLGP/gimena/lectura.xsl',())}
-    </div>)
+        {transform:transform($edicion, 'xmldb:exist:///db/VTLGP/gimena/lectura.xsl', $parameter)}
+    </div>,
+    <hr/>)
