@@ -35,7 +35,7 @@
                         <repository>Biblioteca Nacional de Francia </repository>
                         <idno>Esp. 37</idno>
                         <altIdentifier>
-                            <idno type="PN1"/>                        
+                            <idno>PN1</idno>                        
 </altIdentifier>
                     </msIdentifier>
                     <msContents>

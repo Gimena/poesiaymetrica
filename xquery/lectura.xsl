@@ -39,11 +39,13 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:rs[matches(@ref, '^#PMC:')]">
+        <xsl:text> </xsl:text>
         <a target="_blank" href="{concat('http://vocabularios.caicyt.gov.ar/pmc/index.php?tema=', replace(@ref, '^#PMC:', '' ))}">
             <xsl:apply-templates/>
         </a>
     </xsl:template>
     <xsl:template match="tei:term[matches(@cRef, '^#PMC:')]">
+        <xsl:text> </xsl:text>
         <a target="_blank" href="{concat('http://vocabularios.caicyt.gov.ar/pmc/index.php?tema=', replace(@cRef, '^#PMC:', '' ))}">
             <xsl:apply-templates/>
         </a>

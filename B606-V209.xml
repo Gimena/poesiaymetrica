@@ -22,7 +22,7 @@
                         <repository>Cancionero de la Biblioteca del Vaticano</repository>
                         <idno>Vat. Lat. 4803</idno>
                         <altIdentifier>
-                            <idno type="V"/>
+                            <idno>V</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>

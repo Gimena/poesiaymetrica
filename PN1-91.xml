@@ -29,12 +29,12 @@
                         <repository>Biblioteca Nacional de Francia </repository>
                         <idno>Espagnol 37</idno>
                         <altIdentifier>
-                            <idno type="PN1"/>
+                            <idno>PN1</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="32r" to="32r">32r. </locus>
+                            <locus from="32r" to="32r">32r.</locus>
                             <index>
                                 <term key="PN1-91"/>
                             </index>
@@ -86,7 +86,7 @@
                         <l xml:id="L4">las <rs ref="#BSA">vuestras</rs>
                             <rs ref="#PMC:89">razones</rs>
                             <rs ref="#PMC:171">sotiles</rs>, <rs ref="#PMC:189"
-                                    >lim<rhyme>adas</rhyme></rs>,</l>
+                                    >lim<rhyme>adas</rhyme>,</rs></l>
                         <l xml:id="L5">mas non <rs ref="#AAV">me</rs> fadaron a <rs ref="#AAV"
                                 >mí</rs> tales f<rhyme label="adas ">adas</rhyme></l>
                         <l xml:id="L6">que <rs ref="#AAV">yo meresciese</rs> entrar en tal
