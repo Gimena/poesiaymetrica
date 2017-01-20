@@ -40,9 +40,7 @@
                     <msContents>
                         <msItem>
                             <locus from="30r" to="30v">30r-30v</locus>
-                            <index>
-                                <term key="PN1-83"/>
-                            </index>
+                            <idno>PN1-83</idno>
                         </msItem>
                     </msContents>
                 </msDesc>
@@ -70,16 +68,16 @@
 
     <text>
         <body>
-            <head type="rúbrica"> Esta <term cRef="#PMC:163">respuesta</term>
-                <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho
+            <head type="rúbrica"> Esta <term cRef="163">respuesta</term>
+                <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho
                     <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1"
                         >Villasandino</placeName></persName> contra el dicho <persName ref="#PCO"
                     >Fray Pedro de <placeName ref="#CO1">Colunga</placeName></persName> a la
-                sobredicha <term cRef="#PMC:162">pregunta</term> que le <term cRef="#PMC:174"
-                    >fizo</term> la qual <term cRef="#PMC:163">respuesta</term> va <term
-                    cRef="#PMC:174">fecha</term> por los mesmos <term cRef="#PMC:166"
+                sobredicha <term cRef="162">pregunta</term> que le <term cRef="174"
+                    >fizo</term> la qual <term cRef="163">respuesta</term> va <term
+                    cRef="174">fecha</term> por los mesmos <term cRef="166"
                     >consonantes</term> e asimesmo satisfiçole muy bien e muy sotil e derechamente a
-                todas dubdas por él <rs ref="#PMC:163">preguntadas</rs>
+                todas dubdas por él <term cRef="163">preguntadas</term>
             </head>
 
 

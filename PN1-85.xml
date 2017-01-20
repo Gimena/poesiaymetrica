@@ -41,9 +41,7 @@
                     <msContents>
                         <msItem>
                             <locus from="31r" to="31r">31r</locus>
-                            <index>
-                                <term key="PN1-85"/>
-                            </index>
+                            <idno>PN1-85</idno>
                         </msItem>
                     </msContents>
                    </msDesc>
@@ -72,7 +70,7 @@
 
 <text>
     <body>
-        <head type="rúbrica"> Esta <term cRef="#PMC:163">respuesta</term> fizo e ordenó el dicho <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1">Villasandino</placeName></persName> contra el dicho <persName ref="#BSA">Bachiller e Maestro</persName>
+        <head type="rúbrica"> Esta <term cRef="163">respuesta</term> fizo e ordenó el dicho <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1">Villasandino</placeName></persName> contra el dicho <persName ref="#BSA">Bachiller e Maestro</persName>
             </head>
   
 
@@ -125,7 +123,7 @@
                         <l xml:id="L32">de muerte cruel muy arrebat<rhyme>ada</rhyme>.</l>
                     </lg>
                     
-                <lg  n="5"  type="finda" met="10,10, 10" rhyme="ABBA">     
+                <lg  n="5"  type="finda" met="10,10, 10, 10" rhyme="ABBA">     
                         <l xml:id="L33">Por ende su alma está conden<rhyme label="ada ">ada</rhyme></l>
                         <l xml:id="L34">con todos malos aconsejad<rhyme>ores</rhyme></l>
                         <l xml:id="L35">viven en tormentos sufriendo dol<rhyme>ores</rhyme></l>

@@ -35,9 +35,7 @@
                     <msContents>
                         <msItem>
                             <locus from="32r" to="32r">32r</locus>
-                            <index>
-                                <term key="PN1-91"/>
-                            </index>
+                            <idno>PN1-91</idno>
                         </msItem>
                     </msContents>
                 </msDesc>
@@ -64,12 +62,11 @@
 
     <text>
         <body>
-            <head type="rúbrica">Esta <term cRef="#PMC:163">respuesta</term>
-                <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho
+            <head type="rúbrica">Esta <term cRef="163">respuesta</term>
+                <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho
                     <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1"
                         >Villasandino</placeName></persName> (…) <persName ref="#BSA">maestro en
-                    artes</persName> a la <term cRef="#PMC:162">pregunta</term> que le <rs
-                    ref="#PMC:174">fizo</rs> (…)</head>
+                    artes</persName> a la <term cRef="162">pregunta</term> que le <term cRef="174">fizo</rs> (…)</head>
 
             <sp who="#BSA">
                 <speaker>Alfonso Álvarez de Villasandino</speaker>
@@ -79,13 +76,13 @@
                     <lg n="1" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
                         <l xml:id="L1"><rs ref="#BSA">Amigo maestro</rs>, ya otras
                                 veg<rhyme>adas</rhyme></l>
-                        <l xml:id="L2"><rs ref="#AAV">vi</rs> <rs ref="#BSA">vuestros</rs> <rs ref="#PMC:187">dezires</rs> con que <rs ref="#AAV">fui
+                        <l xml:id="L2"><rs ref="#AAV">vi</rs> <rs ref="#BSA">vuestros</rs> <term cRef="187">dezires</rs> con que <rs ref="#AAV">fui
                                     goz<rhyme>oso</rhyme></rs></l>
-                        <l xml:id="L3">por quanto parescen de <rs ref="#PMC:190">sabio</rs>
+                        <l xml:id="L3">por quanto parescen de <term cRef="190">sabio</rs>
                                 engeñ<rhyme>oso</rhyme></l>
                         <l xml:id="L4">las <rs ref="#BSA">vuestras</rs>
-                            <rs ref="#PMC:89">razones</rs>
-                            <rs ref="#PMC:171">sotiles</rs>, <rs ref="#PMC:189"
+                            <term cRef="89">razones</rs>
+                            <term cRef="171">sotiles</rs>, <rs ref="189"
                                     >lim<rhyme>adas</rhyme>,</rs></l>
                         <l xml:id="L5">mas non <rs ref="#AAV">me</rs> fadaron a <rs ref="#AAV"
                                 >mí</rs> tales f<rhyme label="adas ">adas</rhyme></l>
@@ -99,7 +96,7 @@
                     <lg n="2" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
                         <l xml:id="L9">Nin <rs ref="#AAV">yo me siento tan
                                     desacord<rhyme>ado</rhyme></rs></l>
-                        <l xml:id="L10">que por <rs ref="#AAV">mí</rs> tomasse tan fino
+                        <l xml:id="L10">que por <rs ref="#AAV">mí</rs>  tomasse tan fino
                                 lo<rhyme>or</rhyme>,</l>
                         <l xml:id="L11">e si lo <rs ref="#AAV">feziese</rs> seria grant
                                 err<rhyme>or</rhyme>,</l>

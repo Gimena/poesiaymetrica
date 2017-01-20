@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="incipit">En un tiempo cogi flores</title>
-                <author ref="#AA">Álvaro Afonso</author>
+                <author ref="#AA">Alfonso XI</author>
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -28,9 +28,7 @@
                     <msContents>
                         <msItem>
                             <locus from="65r" to="65r">65</locus>
-                            <index>
-                                <term key="V-410"/>
-                            </index>
+                            <idno>V-410</idno>
                         </msItem>
                     </msContents>
                 </msDesc>
@@ -57,16 +55,13 @@
     <text>
         <body>
             <head type="rúbrica">
-                <term cRef="#PMC:162">Pregunta</term> que <term cRef="#PMC:174">fez</term> 
+                <term cRef="162">Pregunta</term> que <term cRef="174">fez</term> 
                 <persName ref="#AA">Álvaro Afonso</persName>, <persName ref="#AA">cantor do senhor
-                    Infante</persName>, a um <persName ref="#LV">escolar</persName>
+                    Infante</persName>, a um <rs ref="#LV">escolar</rs>
             </head>
-
-
-
             <lg type="poema" subtype="pregunta" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
                 <note> Se trata de una pieza de arte mayor</note>
-                <lg n="1" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                <lg n="1" type="octava" met="" rhyme="ABBAACCA">
                     <l xml:id="L1">-En un tiempo cogi fl<rhyme>ores</rhyme>
                     </l>
                     <l xml:id="L2">del mui nobre para<rhyme>iso</rhyme>, </l>
@@ -78,19 +73,19 @@
                     <l xml:id="L6">e ja lo non puedo sofr<rhyme>er</rhyme>: </l>
                     <l xml:id="L7">máis me valría la m<rhyme>uerte</rhyme>
                     </l>
-                    <l xml:id="L8">que 'n el mundo viv<rhyme>er</rhyme>. </l>
-                    <l xml:id="L9">Yo con cuidado d' am<rhyme>ores</rhyme>
+                    <l xml:id="L8">que ’n el mundo viv<rhyme>er</rhyme>. </l>
+                    <l xml:id="L9">Yo con cuidado d’ am<rhyme>ores</rhyme>
                     </l>
                     <l xml:id="L10">volo vengo ja diz<rhyme>er</rhyme>: </l>
-                    <l xml:id="L11">¿Que é d' aquesta mi senh<rhyme>ora</rhyme>
+                    <l xml:id="L11">¿Que é d’ aquesta mi senh<rhyme>ora</rhyme>
                     </l>
                     <l xml:id="L12">que mucho desejo av<rhyme>er</rhyme>?</l>
                 </lg>
 
                 <lg n="2">
-                    <l xml:id="L13">En el tiempo en que sol<rhyme label="ía">ìa</rhyme></l>
-                    <l xml:id="L14">yo coger d' aquestas fl<rhyme>ores</rhyme>, </l>
-                    <l xml:id="L15">d' al cuidado non av<rhyme label="ía">'ia</rhyme>
+                    <l xml:id="L13">En el tiempo en que sol<rhyme>ía</rhyme></l>
+                    <l xml:id="L14">yo coger d’ aquestas fl<rhyme>ores</rhyme>, </l>
+                    <l xml:id="L15">d’ al cuidado non av<rhyme>ía</rhyme>
                     </l>
                     <l xml:id="L16">desque vi los sus am<rhyme>ores</rhyme>; </l>
                     <l xml:id="L17">e non se per qual vent<rhyme>ura</rhyme>
@@ -98,16 +93,16 @@
                     <l xml:id="L18">me vino a defal<rhyme>ir</rhyme>, </l>
                     <l xml:id="L19">si lo fizo el mi pec<rhyme>ado</rhyme>, </l>
                     <l xml:id="L20">si lo fizo el mal diz<rhyme>er</rhyme>. </l>
-                    <l xml:id="L21">Yo con cuidado d' am<rhyme>ores </rhyme></l>
+                    <l xml:id="L21">Yo con cuidado d’ am<rhyme>ores </rhyme></l>
                     <l xml:id="L22">volo vengo ja diz<rhyme>er</rhyme>: </l>
-                    <l xml:id="L23">¿Que he d' aquesta mi senh<rhyme>ora</rhyme>
+                    <l xml:id="L23">¿Que he d’ aquesta mi senh<rhyme>ora</rhyme>
                     </l>
                     <l xml:id="L24">que mucho desejo av<rhyme>er</rhyme>?</l>
                 </lg>
                 <lg n="3">
                     <l xml:id="L25">No creades, mi senh<rhyme>ora</rhyme>, </l>
                     <l xml:id="L26">el mal dizer de las g<rhyme>entes</rhyme>, </l>
-                    <l xml:id="L27">ca la muerte m' es lleg<rhyme>ada</rhyme>
+                    <l xml:id="L27">ca la muerte m’ es lleg<rhyme>ada</rhyme>
                     </l>
                     <l xml:id="L28">si en elo parardes mi<rhyme>entes</rhyme>. </l>
                     <l xml:id="L29">¡Ay, senhora, nobre r<rhyme>osa</rhyme>! </l>
@@ -115,10 +110,10 @@
                     <l xml:id="L31">avede de mi dol<rhyme>or</rhyme>
                     </l>
                     <l xml:id="L32">en non me dexedes mor<rhyme>ir</rhyme>. </l>
-                    <l xml:id="L33">Yo con cuidado d' amor<rhyme>es</rhyme>
+                    <l xml:id="L33">Yo con cuidado d’ amor<rhyme>es</rhyme>
                     </l>
                     <l xml:id="L34">volo vengo ja diz<rhyme>er</rhyme>: </l>
-                    <l xml:id="L35">¿Que é d' aquesta mi senh<rhyme>ora</rhyme>
+                    <l xml:id="L35">¿Que é d’ aquesta mi senh<rhyme>ora</rhyme>
                     </l>
                     <l xml:id="L36">que mucho desejo av<rhyme>er</rhyme>?</l>
                 </lg>
@@ -134,13 +129,13 @@
                     <l xml:id="L41">Dios lo ha puesto por tal gu<rhyme>isa</rhyme>
                     </l>
                     <l xml:id="L42">que te lo pueda faz<rhyme>er</rhyme>; </l>
-                    <l xml:id="L43">ant' yo queria mi m<rhyme>uerte</rhyme>
+                    <l xml:id="L43">ant’ yo queria mi m<rhyme>uerte</rhyme>
                     </l>
                     <l xml:id="L44">que te asi dejar morr<rhyme>er</rhyme>. </l>
-                    <l xml:id="L45">Yo con cuidado d' am<rhyme>ores</rhyme>
+                    <l xml:id="L45">Yo con cuidado d’ am<rhyme>ores</rhyme>
                     </l>
                     <l xml:id="L46">volo vengo ja diz<rhyme>er</rhyme>: </l>
-                    <l xml:id="L47">¿Que é d' aquesta mi senh<rhyme>ora</rhyme>
+                    <l xml:id="L47">¿Que é d’ aquesta mi senh<rhyme>ora</rhyme>
                     </l>
                     <l xml:id="L48">que mucho desejo av<rhyme>er</rhyme>?</l>
                 </lg>

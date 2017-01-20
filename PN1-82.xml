@@ -16,23 +16,22 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
+                <msDesc>                    
                     <msIdentifier>
                         <repository>Biblioteca Nacional de Francia</repository>
                         <idno>Espagnol 37</idno>
                         <altIdentifier>
                             <idno>PN1</idno>
                         </altIdentifier>
-                    </msIdentifier>
+                    </msIdentifier>                    
                     <msContents>
                         <msItem>
                             <locus from="29v" to="30r">29v-30r</locus>
-                            <index>
-                                <term key="PN1-82"></term>
-                            </index>
+                            <idno>PN1-82</idno>
                         </msItem>
                     </msContents>
-                </msDesc>
+                    
+                </msDesc>                
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -51,16 +50,16 @@
     </teiHeader>
     <text>
         <body>
-            <head type="rúbrica">Esta <term cRef="#PMC:162">pregunta</term> muy <term
-                    cRef="#PMC:171">sotil</term> e <term cRef="#PMC:173">bien fundada</term>
-                <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term>
+            <head type="rúbrica">Esta <term cRef="162">pregunta</term> muy <term
+                    cRef="171">sotil</term> e <term cRef="173">bien fundada</term>
+                <term cRef="174">fizo</term> e <term cRef="175">ordenó</term>
                 <persName ref="#PCO">Frey Pedro de <placeName ref="#CO1"
                     >Colunga</placeName></persName>, de la <rs ref="#PCO">Órden de los
                     Predicadores</rs>, contra el dicho <persName ref="#AAV">Alfonso Álvarez de
                         <placeName ref="#VI1">Villasandino</placeName></persName>, rogándole que le
-                    <term cRef="#PMC:179">declarase</term> algunas figuras oscuras del <term
-                    cRef="#PMC:169">Apocalipsis</term>, la cual <term cRef="#PMC:162"
-                    >pregunta</term>  <rs ref="#PMC:180">dize</rs> en esta manera</head>
+                    <term cRef="179">declarase</term> algunas figuras oscuras del <term
+                    cRef="169">Apocalipsis</term>, la cual <term cRef="162"
+                    >pregunta</term>  <term cRef="180">dize</term> en esta manera</head>
 
 
             <sp>
@@ -70,7 +69,7 @@
                     <lg n="1" type="octava" met="10,10,10,10,10,10,10,10" rhyme="ABBAACCA">
                         <l xml:id="L1"><persName ref="#AAV">Señor Alfonso Álvarez</persName>, <rs
                                 ref="#AAV">grant sabio perf<rhyme>eto</rhyme></rs>,</l>
-                        <l xml:id="L2">en todo fablar de <term cRef="#PMC:178">linda
+                        <l xml:id="L2">en todo fablar de <term cRef="178">linda
                                     poetr<rhyme>ía</rhyme></term>,</l>
                         <l xml:id="L3"><rs ref="#AAV">estremo en armas e en
                                     cavaller<rhyme>ía</rhyme></rs></l>

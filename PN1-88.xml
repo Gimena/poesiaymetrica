@@ -43,9 +43,7 @@
                     <msContents>
                         <msItem>
                             <locus from="31v" to="31v">31v</locus>
-                            <index>
-                                <term key="PN1-88/89"/>
-                            </index>
+                            <idno>PN1-88/89</idno>
                         </msItem>
                     </msContents>
                    </msDesc>
@@ -76,7 +74,7 @@
     <body>
         <head type="rúbrica"> 
             
-            <term cRef="#PMC:162">Pregunta</term> del dicho <persName ref="#BSA">Bachiller</persName> contra <persName ref="#AAV">Alfonso Álvarez</persName>
+            <term cRef="162">Pregunta</term> del dicho <persName ref="#BSA">Bachiller</persName> contra <persName ref="#AAV">Alfonso Álvarez</persName>
                         </head>
   
 

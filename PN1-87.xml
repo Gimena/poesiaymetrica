@@ -43,9 +43,7 @@
                     <msContents>
                         <msItem>
                             <locus from="30v" to="31r">30v-31r</locus>
-                            <index>
-                                <term key="PN1-87"/>
-                            </index>
+                            <idno>PN1-87</idno>
                         </msItem>
                     </msContents>
                    </msDesc>
@@ -75,7 +73,7 @@
 <text>
     <body>
         <head type="rúbrica"> 
-            Esta <term cRef="#PMC:163">respuesta</term> fizo e ordenó el dicho <persName ref="#AAV">Alfonso Álvarez de Villasandino</persName> contra la <term cRef="#PMC:162">pregunta</term> qu´el dicho <persName ref="#BSA">Bachiller</persName> le fizo
+            Esta <term cRef="163">respuesta</term> fizo e ordenó el dicho <persName ref="#AAV">Alfonso Álvarez de Villasandino</persName> contra la <term cRef="162">pregunta</term> qu´el dicho <persName ref="#BSA">Bachiller</persName> le fizo
             <note>Corrijo la primera aparición de la palabra *pregunta* por *respuesta* en un claro error por atracción de parte del copista. </note>
             </head>
   

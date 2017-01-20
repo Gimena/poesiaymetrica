@@ -47,9 +47,7 @@
                                                                            pero mudo o lado (ex. from="30r" to="30v"), extrae "30r-v", e evidentemente, nun caso como
                                                                            este extraería "30v-31r" 
                                                                            En todo caso, esta repetición de contidos é insignificante -->
-                            <index>
-                                <term key="PN1-84"/>
-                            </index>
+                            <idno>PN1-84</idno>
                         </msItem>
                     </msContents>
                 </msDesc>
@@ -76,7 +74,7 @@
 
     <text>
         <body>
-            <head type="rúbrica"> Esta <term cRef="#PMC:162">pregunta</term> fizo e ordenó contra el
+            <head type="rúbrica"> Esta <term cRef="162">pregunta</term> fizo e ordenó contra el
                 dicho <persName ref="#AAV">Alfonso Álvarez</persName> un <persName ref="#BSA"
                     >Bachiller en Artes de <placeName ref="#SA1">Salamanca</placeName></persName>
             </head>
@@ -105,8 +103,7 @@
                         <l xml:id="L5">pero <rs ref="#BSA">yo</rs> bien creo de cierta
                                 firm<rhyme>eza</rhyme></l>
                         <l xml:id="L6">que menor de ángel le puja en est<rhyme>ado</rhyme>,</l>
-                        <l xml:id="L7"><rs ref="#BSA">deseo</rs> saber d’ algunt grant <rs
-                                ref="#PMC:184">letr<rhyme>ado</rhyme></rs></l>
+                        <l xml:id="L7"><rs ref="#BSA">deseo</rs> saber d’ algunt grant <term cRef="184">letr<rhyme>ado</rhyme></term></l>
                         <l xml:id="L8">quien es que meresce aver tal franqu<rhyme>eza</rhyme>.</l>
                     </lg>
 
@@ -136,7 +133,7 @@
                     <lg n="4" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
                         <l xml:id="L25">La quarta pregunta es tan intric<rhyme>ada</rhyme></l>
                         <l xml:id="L26">que la discretiva se turba en prov<rhyme>iso</rhyme></l>
-                        <l xml:id="L27">aunque sea omne discreto e env<rhyme>isso</rhyme></l>
+                        <l xml:id="L27">aunque sea omne discreto e env<rhyme label="iso">isso</rhyme></l>
                         <l xml:id="L28">fasta la memoria estar soseg<rhyme>ada</rhyme></l>
                         <l xml:id="L29">seyendo la madre encinta preñ<rhyme>ada</rhyme></l>
                         <l xml:id="L30">el fijo al padre mató cruelm<rhyme>ente</rhyme></l>
@@ -145,12 +142,12 @@
                     </lg>
 
                     <lg n="5" type="finda" met="10,10, 10, 10" rhyme="ABBA">
-                        <l xml:id="L33"><rs ref="#AAV">Quien</rs> diere <term cRef="#PMC:163"
-                                >respuesta</term> bien <term cRef="#PMC:168"
+                        <l xml:id="L33"><rs ref="#AAV">Quien</rs> diere <term cRef="163"
+                                >respuesta</term> bien <term cRef="168"
                                     >metrific<rhyme>ada</rhyme></term></l>
-                        <l xml:id="L34">será ensalçado entre <rs ref="#PMC:183"
+                        <l xml:id="L34">será ensalçado entre <rs ref="183"
                                     >sabid<rhyme>ores</rhyme></rs>,</l>
-                        <l xml:id="L35"><rs ref="#PMC:182">poetas famossos</rs> darán d’el
+                        <l xml:id="L35"><term cRef="182">poetas famossos</term> darán d’el
                                 lo<rhyme>ores</rhyme></l>
                         <l xml:id="L36">si naturalmente es abtoriz<rhyme>ada</rhyme>.</l>
                     </lg>

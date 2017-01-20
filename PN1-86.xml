@@ -43,9 +43,7 @@
                     <msContents>
                         <msItem>
                             <locus from="31r" to="31v">31r-31v</locus>
-                            <index>
-                                <term key="PN1-86"/>
-                            </index>
+                            <idno>PN1-86</idno>
                         </msItem>
                     </msContents>
                 </msDesc>
@@ -71,8 +69,8 @@
 
     <text>
         <body>
-            <head type="rúbrica"> Esta <term cRef="#PMC:162">pregunta</term>
-                <rs ref="#PMC:174">fizo</rs> e <rs ref="#PMC:175"> ordenó</rs> el dicho <persName
+            <head type="rúbrica"> Esta <term cRef="162">pregunta</term>
+                <term cRef="174">fizo</term> e <term cRef="175"> ordenó</term> el dicho <persName
                     ref="#BSA">Bachiller Maestro en Artes</persName> contra el dicho <persName
                     ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1"
                     >Villasandino</placeName></persName>
@@ -102,11 +100,11 @@
                         <l xml:id="L9"><rs ref="#AAV">Amigo señor</rs>, que Dios <rs ref="#AAV"
                                 >vos</rs> ay<rhyme>ude</rhyme></l>
                         <l xml:id="L10">que <rs ref="#BSA">me</rs>
-                            <rs ref="#AAV">respondades</rs> aquesta <term cRef="#PMC:162"
+                            <rs ref="#AAV">respondades</rs> aquesta <term cRef="162"
                                     >preg<rhyme>unta</rhyme></term></l>
                         <l xml:id="L11">que há grandes días que <rs ref="#BSA">mi cor </rs>
                                 ap<rhyme>unta</rhyme></l>
-                        <l xml:id="L12">e de ella <term cRef="#PMC:163">respuesta</term> fallar
+                        <l xml:id="L12">e de ella <term cRef="163">respuesta</term> fallar
                             nunca <rs ref="#BSA">p<rhyme>ude</rhyme></rs></l>
                         <l xml:id="L13">qué cossa es muerte e cómo rec<rhyme>ude</rhyme>,</l>
                         <l xml:id="L14">pues non dexo cosa en aqueste m<rhyme>undo</rhyme></l>
@@ -130,7 +128,7 @@
 
                     <lg n="4" type="finda" met="10,10, 10" rhyme="AAB">
                         <l xml:id="L25">E <rs ref="#AAV">datme</rs>
-                            <term cRef="#PMC:163">respuesta</term> qual <rs ref="#AAV">vedes</rs>a
+                            <term cRef="163">respuesta</term> qual <rs ref="#AAV">vedes</rs>a
                                 <rhyme>esto</rhyme></l>
                         <l xml:id="L26">que poco <rs ref="#AAV">vos cuesta</rs> e <rs ref="#BSA">yo
                                 seré pr<rhyme>esto</rhyme></rs></l>

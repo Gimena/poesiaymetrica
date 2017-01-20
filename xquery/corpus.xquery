@@ -13,20 +13,21 @@ declare variable $autores := doc('/db/VTLGP/gimena/xml/auxiliar/referencias.xml'
         let $canciones := collection('/db/VTLGP/gimena/xml')//tei:TEI[descendant::tei:titleStmt/tei:author[@ref = $autor/concat('#', @xml:id)]]
         order by translate($autor/tei:persName[1], 'ÁÉÍÓÚ', 'AEIOU')
         return
-            <fieldset>
+            <fieldset style="margin-bottom:2%;">
                 <legend
                     id="{$autor/@xml:id/string()}">{$autor/tei:persName[@type eq 'standard']/string()}</legend>
-                <ul>
+                <ul style="list-style:none;">
                     {   
                         for $cancion in $canciones
-                        let $id := $cancion//tei:index/tei:term/@key
+                        let $id := $cancion//tei:msItem/tei:idno
                         order by translate($cancion//tei:title[1], 'ÁÉÍÓÚ', 'AEIOU')
                         return
                             <li><input
+                                    style="margin-right:1%;"
                                     type="checkbox"
                                     id="{$id}"
                                     name="texto[]"
-                                    value="{$id}"/><label
+                                    value="{$id}"/><label style="margin-left:1%;"
                                     for="{$id}">{$cancion//tei:title[1]/string()}</label></li>
                     }</ul>
             </fieldset>

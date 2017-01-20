@@ -43,9 +43,7 @@
                     <msContents>
                         <msItem>
                             <locus from="32r" to="32r">32r</locus>
-                            <index>
-                                <term key="PN1-90"/>
-                            </index>
+                            <idno>PN1-90</idno>
                         </msItem>
                     </msContents>
                 </msDesc>
@@ -71,8 +69,8 @@
 
     <text>
         <body>
-            <head type="rúbrica"> Esta <term cRef="#PMC:162">pregunta</term>
-                <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho
+            <head type="rúbrica"> Esta <term cRef="162">pregunta</term>
+                <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho
                     <persName ref="#BSA">Bachiller e maestro en artes</persName> contra el dicho
                     <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1"
                         >Villasandino</placeName></persName></head>
@@ -128,7 +126,7 @@
                         <l xml:id="L26">segund que disciplo muy insip<rhyme>iente</rhyme>,</l>
                         <l xml:id="L27">con grant reverencia e muy obed<rhyme>iente</rhyme>,</l>
                         <l xml:id="L28">a <rs ref="#AAV"> él le</rs>
-                            <rs ref="#BSA">presento</rs> aquesta <rs ref="#PMC:186">artez<rhyme>illa</rhyme></rs>.</l>
+                            <rs ref="#BSA">presento</rs> aquesta <term cRef="186">artez<rhyme>illa</rhyme></term>.</l>
                     </lg>
 
                 </lg>

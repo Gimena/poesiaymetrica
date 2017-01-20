@@ -11,7 +11,7 @@ declare variable $parameter := <parameters><param
         value="{$textos//tei:lg/tei:lg/@type}"/></parameters>;
 declare variable $query := request:get-parameter("texto", ());
 let $seleccion := tokenize($query, ',+')
-let $ediciones := $textos[descendant::tei:msItem//tei:term/@key = $seleccion]
+let $ediciones := $textos[descendant::tei:msItem/tei:idno = $seleccion]
 for $edicion in $ediciones
 return
     (<div
