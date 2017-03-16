@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>Puesto que fuese quemado</title>
       
-                <title type="incipit">Puesto que fuese quemado </title>
+                <title type="incipit">Puesto que fuese quemado</title>
              
                 <author>Pedro Carrillo</author>
                 
@@ -22,7 +22,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
                         <idno n="1249"> Dutton 1249</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=109&entry=ID1249%20R%201248#PN1109ID1249_R_1248]]></ref>
                     </bibl>
@@ -38,9 +38,7 @@
                     <msContents>
                         <msItem>
                             <locus from="38r" to="38r">38r</locus>
-                            <index>
-                                <term type="PN1-109"/>
-                            </index>
+                            <idno>PN1-109</idno>
                         </msItem>
                     </msContents>
                    </msDesc>

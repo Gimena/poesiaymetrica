@@ -15,7 +15,7 @@
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
-                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
                 <availability>
                     <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
                 </availability>
@@ -23,7 +23,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
   
                         <idno n="1230">Dutton 1230</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=90&entry=ID1230#PN190ID1230]]></ref>
@@ -42,9 +42,7 @@
                     <msContents>
                         <msItem>
                             <locus from="32r" to="32r">32r. </locus>
-                            <index>
-                                <term type="PN1-90"/>
-                            </index>
+                            <idno>PN1-90</idno>
                         </msItem>
                     </msContents>
                    </msDesc>

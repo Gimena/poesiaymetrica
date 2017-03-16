@@ -15,7 +15,7 @@
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
-                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
                 <availability>
                     <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
                 </availability>
@@ -23,7 +23,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
   
                         <idno n="1676">Dutton 1676</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=553&entry=ID1676#PN1553ID1676]]></ref>
@@ -42,9 +42,7 @@
                     <msContents>
                         <msItem>
                             <locus from="185v" to="185v">185v</locus>
-                            <index>
-                                <term type="PN1-553"/>
-                            </index>
+                            <idno>PN1-553</idno>
                         </msItem>
                     </msContents>
                    </msDesc>
@@ -58,7 +56,7 @@
                     <person xml:id="NC">
                         <persName>
                             Not clear
-                        </persName>
+                       </persName>
                     </person>
                     <person xml:id="FPG">
                         <persName type="standard">Fernán Pérez de Guzmán</persName>

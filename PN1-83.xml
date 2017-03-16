@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>Fray Pedro señor, aqueste respeto</title>
       
-                <title type="incipit">Fray Pedro señor, aqueste respeto </title>
+                <title type="incipit">Fray Pedro señor, aqueste respeto</title>
              
                 <author>Alfonso Álvarez de Villasandino</author>
                 
@@ -22,7 +22,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
                         <idno n="172"> Dutton 172</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=83&entry=ID0172%20R%200171#PN183ID0172_R_0171]]></ref>
                     </bibl>
@@ -38,9 +38,7 @@
                     <msContents>
                         <msItem>
                             <locus from="30r" to="30v">30r-30v</locus>
-                            <index>
-                                <term type="PN1-83"/>
-                            </index>
+                            <idno>PN1-83</idno>
                         </msItem>
                     </msContents>
                    </msDesc>

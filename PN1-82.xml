@@ -5,12 +5,12 @@
     <fileDesc>
             <titleStmt>
                 <title>Señor Alfonso Álvarez, grant sabio perfeto</title>
-                <title type="incipit"> Señor Alfonso Álvarez, grant sabio perfeto </title>
+                <title type="incipit"> Señor Alfonso Álvarez, grant sabio perfeto</title>
                 <author>Pedro de Colunga</author>
     <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
-                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
                 <availability>
                     <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
                 </availability>
@@ -19,7 +19,7 @@
                 <listBibl>
 <head>Edición paleográfica sobre textos de B. Dutton</head>
                         <bibl type="url"> 
-                            <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                            <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
                             <idno n="171">Dutton 171</idno>
                             <ref> <![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=82&entry=ID0171#PN182ID0171]]></ref>
                         </bibl>
@@ -37,9 +37,7 @@
                     <msContents>
                         <msItem>
                             <locus from="29v" to="30r">29v-30r</locus>
-                            <index>
-                                <term type="PN1-82"/>
-                            </index>
+                            <idno>PN1-82</idno>
                         </msItem>
                     </msContents>
                    </msDesc>
@@ -50,7 +48,7 @@
                 <listPerson>
                    <person xml:id="AAV">
                       <persName type="standard">Alfonso Álvarez de Villasandino</persName>
-                       <persName type="form">Alfonso Álvarez </persName>
+                       <persName type="form">Alfonso Álvarez</persName>
                        <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
                    </person>
                    <person xml:id="PCO">

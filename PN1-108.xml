@@ -4,10 +4,10 @@
 <teiHeader>
     <fileDesc>
             <titleStmt>
-                <title>Non muy bien encabellado </title>
+                <title>Non muy bien encabellado</title>
                     
            
-                <title type="incipit">Non muy bien encabellado </title>
+                <title type="incipit">Non muy bien encabellado</title>
              
                 <author>Alfonso Álvarez de Villasandino </author>
             
@@ -15,7 +15,7 @@
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
-                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
                 <availability>
                     <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
                 </availability>
@@ -23,7 +23,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
   
                         <idno n="1248">Dutton 1248</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=108&entry=ID1248#PN1108ID1248]]></ref>
@@ -42,9 +42,7 @@
                     <msContents>
                         <msItem>
                             <locus from="38r" to="38r">38r</locus>
-                            <index>
-                                <term type="PN1-108"/>
-                            </index>
+                            <idno>PN1-108</idno>
                         </msItem>
                     </msContents>
                    </msDesc>

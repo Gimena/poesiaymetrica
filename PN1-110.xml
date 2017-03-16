@@ -6,7 +6,7 @@
             <titleStmt>
                 <title>Tanto tienpo he esperado</title>
       
-                <title type="incipit">Tanto tienpo he esperado </title>
+                <title type="incipit">Tanto tienpo he esperado</title>
              
                 <author>Alfonso Álvarez de Villasandino</author>
                 
@@ -22,7 +22,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
                         <idno n="1250"> Dutton 1250</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=110&entry=ID1250%20R%201249#PN1110ID1250_R_1249]]></ref>
                     </bibl>
@@ -38,9 +38,7 @@
                     <msContents>
                         <msItem>
                             <locus from="38v" to="38v">38v</locus>
-                            <index>
-                                <term type="PN1-1110"/>
-                            </index>
+                            <idno>PN1-1110</idno>
                         </msItem>
                     </msContents>
                    </msDesc>

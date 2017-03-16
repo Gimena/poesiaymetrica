@@ -15,7 +15,7 @@
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
-                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
                 <availability>
                     <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
                 </availability>
@@ -23,7 +23,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
   
                         <idno n="1232">Dutton 1232</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=92&entry=ID1232#PN192ID1232]]></ref>
@@ -42,9 +42,7 @@
                     <msContents>
                         <msItem>
                             <locus from="32r" to="32v">32r-32v</locus>
-                            <index>
-                                <term type="PN1-92"/>
-                            </index>
+                            <idno>PN1-92</idno>
                         </msItem>
                     </msContents>
                    </msDesc>
@@ -63,7 +61,7 @@
                   
                     <person xml:id="BSA">
                         <persName type="standard">Bachiller en Artes de Salamanca</persName>
-                        <persName type="form">Baciller e Maestro en Artes </persName>
+                        <persName type="form">Baciller e Maestro en Artes</persName>
                         <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3534Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DBachiller+de+Salamanca%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
                     </person>
              
@@ -115,7 +113,7 @@
 
 <text>
     <body>
-        <head type="rúbrica"> Esta <term cRef="PMC:162">pregunta</term> <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó el dicho </term><persName ref="#BSA">Bachiller e Maestro en Artes </persName> contra el dicho <persName ref="#AAV">Alfonso Álvarez</persName>
+        <head type="rúbrica"> Esta <term cRef="PMC:162">pregunta</term> <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó el dicho </term><persName ref="#BSA">Bachiller e Maestro en Artes</persName> contra el dicho <persName ref="#AAV">Alfonso Álvarez</persName>
             de <placeName ref="#VI1">Villasandino</placeName>
         </head>
         

@@ -22,7 +22,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
                         <idno n="505"> Dutton 505</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=548&entry=ID0505%20R%200504#PN1548ID0505_R_0504]]></ref>
                     </bibl>
@@ -38,9 +38,7 @@
                     <msContents>
                         <msItem>
                             <locus from="184r" to="184r">3184r</locus>
-                            <index>
-                                <term type="PN1-548"/>
-                            </index>
+                            <idno>PN1-548</idno>
                         </msItem>
                     </msContents>
                    </msDesc>

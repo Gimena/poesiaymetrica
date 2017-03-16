@@ -10,7 +10,7 @@
     <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
-                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
                 <availability>
                     <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
                 </availability>
@@ -30,9 +30,7 @@
                     <msContents>
                         <msItem>
                             <locus from="65r" to="65r">65</locus>
-                            <index>
-                                <term type="V-410"/>
-                            </index>
+                            <idno>V-410</idno>
                         </msItem>
                     </msContents>
                    </msDesc>
@@ -42,7 +40,7 @@
             <particDesc>
                 <listPerson>
                    <person xml:id="AA">
-                       <persName type="standard">Álvaro Alfonso </persName>
+                       <persName type="standard">Álvaro Alfonso</persName>
                        <persName type="form">Cantor do senhor Infante</persName>
                       
                        <idno type="MEDDB">http://www.cirp.es/pls/bdo2/f?p=103:13:12130293107957607671::NO::P13_IDT,P13_SEQ_ID:020%2C1</idno>

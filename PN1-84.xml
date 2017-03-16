@@ -7,7 +7,7 @@
                 <title>Non tengo que siente la naturaleza</title>
                     
            
-                <title type="incipit">Non tengo que siente la naturaleza </title>
+                <title type="incipit">Non tengo que siente la naturaleza</title>
              
                 <author>Bachiller en Artes de Salamanca</author>
             
@@ -15,7 +15,7 @@
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
-                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <publisher>Diálogo Medieval/CENDARI Project</publisher>
                 <availability>
                     <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
                 </availability>
@@ -23,7 +23,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
   
                         <idno n="1224"> Duuton 1224</idno>
                         <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=84&entry=ID1224#PN184ID1224]]></ref>
@@ -42,9 +42,7 @@
                     <msContents>
                         <msItem>
                             <locus from="30v" to="31r">30v-31r</locus>
-                            <index>
-                                <term type="PN1-84"/>
-                            </index>
+                            <idno>PN1-84</idno>
                         </msItem>
                     </msContents>
                    </msDesc>
