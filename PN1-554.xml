@@ -1,0 +1,198 @@
+
+<?xml-model href="../Gimena/cendari/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>Esto entiendo más allende</title>
+                    
+           
+                <title type="incipit">Esto entiendo más allende</title>
+             
+                <author>Alfonso Álvarez de Villasandino</author>
+            
+                
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+  
+                        <idno n="1677">Dutton 1677</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=554&entry=ID1677%20R%201676#PN1554ID1677_R_1676]]></ref>
+                    </bibl>
+                      
+                
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="185v" to="186r">185v-186r</locus>
+                            <index>
+                                <term type="PN1-554"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                   
+                    <person xml:id="AAV">
+                        
+                        <persName type="standard">Alfonso Álvarez de Villasandino</persName>
+                        <persName type="form">Alfonso Álvarez</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
+                    </person>
+                    
+                    <person xml:id="FPG">
+                        <persName type="standard">Fernán Pérez de Guzmán</persName>
+                    <persName type="form">Ferrán Pérez de Guzmán</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/9983425/#Pe%CC%81rez_de_Guzma%CC%81n,_Ferna%CC%81n_ca._1377/79_-_ca._1460</idno>
+                    </person>
+                   
+                </listPerson>
+            </particDesc>
+           <settingDesc>
+               <place xml:id="VI1">
+                   
+                   <placeName>Villasandino</placeName>
+                   <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
+               </place>
+               
+           </settingDesc>
+            <textClass>
+                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
+                    <term n="163">Respuesta</term>
+                 <term n="17">Cantiga</term>
+                    <term n="89">Razón</term>
+                    <term n="174">Fazer</term>
+                   
+                    <term n="193">Poetría</term>
+                   
+                   
+                  
+                </keywords>
+            </textClass>
+
+            <creation>
+             
+                <origDate notAfter="1430" notBefore="1465">1426-1465
+                        </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-09" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <head type="rúbrica"> 
+         
+        
+            <term cRef="#PMC:162">Respuesta</term> que <rs ref="#FPG">le</rs> dio el dicho <persName ref="#AAV">Alfonso Álvarez</persName></head>
+
+        <sp who="#FPG">
+            <speaker>Alfonso Álvarez de Villasandino</speaker>
+            <lg type="poema" subtype="respuesta"  unisonancia="singular"
+                isometrismo="isométrico" isoestrofismo="heteroestrófico"
+                asonancia="consonante" met="8,8,8,8,8,8,8,8/8,8,8,8" rhyme="ABBAABBA/ABBA">
+                <note></note>
+                <lg  n="1"  type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">   
+                 
+              
+                   
+            
+                    <l xml:id="L1">Esto <rs ref="#AAV">entiendo</rs> más all<rhyme label="ende">iende</rhyme></l>
+                    <l xml:id="L2">mas con grand <rs ref="#AAV">pienso que tr<rhyme label="ayo">ayo</rhyme></rs></l>
+                    <l xml:id="L3">non so más que un lac<rhyme label="ayo">ayo</rhyme>,</l>
+                    <l xml:id="L4">dezir cuánto se esti<rhyme label="ende">iende</rhyme></l>
+                    <l xml:id="L5">la <term cRef="#PMC:89">razón</term> porque conti<rhyme label="ende">iende</rhyme></l>
+                    <l xml:id="L6">quien ensaya tal ens<rhyme label="ayo">ayo</rhyme>,</l>
+                    <l xml:id="L7">o “quiça que ha miedo p<rhyme label="ayo">ayo</rhyme> </l>
+                    <l xml:id="L8">que reza e non se def<rhyme label="iende">iende</rhyme>”.</l>
+                </lg>
+                
+                <lg n="2" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <l xml:id="L9">El que es lindo enamor<rhyme label="ado">ado</rhyme></l>
+                    <l xml:id="L10">siempre vive vida estr<rhyme label="echa">echa</rhyme>,</l>
+                    <l xml:id="L11">temiendo lo que des<rhyme label="echa">echa</rhyme>,</l>
+                    <l xml:id="L12">la que sirve de buen gr<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L13">pero <rs ref="#FPG"> vos sed esforç<rhyme label="ado">ado</rhyme></rs>,</l>
+                    <l xml:id="L14">que segund <term cRef="#PMC:89">razón</term> der<rhyme label="echa">echa</rhyme>:</l>
+                    <l xml:id="L15">“el que non tiene sosp<rhyme label="echa">echa</rhyme> </l>
+                    <l xml:id="L16">seguro duerme e pag<rhyme label="ado">ado</rhyme>”.</l>
+                </lg>
+                
+                <lg n="3" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <l xml:id="L17">Quien honrada vida hon<rhyme label="esta">esta</rhyme></l>
+                    <l xml:id="L18">vive sin fazer err<rhyme label="ores">ores</rhyme>,</l>
+                    <l xml:id="L19">meresce grandes lo<rhyme label="ores">ores</rhyme></l>
+                    <l xml:id="L20">que es cosa que mucho pr<rhyme label="esta">esta</rhyme>,</l>
+                    <l xml:id="L21">si parló de alta g<rhyme label="esta">esta</rhyme></l>
+                    <l xml:id="L22">el gayo en sus clam<rhyme label="ores">ores</rhyme></l>
+                    <l xml:id="L23"><rs ref="#FPG"> entended</rs> que sus pav<rhyme label="ores">ores</rhyme></l>
+                    <l xml:id="L24">“non son sinon agua en c<rhyme label="esta">esta</rhyme>”.</l>
+                </lg>
+                
+                <lg n="4" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <l xml:id="L25"><rs ref="#FPG"> Buen señor</rs> desde ab inic<rhyme label="io">io</rhyme></l>
+                    <l xml:id="L26">en luna meguante o ll<rhyme label="ena">ena</rhyme></l>
+                    <l xml:id="L27">“do mucho puja el av<rhyme label="ena">ena</rhyme> </l>
+                    <l xml:id="L28">cogen fruto de fornic<rhyme label="io">io</rhyme>”,</l>
+                    <l xml:id="L29">non puede estar sin bollic<rhyme label="io">io</rhyme>,</l>
+                    <l xml:id="L30">quien codicia joya ag<rhyme label="ena">ena</rhyme></l>
+                    <l xml:id="L31">“caballo que non se enfr<rhyme label="ena">ena</rhyme>” </l>
+                    <l xml:id="L32">cuanto <rs ref="#AAV">yo</rs> non lo cobdic<rhyme label="io">io</rhyme>.</l>
+                </lg>
+                
+                <lg n="5" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                    <l xml:id="L33"><rs ref="#FPG"> Señor</rs>, merced <rs ref="#FPG">vos</rs> <rs ref="#AAV">dem<rhyme label="ando">ando</rhyme></rs></l>
+                    <l xml:id="L34">por bondad e cortes<rhyme label="ia">ía</rhyme></l>
+                    <l xml:id="L35">que <rs ref="#AAV">la pobre entención m<rhyme label="ia">ía</rhyme></rs></l>
+                    <l xml:id="L36"><rs ref="#FPG"> vades bien consider<rhyme label="ando">ando</rhyme></rs>,</l>
+                    <l xml:id="L37">que <rs ref="#AAV">non sé</rs> cómo nin cu<rhyme label="ando">ándo</rhyme></l>
+                    <l xml:id="L38">entienda la maestr<rhyme label="ia">ía</rhyme></l>
+                    <l xml:id="L39">de <rs ref="#FPG"> vuestra arte</rs> más querr<rhyme label="ia">ía</rhyme></l>
+                    <l xml:id="L40">siempre <rs ref="#AAV">servir</rs> <rs ref="#FPG"> vos</rs> lo<rhyme label="ando">ando</rhyme>,</l>
+                    
+                    <lg n="6" type="finda" met="8,8,8,8" rhyme="ABBA">
+                        <l xml:id="L41">Si en algo <rs ref="#AAV">erré trov<rhyme label="ando">ando</rhyme></rs></l>
+                        <l xml:id="L42"><rs ref="#AAV">non lo fize</rs> por fol<rhyme label="ia">ía</rhyme>,</l>
+                        <l xml:id="L43">salvo que en la <term cRef="#PMC:193">poetr<rhyme label="ia">ía</rhyme></term></l>
+                        <l xml:id="L44"><rs ref="#AAV">sé</rs> muy poco estudi<rhyme label="ando">ando</rhyme>.</l>
+                    </lg>
+                    
+                </lg>  
+                    
+                </lg>
+        </sp>
+    </body>
+</text>
+</TEI>
+

@@ -1,0 +1,181 @@
+
+<?xml-model href="../Gimena/cendari/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>Non muy bien encabellado </title>
+                    
+           
+                <title type="incipit">Non muy bien encabellado </title>
+             
+                <author>Alfonso Álvarez de Villasandino </author>
+            
+                
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+  
+                        <idno n="1248">Dutton 1248</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=108&entry=ID1248#PN1108ID1248]]></ref>
+                    </bibl>
+                      
+                
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="38r" to="38r">38r</locus>
+                            <index>
+                                <term type="PN1-108"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                   <person xml:id="AAV">
+                       
+                       <persName type="standard">Alfonso Álvarez de Villasandino</persName>
+                       <persName type="form">Alfonso Álvarez</persName>
+                       <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
+                   </person>
+                  
+                    <person xml:id="PCA">
+                        <persName type="standard">Pedro Carrillo</persName>
+                        <persName type="form">Pero Carrillo</persName>
+                        <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3536Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fsearch%3Fname%3Dcarrillo%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor%26startDoc%3D21]]></idno>
+                </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                   
+                    <place xml:id="VI1">
+                   
+                            <placeName>Villasandino</placeName>
+                            <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
+                        </place>
+                    <place xml:id="BU1">
+                        <placeName>Burgos</placeName>
+                        <idno type="VIAF">http://viaf.org/viaf/159439709/</idno>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <textClass>
+                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
+                    <term n="162">Pregunta</term>
+                 
+                   
+                  
+                </keywords>
+            </textClass>
+
+            <creation>
+             
+                <origDate notAfter="1430" notBefore="1465">1426-1465
+                        </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Galego-Castelán</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-08" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+</teiHeader>
+
+<text>
+    <body>
+        
+        <note>Falta la rúbrica. Por la siguiente pieza, que es una respuesta de Pero Carrillo a Villasandino, sabemos que esta es una pregunta de AAV a este. Por la cantidad de estrofas que tiene la respuesta podemos pensar que esta pieza está incompleta</note>
+        
+
+        <sp who="#PCA">
+            <speaker>Alfonso Álvarez de Villasandino</speaker>
+            <lg type="poema" subtype="pregunta"  unisonancia="unisonante"
+                isometrismo="isométrico" isoestrofismo="heteroestrófico"
+                asonancia="consonante" met="8,8,8,8,8,8,8/8,8,8,8" rhyme="abbacca/abba">
+                
+                <lg  n="1"  type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">   
+                 
+              
+                   
+           
+                        <l xml:id="L1">Non muy bien encabell<rhyme label="ado">ado</rhyme> </l>
+                    <l xml:id="L2"><rs ref="#AAV">me <rs ref="'#PCA">diredes</rs> o calv<rhyme label="illo">illo</rhyme></rs> </l>
+                    <l xml:id="L3"><rs ref="#AAV">mi riqueza</rs> es del gran<rhyme label="illo">illo </rhyme></l>
+                        <l xml:id="L4">mas siempre leal prov<rhyme label="ado">ado</rhyme>, </l>
+                        <l xml:id="L5">por ende dize el act<rhyme label="or">or</rhyme> </l>
+                        <l xml:id="L6">qu’el pedir es grant trist<rhyme label="or">or</rhyme> </l>
+                        <l xml:id="L7">e manjar emponzoñ<rhyme label="ado">ado</rhyme>.</l>
+                    </lg>
+                    
+                <lg  n="2"  type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca"> 
+                    <l xml:id="L8"><rs ref="#AAV">De mí me siento coit<rhyme label="ado">ado</rhyme></rs></l>
+                    <l xml:id="L9">que <rs ref="#AAV">se me quebró el colm<rhyme label="illo">illo</rhyme></rs></l>
+                    <l xml:id="L10">e <rs ref="#AAV">non sé</rs> a quién hom<rhyme label="illo">illo</rhyme></l>
+                    <l xml:id="L11"><rs ref="#AAV">este mi cuerpo lazr<rhyme label="ado">ado</rhyme></rs>,</l>
+                        <l xml:id="L12">pero que dize el act<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L13">que quien es fornicad<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L14">non será de Dios am<rhyme label="ado">ado</rhyme>.</l>
+                    </lg>
+                    
+                <lg n="3" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <l xml:id="L15"><rs ref="#AAV">Non soy tan desatent<rhyme label="ado">ado</rhyme></rs></l>
+                    <l xml:id="L16"><rs ref="#AAV">nin de seso tan cort<rhyme label="illlo">illo</rhyme></rs></l>
+                    <l xml:id="L17">que sol a <rs ref="'#PCA">vuestro mor<rhyme label="illo">illo</rhyme></rs></l>
+                    <l xml:id="L18"><rs ref="#AAV">yo fuese desmesur<rhyme label="ado">ado</rhyme></rs>,</l>
+                        <l xml:id="L19">por ende dize el act<rhyme label="or">or:</rhyme></l>
+                        <l xml:id="L20">que cualquier que es honrad<rhyme label="or">or</rhyme> </l>
+                        <l xml:id="L21">siempre entiende ser honr<rhyme label="ado">ado</rhyme>.</l>
+                    </lg>
+                    
+                <lg n="4" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <l xml:id="L22">Si <rs ref="'#PCA">tenedes</rs> ya libr<rhyme label="ado">ado</rhyme></l>
+                        <l xml:id="L23">ponimiento en ced<rhyme label="illo">illo</rhyme></l>
+                        <l xml:id="L24">para el miércoles corv<rhyme label="illo">illo</rhyme></l>
+                    <l xml:id="L25"><rs ref="'#PCA">seredes</rs> mi convid<rhyme label="ado">ado</rhyme>;</l>
+                        <l xml:id="L26">non esté dixo el act<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L27">mas quando el emperad<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L28">haya el mundo soseg<rhyme label="ado">ado</rhyme>.</l>
+                    </lg>
+                    
+                <lg n="5" type="finda" met="8,8,8,8,8" rhyme="abba">
+                    <l xml:id="L29"><rs ref="#AAV">Temome de ser tent<rhyme label="ado">ado</rhyme></rs>,</l>
+                        <l xml:id="L30">por ende dize el act<rhyme label="or">or</rhyme>:</l>
+                        <l xml:id="L31">"quien no es engañad<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L32">non deve ser engañ<rhyme label="ado">ado"</rhyme>.</l>
+                    </lg>
+                        
+                    
+                </lg>
+        </sp>
+    </body>
+</text>
+</TEI>
+

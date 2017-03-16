@@ -1,0 +1,225 @@
+
+<?xml-model href="../Gimena/cendari/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>Porque de las vidas la que es ociosa</title>
+                    
+           
+                <title type="incipit">Porque de las vidas la que es ociosa</title>
+             
+                <author>Fernán Pérez de Guzmán </author>
+            
+                
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+  
+                        <idno n="1674">Dutton 1674</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=550&entry=ID1674#PN1550ID1674]]></ref>
+                    </bibl>
+                      
+                
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository>
+                        <idno>Espagnol 37</idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="184v" to="184v">184v</locus>
+                            <index>
+                                <term type="PN1-550"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="NC">
+                        <persName>
+                            Not clear
+                        </persName>
+                    </person>
+                    <person xml:id="AAV">
+                        
+                        <persName type="standard">Alfonso Álvarez de Villasandino</persName>
+                        <persName type="form">Alfonso Álvarez</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
+                    </person>
+                   
+             
+                    <person xml:id="FPG">
+                        <persName type="standard">Fernán Pérez de Guzmán</persName>
+                    <persName type="form">Ferrán Pérez de Guzmán</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/9983425/#Pe%CC%81rez_de_Guzma%CC%81n,_Ferna%CC%81n_ca._1377/79_-_ca._1460</idno>
+                    </person>
+                    <person xml:id="GDT">
+                        <persName type="standard">Gutierre de Toledo</persName>
+                        <idno type="BETA">
+                            <![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/1528Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Fname%3DGutierre+de+Toledo%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]>
+                        </idno>
+                    </person>
+                </listPerson>
+            </particDesc>
+           <settingDesc>
+               <place xml:id="GUA">
+                   <placeName>Guadalajara </placeName>
+                   <idno type="VIAF">http://viaf.org/viaf/316430152/</idno>
+               </place>
+           </settingDesc>
+            <textClass>
+                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
+                    <term n="162">Pregunta</term>
+                 <term n="17">Cantiga</term>
+                    <term n="171">Sotil</term>
+                    <term n="174">Fazer</term>
+                    <term n="175">Ordenar</term>
+                    <term n="205">Fundado</term>
+                    <term n="198">Arte</term>
+                    <term n="206">Fermoso</term>
+                    <term n="195">Ciencia</term>
+                    <term n="207">Gayo</term>
+                    <term n="193">Poetría</term>
+                    <term n="89">Razón</term>
+                </keywords>
+            </textClass>
+
+            <creation>
+             
+                <origDate notAfter="1430" notBefore="1465">1426-1465
+                        </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-08" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <head type="rúbrica"> 
+            
+          
+            
+            Esta <term cRef="#PMC:162">pregunta</term> dizen que <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term>  el dicho <persName ref="#FPG">Ferrand Pérez de Guzmán, señor de Batres</persName>, para 
+            el dicho <persName ref="#GDT">don Gutierre arcedean"</persName> e 
+            otros dizen que las fizo para <persName ref="#AAV">Alfonso Álvarez</persName>, e sea para quien se pagare, abasta que la <term cRef="#PMC:162">pregunta</term> es muy bien <term cRef="#PMC:174">fecha</term> e <term cRef="#PMC:171">sotilmente</term> <term cRef="#PMC:205">fundada</term>
+        </head>
+
+        <sp who="#NC">
+            <speaker>Fernán Pérez de Guzmán</speaker>
+            <lg type="poema" subtype="pregunta"  unisonancia="singular"
+                isometrismo="isométrico" isoestrofismo="heteroestrófico"
+                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10/10,10, 10, 10" rhyme="ABBAACCA/ABBA">
+                <note> Se trata de una pieza de arte mayor. La pregunta no tiene un receptor claro (GDT o AAV) y no la responde ningún poeta</note>
+                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
+                 
+              
+                   
+            
+                    <l xml:id="L1">Porque de las vidas la que es oci<rhyme label="osa">osa</rhyme></l>
+                    <l xml:id="L2">es de los santos por peor not<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L3">el que non podiere en obra gran<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L4">envuélvase en <term cRef="#PMC:198">arte</term> <term cRef="#PMC:171">sotil</term> e <term cRef="#PMC:206">ferm<rhyme label="osa">osa</rhyme></term></l>
+                    <l xml:id="L5">la <term cRef="#PMC:207">gaya</term> <term cRef="#PMC:195">ciencia</term> que así como r<rhyme label="osa">osa</rhyme></l>
+                    <l xml:id="L6">nasció en el vergel de la <term cRef="#PMC:193">poetr<rhyme label="ia">ía</rhyme></term></l>
+                    <l xml:id="L7">siquiera, <rs ref="#NC">señor</rs>, en el año un d<rhyme label="ia">ía</rhyme></l>
+                    <l xml:id="L8">miremos su bulto con vista homild<rhyme label="osa">osa</rhyme>.</l>
+                </lg>
+                
+                <lg n="2" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L9">E quien non podiere, alto penetr<rhyme label="ando">ando</rhyme>,</l>
+                    <l xml:id="L10">sentir el secreto del postrimer ci<rhyme label="elo">elo</rhyme>,</l>
+                    <l xml:id="L11">nin puede en tal guisa taladrar el su<rhyme label="elo">elo</rhyme>,</l>
+                    <l xml:id="L12">porqu’ el fondo abismo vaya escodriñ<rhyme label="ando">ando</rhyme>,</l>
+                    <l xml:id="L13">cuestiones medianas e baxas trat<rhyme label="ando">ando</rhyme>,</l>
+                    <l xml:id="L14">que son mas palpabres al engeño r<rhyme label="udo">udo</rhyme>,</l>
+                    <l xml:id="L15">mejor <rs ref="#FPG">me paresce</rs>  que non estar m<rhyme label="udo">udo</rhyme></l>
+                    <l xml:id="L16">e en feos yerros el tiempo gast<rhyme label="ando">ando</rhyme>.</l>
+                </lg>
+                
+                <lg n="3" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L17">E si la cuistión por <rs ref="#FPG">mí</rs> demand<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L18">a <rs ref="#NC">vos</rs> fuere clara e sin cobert<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L19">es a <rs ref="#FPG">mí</rs> dudosa e non poco osc<rhyme label="ura">ura</rhyme></l>
+                    <l xml:id="L20">e si a <rs ref="#NC">vos</rs> abierta a <rs ref="#FPG">mí</rs> muy cerr<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L21">si lo que a <rs ref="#FPG">mí</rs> es mucho a vos fuere n<rhyme label="ada">ada</rhyme>,</l>
+                    <l xml:id="L22">non deve por eso quedar sin <term cRef="#PMC:162">resp<rhyme label="uesta">uesta</rhyme></term>,</l>
+                    <l xml:id="L23">ca si poco <rs ref="#FPG">monto</rs> tanto menos c<rhyme label="uesta">uesta</rhyme></l>
+                    <l xml:id="L24">a <rs ref="#NC">vos</rs> por quien puede ser determin<rhyme label="ada">ada</rhyme>.</l>
+                </lg>
+                
+                <lg n="4" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L25">En aquella edat que tanto flor<rhyme label="esce">esce</rhyme></l>
+                    <l xml:id="L26">cuando veyencico antes van vin<rhyme label="iendo">iendo</rhyme></l>
+                    <l xml:id="L27">que sie[m]pre paresce que se esta r<rhyme label="iendo">iendo</rhyme></l>
+                    <l xml:id="L28">un gesto sereno que nunca ocar<rhyme label="esce">esce</rhyme></l>
+                    <l xml:id="L29">o en la pesada vegez que aborr<rhyme label="esce">esce</rhyme></l>
+                    <l xml:id="L30">todos los plazeres con pura trist<rhyme label="eza">eza</rhyme></l>
+                    <l xml:id="L31">destas dos edades aquella riqu<rhyme label="eza">eza</rhyme></l>
+                    <l xml:id="L32"><rs ref="#NC">>dezide, señor</rs>, que mas perten<rhyme label="esce">esce</rhyme>.</l>
+                </lg>
+                
+                <lg n="5" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L33">Si <rs ref="#NC">vos dezides</rs> que a la manceb<rhyme label="ia">ía</rhyme></l>
+                    <l xml:id="L34">aver las riquezas es mas nesçes<rhyme label="ario">ario</rhyme></l>
+                    <l xml:id="L35">la razón derecha demuestra el contr<rhyme label="ario">ario</rhyme>,</l>
+                    <l xml:id="L36">ca do es plazer e toda alegr<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L37">toda fermosura e toda valent<rhyme label="ia">ía</rhyme></l>
+                    <l xml:id="L38">esfuerço donarie e viva_agud<rhyme label="eza">eza</rhyme></l>
+                    <l xml:id="L39">que mengua podría tener la riqu<rhyme label="eza">eza</rhyme>,</l>
+                    <l xml:id="L40">do tantas virtudes fazen conpañ<rhyme label="ia">ía</rhyme>.</l>
+                </lg>
+                
+                <lg n="6" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L41">E si piadosamente fabl<rhyme label="ando">ando</rhyme></l>
+                    <l xml:id="L42"><rs ref="#NC">queréis</rs> por los viejos dar vuestra sentenc<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L43">a <rs ref="#FPG">mí me paresce</rs> con vuestra licenc<rhyme label="ia">ia</rhyme></l>
+                    <l xml:id="L44">que desque la luenga edat va carg<rhyme label="ando">ando</rhyme>,</l>
+                    <l xml:id="L45">la cama, la mesa, el buen vino bl<rhyme label="anco">anco</rhyme>,</l>
+                    <l xml:id="L46">abastan a viejo e al non des<rhyme label="ea">ea</rhyme>,</l>
+                    <l xml:id="L47">todo lo que sobra todo mal s’ enpl<rhyme label="ea">ea</rhyme></l>
+                    <l xml:id="L48">pues dello non puede ir sí aprovech<rhyme label="ando">ando</rhyme>.</l>
+                </lg>
+                
+                <lg n="7" type="finda" met="10,10, 10, 10" rhyme="ABBA">
+                    <l xml:id="L49"><rs ref="#NC">Señor</rs>, finalmente lo que <rs ref="#FPG">yo dem<rhyme label="ando">ando</rhyme></rs></l>
+                    <l xml:id="L50">es para qu’ el viejo viva en su veg<rhyme label="ez">ez</rhyme></l>
+                    <l xml:id="L51">o para quel moço goze en su niñ<rhyme label="ez">ez</rhyme></l>
+                    <l xml:id="L52">de cual las riquezas serán de su b<rhyme label="ando">ando</rhyme>.</l>
+                </lg>
+                
+                    
+                    
+                </lg>
+        </sp>
+    </body>
+</text>
+</TEI>
+

@@ -1,0 +1,189 @@
+
+<?xml-model href="../Gimena/cendari/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>Tanto tienpo he esperado</title>
+      
+                <title type="incipit">Tanto tienpo he esperado </title>
+             
+                <author>Alfonso Álvarez de Villasandino</author>
+                
+                
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval /CENDARI Project</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <idno n="1250"> Dutton 1250</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=110&entry=ID1250%20R%201249#PN1110ID1250_R_1249]]></ref>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37 </idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="38v" to="38v">38v</locus>
+                            <index>
+                                <term type="PN1-1110"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="AAV">
+                        <persName type="standard">Alfonso Álvarez de Villasandino</persName>
+                        <persName type="form">Alfonso Álvarez</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
+                    </person>
+                    <person xml:id="PCO">
+                        <persName type="form">Pero Carrillo</persName>
+                        <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3536Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fsearch%3Fname%3Dcarrillo%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor%26startDoc%3D21]]></idno>
+                        
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="VI1">
+                        <placeName>Villasandino</placeName>
+                        <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
+                    </place>
+                    <place xml:id="BU1">
+                        <placeName>Burgos</placeName>
+                        <idno type="VIAF">http://viaf.org/viaf/159439709/</idno>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <textClass>
+                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
+                    <term n="163">Respuesta</term>
+                    <term n="202">Replicación</term>
+                    <term n="43">Contrafactum</term>
+                  
+                </keywords>
+            </textClass>
+
+            <creation>
+              
+                <origDate notAfter="1430" notBefore="1465">1426-1465
+                </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-08" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+</teiHeader>
+
+<text>
+    <body>
+       
+        <head><term cRef="#PMC:202">Replicación</term> de  <persName ref="#AAV">Alfonso Álvarez</persName>contra <persName ref="#PCA">Pero Carrillo</persName> 
+        </head>
+       
+
+        <sp who="#PCA">
+            <speaker>Alfonso Álvarez de Villasandino</speaker>
+            <lg type="poema" subtype="replicación"  unisonancia="unisonante"
+                isometrismo="isométrico" isoestrofismo="heteroestrófico"
+                asonancia="consonante" met="8,8,8,8,8,8,8/8,8,8,8" rhyme="abbacca/abba">
+          
+                 
+                  <lg  n="1"  type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">   
+                      <l xml:id="L1">Tanto tiempo <rs ref="#AAV">he esper<rhyme label="ado">ado</rhyme></rs></l>
+                      <l xml:id="L2">que ya <rs ref="#AAV">non puedo</rs> sofr<rhyme label="illo">illo</rhyme></l>
+                      <l xml:id="L3">nin se abat nin monaz<rhyme label="illo">illo</rhyme></l>
+                      <l xml:id="L4">que non fuesse ya cans<rhyme label="ado">ado</rhyme>,</l>
+                      <l xml:id="L5">por ende pone un doct<rhyme label="or">or</rhyme>:</l>
+                      <l xml:id="L6">que “cando es viejo el aç<rhyme label="or">or</rhyme> </l>
+                      <l xml:id="L7">de mil años es aont<rhyme label="ado">ado</rhyme>”.</l>
+                  </lg>
+                
+                <lg n="2" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <l xml:id="L8">Porque <rs ref="#AAV">fui mal costel<rhyme label="ado">ado</rhyme></rs></l>
+                    <l xml:id="L9">sabe Dios que me manz<rhyme label="illo">illo</rhyme>,</l>
+                    <l xml:id="L10">grant ferida en el tob<rhyme label="illo">illo</rhyme></l>
+                    <l xml:id="L11">da dolor entribul<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L12">por ende dize un doct<rhyme label="or">or</rhyme>:</l>
+                    <l xml:id="L13">“cando muere el buen past<rhyme label="or">or</rhyme></l>
+                    <l xml:id="L14">derrama todo el gan<rhyme label="ado">ado</rhyme>”.</l>
+                </lg>
+                
+                <lg n="3" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <l xml:id="L15"><rs ref="#PCA">Señor cuerdo e mesur<rhyme label="ado">ado</rhyme></rs>,</l>
+                    <l xml:id="L16"><rs ref="#AAV">yo estaria muy bon<rhyme label="illo">illo</rhyme></rs></l>
+                    <l xml:id="L17">si <rs ref="#AAV">non cuidasse serv<rhyme label="illo">illo</rhyme></rs></l>
+                    <l xml:id="L18">lo por <rs ref="#PCA">vos</rs> bien razon<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L19">que palabra es del doct<rhyme label="or">or</rhyme>:</l>
+                    <l xml:id="L20">“quien da a sus obras col<rhyme label="or">or</rhyme> </l>
+                    <l xml:id="L21">el mundo les adebd<rhyme label="ado">ado</rhyme>”.</l>
+                </lg>
+                
+                <lg n="4" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <l xml:id="L22"><rs ref="#AAV">Non quiero</rs> otro buen est<rhyme label="ado">ado</rhyme></l>
+                    <l xml:id="L23">daqueste mundo mes<rhyme label="illo">illo</rhyme></l>
+                    <l xml:id="L24">sinon un lazrado asn<rhyme label="illo">illo</rhyme></l>
+                    <l xml:id="L25">e <rs ref="#AAV">vevir pobre apart<rhyme label="ado">ado</rhyme></rs>,</l>
+                    <l xml:id="L26">que palabra es de doct<rhyme label="or">or</rhyme>:</l>
+                    <l xml:id="L27">“penitente malfech<rhyme label="or">or</rhyme> </l>
+                    <l xml:id="L28">puede ser predestin<rhyme label="ado">ado</rhyme>”.</l>
+                </lg>
+                
+                <lg n="5" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <l xml:id="L29"><rs ref="#AAV">Si non fui tan bien fad<rhyme label="ado">ado</rhyme></rs></l>
+                    <l xml:id="L30">que solamente un rat<rhyme label="illo">illo</rhyme></l>
+                    <l xml:id="L31"><rs ref="#AAV">yo paviesse</rs> en tal prad<rhyme label="illo">illo</rhyme></l>
+                    <l xml:id="L32">para <rs ref="#AAV">ser bien hered<rhyme label="ado">ado</rhyme></rs>,</l>
+                    <l xml:id="L33">por ende dize un dot<rhyme label="or">or</rhyme>:</l>
+                    <l xml:id="L34">“nin el fuerte es venced<rhyme label="or">or</rhyme> </l>
+                    <l xml:id="L35">nin el sabio enriquent<rhyme label="ado">ado</rhyme>”.</l>
+                </lg>
+                
+                <lg n="6" type="etrovadoresca" met="8,8,8,8,8,8,8" rhyme="abbacca">
+                    <l xml:id="L36"><rs ref="#AAV">Mi convite desdon<rhyme label="ado">ado</rhyme></rs></l>
+                    <l xml:id="L37">“fue tañer de caram<rhyme label="illo">illo</rhyme>”,</l>
+                    <l xml:id="L38">“tener agua en canast<rhyme label="illo">illo</rhyme>” </l>
+                    <l xml:id="L39">Es, <rs ref="#AAV">pienso</rs>, desvari<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L40">que palabra es de dot<rhyme label="or">or</rhyme>:</l>
+                    <l xml:id="L41">“mas val ser faire(...)<rhyme label="or">or</rhyme> </l>
+                    <l xml:id="L42">que rico desmazal<rhyme label="ado">ado</rhyme>”.</l>
+                </lg>
+                
+                <lg n="7" type="finda" met="8,8,8,8" rhyme="abba">
+                    <l xml:id="L43"><rs ref="#AAV">Yo iría e muy priv<rhyme label="ado">ado</rhyme></rs>,</l>
+                    <l xml:id="L44">salvo que diz un doct<rhyme label="or">or</rhyme>:</l>
+                    <l xml:id="L45">“de mancebo escarnid<rhyme label="or">or</rhyme> </l>
+                    <l xml:id="L46">guárdate e serás guard<rhyme label="ado">ado</rhyme>”.</l>
+                </lg>
+                
+                </lg>
+        </sp>
+    </body>
+</text>
+</TEI>
+

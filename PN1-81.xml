@@ -1,0 +1,184 @@
+
+<?xml-model href="../Gimena/cendari/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+          
+      
+                <title type="incipit">Segund que fingides so vuestro encomienda </title>
+             
+                <author>Juan Alfonso de Baena</author>
+                
+                
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval /CENDARI Project</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <idno n="1223"> Dutton 1223</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=81&entry=ID1223%20R%201222#PN181ID1223_R_1222]]></ref>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37 </idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="29v" to="29v">29v</locus>
+                            <index>
+                                <term type="PN1-81"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="AAV">
+                        <persName type="standard">Alfonso Álvarez de Villasandino</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
+                    </person>
+                    <person xml:id="JAB">
+                        <persName type="standard">Juan Alfonso de Baena</persName>
+                        <idno type="VIAF"> http://viaf.org/viaf/22265905/#Baena,_Juan_Alfonso_%CB%9Cde%C5%93</idno>
+                    </person>
+                    <person xml:id="NC">
+                        <persName>
+                            Not clear
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="VI1">
+                        <placeName>Villasandino</placeName>
+                        <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
+                    </place>
+                    <place xml:id="BA1">
+                        <placeName>Baena</placeName>
+                        <idno type="VIAF">http://viaf.org/viaf/144288652/</idno>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <textClass>
+                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
+                    <term n="163">Respuesta</term>
+                    <term n="162">Pregunta</term>
+                    <term n="203">Requesta</term>
+                    <term n="43">Contrafactum</term>
+                    <term n="166">Consonantes</term>
+                    <term n="189">Limado</term>
+                    <term n="211">Escandido</term>
+                    <term n="195">Ciencia</term>
+                    <term n="182">Poeta</term>
+                    <term n="210">Trovar</term>
+                    <term n="198">Arte</term>
+                    <term n="178">Lindo </term>
+                </keywords>
+            </textClass>
+
+            <creation>
+              
+                <origDate notAfter="1430" notBefore="1465">1426-1465
+                </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-10" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+</teiHeader>
+
+<text>
+    <body>
+     <head>
+            A esta <term cRef="#PMC:162">pregunta</term> e <term cRef="#PMC:203">requesta</term> respondió <persName ref="#JAB">Juan Alfonso de Baena</persName>, <rs ref="#JAB">escrivano del rey</rs>, por la mesma <term cRef="#PMC:198">arte</term> de <term cRef="#PMC:209">maestria</term>  e por sus 
+                <term cRef="#PMC:166">consonantes</term> <term cRef="#PMC:189">limados</term> e muy <term cRef="#PMC:211">escandidos</term>
+        </head>
+       
+
+        <sp who="#NC">
+            <speaker>Juan Alfonso de Baena</speaker>
+            <lg type="poema" subtype="respuesta"  unisonancia="unisonante"
+                isometrismo="isométrico" isoestrofismo="heteroestrófico"
+                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10/10,10, 10, 10" rhyme="ABBAACCA/ABBA">
+                <note> Se trata de una pieza de arte mayor. No se especifica el nombre del poesta al que <persName ref="#JAB">Baena</persName> responde, aunque, por la pregunta anterior, sabemos que es <persName ref="#AAV">Villasandino</persName></note>
+                 
+                        <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
+                            <l xml:id="L1">Segund que <rs ref="#AAV">fingides</rs> <rs ref="#JAB">so vuestro encomi<rhyme label="enda">enda</rhyme></rs></l>
+                            <l xml:id="L2">están las ciencias de todos met<rhyme label="ales">ales</rhyme>,</l>
+                            <l xml:id="L3">mas testos e glosas de <rs ref="#JAB">mis decret<rhyme label="ales">ales</rhyme></rs>,</l>
+                            <l xml:id="L4">segunt <rs ref="#JAB">me paresce</rs> <rs ref="#AAV">leistes</rs> corri<rhyme label="enda">enda</rhyme>,</l>
+                            <l xml:id="L5">por ende, <rs ref="#AAV">maestro</rs>, <rs ref="#AAV">sabet</rs> que <rs ref="#JAB">resp<rhyme label="enda">enda</rhyme></rs></l>
+                            <l xml:id="L6">de <rs ref="#AAV">vuestra ordenança</rs> el muy grant rem<rhyme label="on">ón</rhyme>,</l>
+                            <l xml:id="L7">Ricardo e Pánfilo, Escoto e Agrim<rhyme label="on">ón</rhyme>,</l>
+                            <l xml:id="L8">los cuales mandaron que <rs ref="#AAV">vos</rs> <rs ref="#JAB">repr<rhyme label="enda">enda</rhyme></rs>.</l>
+                        </lg>
+                
+                <lg n="2" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L9">Ca puesto por caso que puge e trasc<rhyme label="enda">enda</rhyme></l>
+                    <l xml:id="L10">la <rs ref="#AAV">vuestra <term cRef="#PMC:195">ciencia</term> de finos crist<rhyme label="ales">ales</rhyme></rs>,</l>
+                    <l xml:id="L11">e callen los simples remotos bruc<rhyme label="ales">ales</rhyme>,</l>
+                    <l xml:id="L12">que non fueron dinos aver tal prev<rhyme label="enda">enda</rhyme>,</l>
+                    <l xml:id="L13">a <rs ref="#AAV">vuestra persona</rs> sotil rever<rhyme label="enda">enda</rhyme>,</l>
+                    <l xml:id="L14">fermoso le fuera loar con raz<rhyme label="on">ón</rhyme>,</l>
+                    <l xml:id="L15">los altos <term cRef="182">poetas</term> que luenga saz<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L16"><term cRef="210">trovaron</term> por <term cRef="198">artes</term> de alta cal<rhyme label="enda">enda</rhyme>.</l>
+                </lg>
+                
+                <lg n="3" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L17">E porque <rs ref="#JAB">non siento</rs> quien non condesc<rhyme label="enda">enda</rhyme></l>
+                    <l xml:id="L18">a <rs ref="#AAV">vuestras dotrinas</rs> por ser tan mor<rhyme label="ales">ales</rhyme></l>
+                    <l xml:id="L19">las flores de adelfa con lindos ros<rhyme label="ales">ales</rhyme>,</l>
+                    <l xml:id="L20">que non se conforman en dar su ofr<rhyme label="enda">enda</rhyme>,</l>
+                    <l xml:id="L21">por ende <rs ref="#JAB">siguiendo</rs>, <rs ref="#AAV">señor</rs>, <rs ref="#AAV">vuestra s<rhyme label="enda">enda</rhyme></rs>,</l>
+                    <l xml:id="L22">e non lo <rs ref="#JAB">tomando</rs> <rs ref="#AAV">de vos</rs> el bald<rhyme label="on">ón</rhyme>,</l>
+                    <l xml:id="L23"><rs ref="#JAB">yo</rs> cerca de aquesto <rs ref="#JAB">so vuestro pend<rhyme label="on">ón</rhyme></rs>,</l>
+                    <l xml:id="L24"><rs ref="#JAB">seré</rs> todo siempre, <rs ref="#AAV">tomad</rs> esta pr<rhyme label="enda">enda</rhyme>.</l>
+                </lg>
+                
+                <lg n="4" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L25">Pero si <rs ref="#AAV">vos plaze</rs> que desto <rs ref="#JAB">dep<rhyme label="enda">enda</rhyme></rs></l>
+                    <l xml:id="L26">que tangan las trompas e los atab<rhyme label="ales">ales</rhyme></l>
+                    <l xml:id="L27">e <rs ref="#JAB">yo</rs> suba quintas en bozes tumb<rhyme label="ales">ales</rhyme></l>
+                    <l xml:id="L28">“de <rs ref="#AAV">vuestra madexa</rs> quebrada es la cu<rhyme label="enda">enda</rhyme>”, </l>
+                    <l xml:id="L29">ca <rs ref="#JAB">yo non me rindo</rs> como omne que arr<rhyme label="enda">ienda</rhyme>,</l>
+                    <l xml:id="L30">pero si <rs ref="#AAV">vos</rs> punçó en el coraç<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L31"><rs ref="#JAB">faré</rs> que <rs ref="#AAV">vos</rs> tome tan grant toroç<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L32">que desta <term cRef="178">linda</term> <term cRef="198">arte</term> <rs ref="#AAV">vos</rs> <rs ref="#JAB">prive e susp<rhyme label="enda">enda</rhyme></rs>.</l>
+                </lg>
+                
+                <lg n="5" type="finda" met="10,10, 10, 10" rhyme="ABBA">
+                    <l xml:id="L33">Pasteles de pollos con polvos de h<rhyme label="enda">ienda</rhyme>,</l>
+                    <l xml:id="L34">e festes de noya con buen salpic<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L35"><rs ref="#AAV">vos</rs> <rs ref="#JAB">tengo</rs> guissados en un replic<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L36">sobre que <rs ref="#AAV">vevades</rs>, <rs ref="#AAV">señor</rs>, en mer<rhyme label="enda">ienda</rhyme>.</l>
+                </lg>
+                </lg>
+        </sp>
+    </body>
+</text>
+</TEI>
+

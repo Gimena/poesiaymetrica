@@ -4,12 +4,12 @@
 <teiHeader>
     <fileDesc>
             <titleStmt>
-                <title>Oh, criaturas tan organizadas</title>
+                <title>Gracias e mercedes sean otorgadas</title>
                     
            
-                <title type="incipit">Oh, criaturas tan organizadas</title>
+                <title type="incipit">Gracias e mercedes sean otorgadas</title>
              
-                <author>Bachiller en Artes de Salamanca</author>
+                <author>Bachiller en Artes de Salamanca </author>
             
                 
                 <editor xml:id="GDR">Gimena del Rio</editor>
@@ -25,8 +25,8 @@
                     <bibl type="url"> 
                         <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
   
-                        <idno n="1230">Dutton 1230</idno>
-                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=90&entry=ID1230#PN190ID1230]]></ref>
+                        <idno n="1232">Dutton 1232</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=92&entry=ID1232#PN192ID1232]]></ref>
                     </bibl>
                       
                 
@@ -41,9 +41,9 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="32r" to="32r">32r. </locus>
+                            <locus from="32r" to="32v">32r-32v</locus>
                             <index>
-                                <term type="PN1-90"/>
+                                <term type="PN1-92"/>
                             </index>
                         </msItem>
                     </msContents>
@@ -63,6 +63,7 @@
                   
                     <person xml:id="BSA">
                         <persName type="standard">Bachiller en Artes de Salamanca</persName>
+                        <persName type="form">Baciller e Maestro en Artes </persName>
                         <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3534Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DBachiller+de+Salamanca%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
                     </person>
              
@@ -86,10 +87,11 @@
                 <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
                     <term n="162">Pregunta</term>
                     <term n="163">Respuesta</term>
-                    
+                    <term n="113">Religión</term>
                     <term n="174">Fazer</term>
                     <term n="175">Ordenar</term>
-                    <term n="186">Artezilla</term>
+                    <term n="196">Fablilla</term>
+                  
                 </keywords>
             </textClass>
 
@@ -106,17 +108,17 @@
 
         <revisionDesc>
             <listChange>
-                <change when="2015-09-04" who="#GDR">Changes are made</change>
+                <change when="2015-09-07" who="#GDR">Changes are made</change>
                             </listChange>
         </revisionDesc>
 </teiHeader>
 
 <text>
     <body>
-        <head type="rúbrica"> 
-            
-            Esta <term cRef="PMC:162">pregunta</term> <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho <persName ref="#BSA">Bachiller e maestro en artes</persName> contra el dicho <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1">Villasandino</placeName></persName></head>
-  
+        <head type="rúbrica"> Esta <term cRef="PMC:162">pregunta</term> <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó el dicho </term><persName ref="#BSA">Bachiller e Maestro en Artes </persName> contra el dicho <persName ref="#AAV">Alfonso Álvarez</persName>
+            de <placeName ref="#VI1">Villasandino</placeName>
+        </head>
+        
 
         <sp who="#AAV">
             <speaker>Bachiller en Artes de Salamanca</speaker>
@@ -126,50 +128,46 @@
                 <note> Se trata de una pieza de arte mayor</note>
                 <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
                  
-                        <l xml:id="L1">Oh, criaturas tan organiz<rhyme label="adas">adas</rhyme></l>
-                        <l xml:id="L2">a la imagen del muy poder<rhyme label="oso">oso</rhyme>,</l>
-                        <l xml:id="L3">ved si meresçe el tan vertu<rhyme label="oso">oso</rhyme></l>
-                        <l xml:id="L4">ser coronado en gemas preci<rhyme label="adas">adas</rhyme>,</l>
-                        <l xml:id="L5">e deve vevir en ricas mor<rhyme label="adas">adas</rhyme></l>
-                        <l xml:id="L6">entre talladas de azul e de <rhyme label="oro">oro</rhyme>,</l>
-                        <l xml:id="L7">muy abondoso de ryco tes<rhyme label="oro">oro</rhyme>,</l>
-                        <l xml:id="L8">amado, querido de gentes honr<rhyme label="adas">adas</rhyme>.</l>
-                    
-                    <note> la rima del verso cuatro está errada en el mansucrito por un simple error por atracción (y banalización) del copista: *preciosas*   por *preciadas*</note>
+              
+                        <l xml:id="L1">Gracias e mercedes sean otorg<rhyme label="adas">adas</rhyme></l>
+                    <l xml:id="L2">de parte Dios, pues que <rs ref="#BSA">yo non <rhyme label="oso">osso</rhyme></rs></l>
+                    <l xml:id="L3"><rs ref="#AAV">a vos muy coraz, loçano e don<rhyme label="oso">oso</rhyme></rs>,</l>
+                    <l xml:id="L4">por las <rs ref="#PMC:163">responsiones</rs> <rs ref="#BSA">a mí</rs> destin<rhyme label="adas">adas</rhyme>,</l>
+                        <l xml:id="L5">segunt fue cristiana las d´esas nonbr<rhyme label="adas">adas</rhyme></l>
+                        <l xml:id="L6">non ensalçaron al buen rey don P<rhyme label="oro">oro</rhyme>,</l>
+                        <l xml:id="L7">mas la virtud de Dios en que m<rhyme label="oro">oro</rhyme></l>
+                        <l xml:id="L8">lo enrequizió de lond<rhyme label="adas">adas</rhyme>.</l>
                     </lg>
                     
-                <lg  n="2"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
-                        <l xml:id="L9">Non fue in neutro nin hoy es fall<rhyme label="ado">ado</rhyme></l>
-                        <l xml:id="L10">más lindo, sabio, intepetr<rhyme label="ador">ador</rhyme></l>
-                        <l xml:id="L11">nin hay en dotores tal espon<rhyme label="ador">edor</rhyme></l>
-                        <l xml:id="L12">nin tan excelente discreto not<rhyme label="ado">ado</rhyme>,</l>
-                        <l xml:id="L13">en la poetría tan muy esmer<rhyme label="ado">ado</rhyme>,</l>
-                        <l xml:id="L14">segunt lo demuestra sus conpusic<rhyme label="iones">iones</rhyme>,</l>
-                        <l xml:id="L15">de sílabas, tiempos e pies e dic<rhyme label="iones">iones</rhyme>,</l>
-                        <l xml:id="L16">que le doctan a ser profundo letr<rhyme label="ado">ado</rhyme>.</l>
-                    
-                    <note> en el verso 5 error por atracción *esmerador* por  *esmerado* </note>
-                    </lg>
-                
-                <lg  n="3"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
-                        <l xml:id="L17">Non se ofrece la mi navez<rhyme label="illa">illa</rhyme></l>
-                        <l xml:id="L18">a se marear en ondas mar<rhyme label="inas">inas</rhyme>,</l>
-                        <l xml:id="L19">pues alabanças nos son atan d<rhyme label="inas">inas</rhyme>,</l>
-                        <l xml:id="L20">quales merescen el muy sin manz<rhyme label="illa">illa</rhyme>,</l>
-                        <l xml:id="L21">si con la fortuna demande or<rhyme label="illa">illa</rhyme>,</l>
-                        <l xml:id="L22">por la aspereza del fuerte cam<rhyme label="ino">ino</rhyme>,</l>
-                        <l xml:id="L23">yo pido mercet a Villasand<rhyme label="ino">ino</rhyme>,</l>
-                        <l xml:id="L24">que non lo tenga por grand marav<rhyme label="illa">illa</rhyme>.</l>
+                <lg  n="2"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">  
+                    <l xml:id="L9">Segunt el salmista  <rs ref="#BSA">so certific<rhyme label="ado">ado</rhyme></rs></l>
+                        <l xml:id="L10">compone e dize con muy grant am<rhyme label="or">or</rhyme>,</l>
+                        <l xml:id="L11">que nunca el olio del qu´es pecad<rhyme label="or">or</rhyme></l>
+                        <l xml:id="L12">afeite su rostro con licor ross<rhyme label="ado">ado</rhyme>,</l>
+                    <l xml:id="L13">nin <rs ref="#BSA">yo</rs> bien <rs ref="#AAV">creades</rs> que fuesse <rs ref="#BSA">os<rhyme label="ado">ado</rhyme></rs></l>
+                    <l xml:id="L14">de lisonjar en <rs ref="#BSA">los mis serm<rhyme label="ones">ones</rhyme></rs></l>
+                    <l xml:id="L15">pues <rs ref="#AAV">tan perfeto de gracias e d<rhyme label="ones">ones</rhyme></rs></l>
+                    <l xml:id="L16"><rs ref="#AAV">a vos</rs> costelaron planetas e f<rhyme label="ado">ado</rhyme>.</l>
                     </lg>
                     
-                <lg  n="4"  type="finda" met="10,10, 10, 10" rhyme="ABBA">   
-                    <l xml:id="L25">Mas bien inclinada está <rs ref="#BSA">mi rod<rhyme label="illa">illa</rhyme></rs>,</l>
-                        <l xml:id="L26">segund que disciplo muy insip<rhyme label="iente">iente</rhyme>,</l>
-                        <l xml:id="L27">con grant reverencia e muy obed<rhyme label="iente">iente</rhyme>,</l>
-                    <l xml:id="L28">a <rs ref="#AAV"> él le</rs> <rs ref="#BSA">presento</rs> aquesta <rs ref="#PMC:186">artez<rhyme label="illa">illa</rhyme></rs>.</l>
+                <lg  n="3"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">  
+                    <l xml:id="L17">A Dios lo <rs ref="#BSA">agradesco</rs> pues que en Sev<rhyme label="illa">illa</rhyme></l>
+                        <l xml:id="L18">por noble damasco visten esclav<rhyme label="inas">inas</rhyme>,</l>
+                        <l xml:id="L19">las calças soladas andan por mesqu<rhyme label="inas">inas</rhyme>,</l>
+                        <l xml:id="L20">pues el aldeano las trae en la tr<rhyme label="illa">illa</rhyme>,</l>
+                        <l xml:id="L21">color encendido sabio en la mex<rhyme label="illa">illa</rhyme>,</l>
+                    <l xml:id="L22">pues <rs ref="#BSA">mi</rs> sofismo tan simple ven<rhyme label="ino">ino</rhyme></l>
+                    <l xml:id="L23"><rs ref="#BSA">vi</rs> ser aprovado de <persName ref="#AAV">don Alfons<rhyme label="ino">ino</rhyme></persName>,</l>
+                    <l xml:id="L24"><rs ref="#AAV">señor</rs> sea cedo de noble cuadr<rhyme label="illa">illa</rhyme>.</l>
                     </lg>
                     
-            </lg>
+                <lg  n="4"  type="finda" met="10,10, 10, 10" rhyme="ABBA">  
+                    <l xml:id="L25"><rs ref="#BSA">Non quiero</rs> ya más traer en <term cRef="#PMC:196">fabl<rhyme label="illa">illa</rhyme></term></l>
+                        <l xml:id="L26">los altos loores d´aqueste prud<rhyme label="ente">ente</rhyme>,</l>
+                        <l xml:id="L27">ca por aventura por un acid<rhyme label="ente">ente</rhyme>,</l>
+                        <l xml:id="L28">podría caer en fuerte los<rhyme label="illa">illa</rhyme>.</l>
+                    </lg>
+                </lg>
         </sp>
     </body>
 </text>

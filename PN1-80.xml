@@ -1,0 +1,184 @@
+
+<?xml-model href="../Gimena/cendari/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>A mí bien me plaze por que se estienda</title>
+                <title type="incipit"> A mí bien me plaze por que se estienda </title>
+                <author>Alfonso Álvarez de Villasandino</author>
+    <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval/CENDARI Project </publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+<head>Edición paleográfica sobre textos de B. Dutton</head>
+                        <bibl type="url"> 
+                            <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                            <idno n="1221">Dutton 1221</idno>
+                            <ref> <![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=80&entry=ID1222#PN180ID1222]]></ref>
+                        </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia </repository> 
+                        <idno>Espagnol 37</idno>
+        
+                       
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="29r" to="29v">29r-29v</locus>
+                            <index>
+                                <term type="PN1-80"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                   <person xml:id="AAV">
+                      <persName type="standard">Alfonso Álvarez de Villasandino</persName>
+                       <persName type="form">Alfonso Álvarez </persName>
+                       <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
+                   </person>
+                   <person xml:id="JAB">
+                      <persName type="standard">Juan Alfonso de Baena</persName>
+                       <idno type="VIAF"> http://viaf.org/viaf/22265905/#Baena,_Juan_Alfonso_%CB%9Cde%C5%93</idno>
+                       </person>
+                    <person xml:id="NC">
+                        <persName>
+                            Not clear
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="VI1">
+                        <placeName>Villasandino</placeName>
+                        <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
+                    </place>
+                    <place xml:id="BA1">
+                        <placeName>Baena</placeName>
+                        <idno type="VIAF">http://viaf.org/viaf/144288652/</idno>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <textClass>
+                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
+                    <term n="162">Pregunta</term>
+                    <term n="203">Requesta</term>
+                    <term n="180">Dezir</term>
+                    <term n="173">Fundado</term>
+                    <term n="209">Maestría</term>
+                    <term n="198">Arte</term>
+                    <term n="207">Gayo</term>
+                    <term n="195">Ciencia</term>
+                    <term n="210">Trobar</term>
+                    <term n="182">Poeta</term>
+                    <term n="193">Poetría</term>
+                    <term n="208">Trovador</term>
+                </keywords>
+            </textClass>
+
+            <creation>
+             
+                <origDate notAfter="1465" notBefore="1426">1426-1465
+                        </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-04" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+  
+</teiHeader>
+
+<text>
+    <body>
+        <head type="rúbrica"> 
+        
+        Este <term cRef="#PMC:180">dezir</term> por <term cRef="#PMC:203">requesta</term> e <term cRef="#PMC:162">pregunta</term> <term cRef="#PMC:174">fizo</term> <persName ref="#AAV">Alfonso Álvarez de Villasandino</persName>
+            el qual es muy <term cRef="#PMC:174">bien fecho</term> e <term cRef="#PMC:205">bien fundado</term> por <term cRef="#PMC:198">arte</term> de <term cRef="#PMC:209">maestria mayor</term> 
+            por <term cRef="#PMC:203">requesta</term> e <term cRef="#PMC:162">pregunta</term> contra los <term cRef="#PMC:208">trovadores</term></head>
+  
+
+        <sp who="#NC" >
+            <speaker>Alfonso Álvarez de Villasandino</speaker>
+            <lg type="poema" subtype="pregunta" unisonancia="unisonante"
+                isometrismo="isométrico" isoestrofismo="heteroestrófico"
+                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10/10,10, 10, 10" rhyme="ABBAACCA/ABBA">
+                <note> Se trata de una pieza de arte mayor. La pregunta no se dirige a un poeta en particular sino a los <term cRef="#PMC:208">trovadores</term>. La responde <persName ref="#JAB">Juan Alfonso de Baena</persName></note>
+                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
+                    <l xml:id="L1"><rs ref="#AAV">A mí bien me plaze</rs>  por que se est<rhyme label="ienda">ienda</rhyme></l>
+                    <l xml:id="L2">la <term cRef="#PMC:207">gaya</term> <term cRef="#PMC:195">ciencia</term> en bocas de t<rhyme label="ales ">ales</rhyme></l>
+                    <l xml:id="L3">que sean donossos fidalgos e <term cRef="#PMC:210">troben</term> le<rhyme label="ales">ales</rhyme></l>
+                    <l xml:id="L4">limado sin pavor de em<rhyme label="ienda">ienda</rhyme>,</l>
+                    <l xml:id="L5">mas pues que los torpes ya sueltan la r<rhyme label="ienda">ienda</rhyme>,</l>
+                    <l xml:id="L6">quemen sus libros doquiera que s<rhyme label="on">on</rhyme>,</l>
+                    <l xml:id="L7">Virgilio e Dante, Horacio e Plat<rhyme label="on">ón</rhyme>,</l>
+                    <l xml:id="L8">e otros <term cRef="#PMC:182">poetas</term> que diz la le<rhyme label="ienda">yenda</rhyme>.</l>
+                </lg>
+                
+                <lg n="2" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L9">Aquí todo bueno su sesso desp<rhyme label="ienda">ienda</rhyme>,</l>
+                    <l xml:id="L10">e júntense algunos de los natur<rhyme label="ales ">ales</rhyme></l>
+                    <l xml:id="L11">legos e artistas e retóric<rhyme label="ales ">ales</rhyme></l>
+                    <l xml:id="L12">que han e ovieron honrossa viv<rhyme label="ienda">ienda</rhyme>,</l>
+                    <l xml:id="L13">apaguen tal fuego porque non se enc<rhyme label="ienda">ienda</rhyme>,</l>
+                    <l xml:id="L14">mandando que calle aquellos que n<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L15">resciben por gracia divina este d<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L16">de la <term cRef="#PMC:193">poetría</term> todo omne lo ent<rhyme label="ienda">ienda</rhyme>.</l>
+                </lg>
+                
+                <lg n="3" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L17">E porque se esclaresca más esta faz<rhyme label="ienda">ienda</rhyme></l>
+                    <l xml:id="L18">pongamos exemplo en los menestr<rhyme label="ales ">ales</rhyme></l>
+                    <l xml:id="L19">non deben vevir en honras igu<rhyme label="ales ">ales</rhyme></l>
+                    <l xml:id="L20">el muy lindo xastre con el que rem<rhyme label="ienda">ienda</rhyme></l>
+                    <l xml:id="L21">que el uno meresce tener rica t<rhyme label="ienda">ienda</rhyme></l>
+                    <l xml:id="L22">el otro vil choca commo remend<rhyme label="on">ón</rhyme>,</l>
+                    <l xml:id="L23">pues a que le fallescen lo de Salam<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L24">delante maestros loor non at<rhyme label="ienda">ienda</rhyme>.</l>
+                </lg>
+                
+                <lg n="4" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
+                    <l xml:id="L25">Quien de los molinos do hay grant mol<rhyme label="ienda">ienda</rhyme></l>
+                    <l xml:id="L26">furta farina e finche cost<rhyme label="ales ">ales</rhyme>,</l>
+                    <l xml:id="L27">después la derrama por plazas e host<rhyme label="ales ">ales</rhyme></l>
+                    <l xml:id="L28">este non deve vevir sin cont<rhyme label="ienda">ienda</rhyme>,</l>
+                    <l xml:id="L29">así todo sabio escuche e apr<rhyme label="ienda">ienda</rhyme></l>
+                    <l xml:id="L30">e los inorantes demanden perd<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L31">que non es seguro lidiando el var<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L32">si non tiene armas con que se def<rhyme label="ienda">ienda</rhyme>.</l>
+                </lg>
+                
+                <lg n="5" type="finda" met="10,10, 10, 10" rhyme="ABBA">
+                    <l xml:id="L33">Pues quien poco sabe coviene que se r<rhyme label="ienda">ienda</rhyme></l>
+                    <l xml:id="L34">como se rinde la garça al falc<rhyme label="on">ón</rhyme>,</l>
+                    <l xml:id="L35">ca en sus proverbios el sabio Cat<rhyme label="on">ón</rhyme></l>
+                    <l xml:id="L36">diz qu´el bien suba el mal que desc<rhyme label="ienda">ienda</rhyme>.</l>
+                </lg>
+            </lg>
+        </sp>
+    </body>
+</text>
+</TEI>
+

@@ -1,0 +1,168 @@
+
+<?xml-model href="../Gimena/cendari/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+            <titleStmt>
+                <title>No hay braço tan luengo que pueda</title>
+      
+                <title type="incipit">No hay braço tan luengo que pueda</title>
+             
+                <author>Francisco Imperial</author>
+                
+                
+                <editor xml:id="GDR">Gimena del Rio</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Diálogo Medieval /CENDARI Project</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts </publisher>
+                        <idno n="505"> Dutton 505</idno>
+                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=548&entry=ID0505%20R%200504#PN1548ID0505_R_0504]]></ref>
+                    </bibl>
+                </listBibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional de Francia</repository>
+                        <idno>Espagnol 37 </idno>
+                        <altIdentifier>
+                            <idno type="PN1"/>                        
+</altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="184r" to="184r">3184r</locus>
+                            <index>
+                                <term type="PN1-548"/>
+                            </index>
+                        </msItem>
+                    </msContents>
+                   </msDesc>
+        </sourceDesc>
+    </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="FIM">
+                        <persName type="standard"> Francisco Imperial</persName>
+                        <persName type="form"> Micer Francisco Imperial</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/79427013/#Imperial,_Micer_Francisco.</idno>
+                    </person>
+                    
+                    <person xml:id="FPG">
+                        <persName type="standard">Fernán Pérez de Guzmán</persName>
+                        <persName type="form">Ferrán Pérez de Guzmán</persName>
+                        <idno type="VIAF">http://viaf.org/viaf/9983425/#Pe%CC%81rez_de_Guzma%CC%81n,_Ferna%CC%81n_ca._1377/79_-_ca._1460</idno>
+                    </person>
+                </listPerson>
+            </particDesc>
+         <settingDesc>
+             <place xml:id="SE1">
+                 <placeName>Sevilla</placeName>
+                 <idno type="VIAF">http://viaf.org/viaf/131343889/</idno>
+             </place>
+         </settingDesc>
+            <textClass>
+                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
+                    <term n="163">Respuesta</term>
+                    <term n="171">Sotil</term>
+                    <term n="43">Contrafactum</term>
+                    <term n="166">Consonantes</term>
+                    <term n="174">Fazer</term>
+                    <term n="175">Ordenar</term>
+                    <term n="204">Oscuro</term>
+                </keywords>
+            </textClass>
+
+            <creation>
+              
+                <origDate notAfter="1430" notBefore="1465">1426-1465
+                </origDate>
+            </creation>
+
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2015-09-08" who="#GDR">Changes are made</change>
+                            </listChange>
+        </revisionDesc>
+</teiHeader>
+
+<text>
+    <body>
+       
+            <head>
+                <term cRef="#PMC:163">Respuesta</term> que <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> <persName ref="#FIM">Micer Francisco Imperial</persName>, natural de Génova, 
+                stante morador en <placeName ref="#SE1">Sevilla</placeName>, contra el dicho <persName ref="#FPG">Fernand Pérez de Guzmán</persName> a esta su <term cRef="#PMC:162">pregunta</term> tan <term cRef="#PMC:204">oscura</term> e tan <term cRef="#PMC:171">sotil</term>, 
+                la cual  <term cRef="#PMC:163">respuesta</term> va muy bien <term cRef="#PMC:174">fecha</term> e <term cRef="#PMC:171">sotilmente</term> <term cRef="#PMC:163">respondida</term> por los mismos <term cRef="#PMC:166">consonantes </term>del otro
+        </head>
+       
+
+        <sp>
+            <speaker>Francisco Imperial</speaker>
+            <lg type="poema" subtype="respuesta"  unisonancia="usingular"
+                isometrismo="isométrico" isoestrofismo="isoestrófico"
+                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">
+          
+                 
+                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">   
+                      <l xml:id="L1">No hay braço tan luengo que p<rhyme label="ueda">ueda</rhyme></l>
+                      <l xml:id="L2">alcançar tan alto nin mano bast<rhyme label="able">able</rhyme></l>
+                      <l xml:id="L3">a tirar el clavo por que ande la r<rhyme label="ueda">ueda</rhyme></l>
+                      <l xml:id="L4">si no el que la fizo que non es palp<rhyme label="able">able</rhyme></l>
+                      <l xml:id="L5">e nin aprovecha nin es razon<rhyme label="able">able</rhyme></l>
+                      <l xml:id="L6">a llaga incurable ponerle ungü<rhyme label="entos">entos</rhyme></l>
+                      <l xml:id="L7">nin a nave que tiene abiertos conv<rhyme label="entos">entos</rhyme></l>
+                      <l xml:id="L8">que mejor que vientos es andas e c<rhyme label="able">able</rhyme>.</l>
+                  </lg>
+                
+                <lg n="2" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">
+                    <l xml:id="L9">Si jamás non cesa como lo que <rhyme label="era">era</rhyme></l>
+                    <l xml:id="L10">e es e será verná la su m<rhyme label="uerte">uerte</rhyme>,</l>
+                    <l xml:id="L11">por ende me paresce que muy mejor fu<rhyme label="era">era</rhyme></l>
+                    <l xml:id="L12">pedir que tornase e firmase f<rhyme label="uerte">uerte</rhyme></l>
+                    <l xml:id="L13">maguer que ‘sta dueña nunca se convi<rhyme label="erte">erte</rhyme></l>
+                    <l xml:id="L14">a vuestro querer nin preçia la esp<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L15">linaje nin seso mucho cel<rhyme label="ada">ada</rhyme></l>
+                    <l xml:id="L16">vuelve su rueda e cursa en la s<rhyme label="uerte">uerte</rhyme>.</l>
+                </lg>
+                
+                <lg n="3" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">
+                    <l xml:id="L17">Si aquesta dueña volviendo su d<rhyme label="ança">ança</rhyme></l>
+                    <l xml:id="L18">abre las puertas de Jano en troj<rhyme label="ano">ano</rhyme></l>
+                    <l xml:id="L19">bien creo sin duda que grand alegr<rhyme label="ança">ança</rhyme></l>
+                    <l xml:id="L20">se seguira al pueblo arri<rhyme label="ano">ano</rhyme></l>
+                    <l xml:id="L21">e por tanto amigo que “seda inpl<rhyme label="ano">ano</rhyme> </l>
+                    <l xml:id="L22">unde non habetis”, que segund veo vey<rhyme label="endo">endo</rhyme>,</l>
+                    <l xml:id="L23">peña cayendo e muerte dezi<rhyme label="endo">endo</rhyme>,</l>
+                    <l xml:id="L24">por ende el medio es lugar muy s<rhyme label="ano">ano</rhyme>.</l>
+                </lg>
+                
+                <lg n="4" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">
+                    <l xml:id="L25">“De mas alto caye quien mal alto s<rhyme label="ee">ee</rhyme>” </l>
+                    <l xml:id="L26">aquesto vos añado por vun corril<rhyme label="ayo">ayo</rhyme></l>
+                    <l xml:id="L27">segund cada año nuestra vista v<rhyme label="ee">ee</rhyme></l>
+                    <l xml:id="L28">las flores de ablil secarse en el m<rhyme label="ayo">ayo</rhyme></l>
+                    <l xml:id="L29">por ende mas breve que veloce r<rhyme label="ayo">ayo</rhyme></l>
+                    <l xml:id="L30">passo e passa e aun pasar<rhyme label="a">á</rhyme></l>
+                    <l xml:id="L31">e lo que fue sie[m]pre_e es e_aun ser<rhyme label="a">á</rhyme></l>
+                    <l xml:id="L32">“el nuestro cuidar es como el del b<rhyme label="ayo">ayo</rhyme>” .</l>
+                </lg>
+                
+                
+                </lg>
+        </sp>
+    </body>
+</text>
+</TEI>
+
