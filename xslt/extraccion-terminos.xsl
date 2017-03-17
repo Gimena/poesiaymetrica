@@ -4,7 +4,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs" version="2.0">
 
-    <!--   java -jar ../../SaxonHE9-7-0-15J/saxon9he.jar -s:xslt/extraccion-terminos.xsl -o:auxiliar 
+    <!--   java -jar ../../SaxonHE9-6-0-7J/saxon9he.jar -s:. xslt/extraccion-terminos.xsl -o:auxiliar 
 
     -->
     <xsl:output method="xml" indent="yes"/>

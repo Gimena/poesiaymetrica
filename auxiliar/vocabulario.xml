@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -16,8 +13,8 @@
             <authority>Gimena del Rio Riande</authority>
             <availability>
                <licence>
-                  <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
-                     Attribution-NonCommercial-ShareAlike 4.0 International</ref>
+                  <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+                                        International</ref>
                </licence>
             </availability>
          </publicationStmt>
@@ -36,7 +33,10 @@
    </teiHeader>
    <text>
       <body>
-        <div corresp="#PMC">
+         <div corresp="#PMC">
+            <entryFree>
+               <term n="17">Cantiga</term>
+            </entryFree>
             <entryFree>
                <term n="43">Contrafactum</term>
             </entryFree>
@@ -55,9 +55,9 @@
             <entryFree>
                <term n="166">Consonantes</term>
             </entryFree>
-           <entryFree>
-              <term n="168">Metrificar</term>
-           </entryFree>
+            <entryFree>
+               <term n="168">Metrificar</term>
+            </entryFree>
             <entryFree>
                <term n="169">Apocalipsis</term>
             </entryFree>
@@ -65,7 +65,7 @@
                <term n="171">Sotil</term>
             </entryFree>
             <entryFree>
-               <term n="173">Bien fundado</term>
+               <term n="173">Fundado</term>
             </entryFree>
             <entryFree>
                <term n="174">Fazer</term>
@@ -74,7 +74,7 @@
                <term n="175">Ordenar</term>
             </entryFree>
             <entryFree>
-               <term n="178">Linda poetría</term>
+               <term n="178">Lindo</term>
             </entryFree>
             <entryFree>
                <term n="179">Declarar</term>
@@ -105,6 +105,66 @@
             </entryFree>
             <entryFree>
                <term n="191">Engeñoso</term>
+            </entryFree>
+            <entryFree>
+               <term n="192">Fazaña</term>
+            </entryFree>
+            <entryFree>
+               <term n="193">Poetría</term>
+            </entryFree>
+            <entryFree>
+               <term n="194">Compuesto</term>
+            </entryFree>
+            <entryFree>
+               <term n="195">Ciencia</term>
+            </entryFree>
+            <entryFree>
+               <term n="196">Fablilla</term>
+            </entryFree>
+            <entryFree>
+               <term n="197">Retoricado</term>
+            </entryFree>
+            <entryFree>
+               <term n="198">Arte</term>
+            </entryFree>
+            <entryFree>
+               <term n="199">Seguida</term>
+            </entryFree>
+            <entryFree>
+               <term n="200">Dictado</term>
+            </entryFree>
+            <entryFree>
+               <term n="202">Replicación</term>
+            </entryFree>
+            <entryFree>
+               <term n="203">Requesta</term>
+            </entryFree>
+            <entryFree>
+               <term n="204">Oscuro</term>
+            </entryFree>
+            <entryFree>
+               <term n="205">Fundado</term>
+            </entryFree>
+            <entryFree>
+               <term n="206">Fermoso</term>
+            </entryFree>
+            <entryFree>
+               <term n="207">Gayo</term>
+            </entryFree>
+            <entryFree>
+               <term n="208">Trovador</term>
+            </entryFree>
+            <entryFree>
+               <term n="209">Maestría</term>
+            </entryFree>
+            <entryFree>
+               <term n="210">Trovar</term>
+            </entryFree>
+            <entryFree>
+               <term n="211">Escandido</term>
+            </entryFree>
+            <entryFree>
+               <term n="212">Repregunta</term>
             </entryFree>
          </div>
       </body>
