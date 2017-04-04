@@ -1,16 +1,17 @@
-
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
+    <teiHeader>
+        <fileDesc>
             <titleStmt>
                 <title>Fray Pedro señor, aqueste respeto</title>
-      
+
                 <title type="incipit">Fray Pedro señor, aqueste respeto</title>
-             
-                <author>Alfonso Álvarez de Villasandino</author>
-                
-                
+
+                <author ref="#AAV">Alfonso Álvarez de Villasandino</author>
+
+
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -21,19 +22,20 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
                         <idno n="172"> Dutton 172</idno>
-                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=83&entry=ID0172%20R%200171#PN183ID0172_R_0171]]></ref>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=83&amp;entry=ID0172%20R%200171#PN183ID0172_R_0171</ref>
                     </bibl>
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Biblioteca Nacional de Francia</repository>
-                        <idno>Espagnol 37 </idno>
+                        <idno>Espagnol 37</idno>
                         <altIdentifier>
-                            <idno type="PN1"/>                        
-</altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -41,51 +43,13 @@
                             <idno>PN1-83</idno>
                         </msItem>
                     </msContents>
-                   </msDesc>
-        </sourceDesc>
-    </fileDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
         <profileDesc>
-            <particDesc>
-                <listPerson>
-                    <person xml:id="AAV">
-                        <persName type="standard">Alfonso Álvarez de Villasandino</persName>
-                        <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
-                    </person>
-                    <person xml:id="PCO">
-                        <persName type="standard">Fray Pedro de Colunga</persName>
-                        <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/1081Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DPedro+de+Colunga%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
-                        
-                    </person>
-                </listPerson>
-            </particDesc>
-            <settingDesc>
-                <listPlace>
-                    <place xml:id="VI1">
-                        <placeName>Villasandino</placeName>
-                        <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
-                    </place>
-                    <place xml:id="CO1">
-                        <placeName>Colunga</placeName>
-                        <idno type="VIAF">http://viaf.org/viaf/148188785/#Colunga</idno>
-                    </place>
-                </listPlace>
-            </settingDesc>
-            <textClass>
-                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
-                    <term n="163">Respuesta</term>
-                    <term n="162">Pregunta</term>
-                    <term n="113">Religión</term>
-                    <term n="43">Contrafactum</term>
-                    <term n="166">Consonantes</term>
-                    <term n="174">Fazer</term>
-                    <term n="175">Ordenar</term>
-                </keywords>
-            </textClass>
 
             <creation>
-              
-                <origDate notAfter="1430" notBefore="1465">1426-1465
-               </origDate>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
             </creation>
 
             <langUsage>
@@ -96,127 +60,232 @@
         <revisionDesc>
             <listChange>
                 <change when="2015-09-02" who="#GDR">Changes are made</change>
-                            </listChange>
+            </listChange>
         </revisionDesc>
-</teiHeader>
+    </teiHeader>
 
-<text>
-    <body>
-        <head type="rúbrica">  Esta <term cRef="#PMC:163">respuesta</term> <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1">Villasandino</placeName></persName> contra el dicho <persName ref="#PCO">Fray Pedro de <placeName ref="#CO1">Colunga</placeName></persName> a la sobredicha
-            <term cRef="#PMC:162">pregunta</term> que le <term cRef="#PMC:174">fizo</term> la qual <term cRef="#PMC:163">respuesta</term> va <term cRef="#PMC:174">fecha</term> por los mesmos <term cRef="#PMC:166">consonantes</term> e asimesmo satisfiçole muy bien e muy sotil e derechamente a todas dubdas por él <rs ref="#PMC:163">preguntadas</rs>
-            
-        </head>
-       
+    <text>
+        <body>
+            <head type="rúbrica"> Esta <term cRef="163">respuesta</term>
+                <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho <persName ref="#AAV">Alfonso Álvarez de <placeName ref="#VI1">Villasandino</placeName>
+            </persName> contra el dicho <persName ref="#PCO">Fray
+                    Pedro de <placeName ref="#CO1">Colunga</placeName>
+            </persName> a la sobredicha
+                    <term cRef="162">pregunta</term> que le <term cRef="174">fizo</term> la qual
+                    <term cRef="163">respuesta</term> va <term cRef="174">fecha</term> por los
+                mesmos <term cRef="166">consonantes</term> e asimesmo satisfiçole muy bien e muy
+                sotil e derechamente a todas dubdas por él <term cRef="163">preguntadas</term>
+            </head>
 
-        <sp who="#PCO">
-            <speaker>Alfonso Álvarez de Villasandino</speaker>
-            <lg type="poema" subtype="respuesta"  unisonancia="singular"
-                isometrismo="isométrico" isoestrofismo="isoestrófico"
-                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
-          
-                 
-                        <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                            <l xml:id="L1"><persName ref="#PCO">Fray Pedro señor</persName>, aqueste resp<rhyme label="eto">eto</rhyme></l>
-                        <l xml:id="L2">todas las cossas irían una v<rhyme label="ía">ía</rhyme></l>
-                            <l xml:id="L3">si <rs ref="#AAV">yo</rs> inorante tomare ossad<rhyme label="ía">ía</rhyme></l>
-                            <l xml:id="L4">de <rs ref="#PCO">vos</rs> responder segunt el ef<rhyme label="eto">eto</rhyme></l>
-                            <l xml:id="L5">pues en el latín <rs ref="#AAV">yo</rs> non <rs ref="#AAV">me entrem<rhyme label="eto">eto</rhyme></rs></l>
-                            <l xml:id="L6">como <rs ref="#PCO">queredes</rs> que <rs ref="#AAV">mi discrec<rhyme label="ión">ión</rhyme></rs></l>
-                            <l xml:id="L7">bastase a fazer tal declarac<rhyme label="ión">ión</rhyme></l>
-                            <l xml:id="L8">mas esta fondura a <rs ref="#PCO">vos</rs> la <rs ref="#AAV">rem<rhyme label="eto">eto</rhyme> </rs>.</l>
+
+            <sp who="#PCO">
+                <speaker>Alfonso Álvarez de Villasandino</speaker>
+                <lg type="poema"
+                subtype="respuesta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="isoestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABBAACCA">
+
+
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L1">
+                     <persName ref="#PCO">Fray Pedro señor</persName>, aqueste
+                                resp<rhyme>eto</rhyme>
+                  </l>
+                        <l xml:id="L2">todas las cossas irían una v<rhyme>ía</rhyme>
+                  </l>
+                        <l xml:id="L3">si <rs ref="#AAV">yo</rs> inorante tomare ossad<rhyme>ía</rhyme>
+                  </l>
+                        <l xml:id="L4">de <rs ref="#PCO">vos</rs> responder segunt el ef<rhyme>eto</rhyme>
+                  </l>
+                        <l xml:id="L5">pues en el latín <rs ref="#AAV">yo</rs> non <rs ref="#AAV">me
+                                    entrem<rhyme>eto</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L6">como <rs ref="#PCO">queredes</rs> que <rs ref="#AAV">mi
+                                    discrec<rhyme>ión</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L7">bastase a fazer tal declarac<rhyme>ión</rhyme>
+                  </l>
+                        <l xml:id="L8">mas esta fondura a <rs ref="#PCO">vos</rs> la <rs ref="#AAV">rem<rhyme>eto</rhyme>
+                            </rs>.</l>
                     </lg>
-                    
-                <lg  n="2"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                        <l xml:id="L9">Non fue esta muger la grant amaz<rhyme label="ona">ona</rhyme></l>
-                        <l xml:id="L10">nin de las dehessas fermosas alg<rhyme label="una">una</rhyme></l>
-                        <l xml:id="L11">mas fue la que fizo del pesebre c<rhyme label="una">una</rhyme></l>
-                        <l xml:id="L12">para su fijuelo con boz de le<rhyme label="ona">ona</rhyme></l>
-                        <l xml:id="L13">segunt que Isaías profeta raz<rhyme label="ona">ona</rhyme></l>
-                        <l xml:id="L14">que en una virgen avié de ven<rhyme label="ir">ir</rhyme></l>
-                        <l xml:id="L15">el fijo de Dios por nos redem<rhyme label="ir">ir</rhyme></l>
-                        <l xml:id="L16">por su santa sangre de limpia car<rhyme label="ona">ona</rhyme>.</l>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L9">Non fue esta muger la grant amaz<rhyme>ona</rhyme>
+                  </l>
+                        <l xml:id="L10">nin de las dehessas fermosas alg<rhyme>una</rhyme>
+                  </l>
+                        <l xml:id="L11">mas fue la que fizo del pesebre c<rhyme>una</rhyme>
+                  </l>
+                        <l xml:id="L12">para su fijuelo con boz de le<rhyme>ona</rhyme>
+                  </l>
+                        <l xml:id="L13">segunt que Isaías profeta raz<rhyme>ona</rhyme>
+                  </l>
+                        <l xml:id="L14">que en una virgen avié de ven<rhyme>ir</rhyme>
+                  </l>
+                        <l xml:id="L15">el fijo de Dios por nos redem<rhyme>ir</rhyme>
+                  </l>
+                        <l xml:id="L16">por su santa sangre de limpia car<rhyme>ona</rhyme>.</l>
                     </lg>
-                    
-                <lg  n="3"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                        <l xml:id="L17">El onrrado viejo justo Sime<rhyme label="ón">ón</rhyme></l>
+
+                    <lg n="3"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L17">El onrrado viejo justo Sime<rhyme>ón</rhyme>
+                  </l>
                         <l xml:id="L18">diz que lo tovo en sí abraç<rhyme label="ado">ad</rhyme>o</l>
-                        <l xml:id="L19">quando en el templo le fue present<rhyme label="ado">ado</rhyme></l>
-                        <l xml:id="L20">el sancto cordero sin comparaci<rhyme label="ón">ón</rhyme></l>
-                        <l xml:id="L21">de la santa virgen canta Salam<rhyme label="ón">ón</rhyme></l>
-                        <l xml:id="L22">a tantos loores tan sin egual<rhyme label="ança">ança</rhyme></l>
-                        <l xml:id="L23">al qual sesso de omnes aqui non alc<rhyme label="ança">ança</rhyme></l>
-                        <l xml:id="L24">nin la fermosura del grant Asal<rhyme label="ón">ón</rhyme>.</l>
+                        <l xml:id="L19">quando en el templo le fue present<rhyme>ado</rhyme>
+                  </l>
+                        <l xml:id="L20">el sancto cordero sin comparaci<rhyme>ón</rhyme>
+                  </l>
+                        <l xml:id="L21">de la santa virgen canta Salam<rhyme>ón</rhyme>
+                  </l>
+                        <l xml:id="L22">a tantos loores tan sin egual<rhyme>ança</rhyme>
+                  </l>
+                        <l xml:id="L23">al qual sesso de omnes aqui non alc<rhyme>ança</rhyme>
+                  </l>
+                        <l xml:id="L24">nin la fermosura del grant Asal<rhyme>ón</rhyme>.</l>
                     </lg>
-                    
-                <lg  n="4"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                        <l xml:id="L25">Aunque juntasen millares d’ arv<rhyme label="ejas">ejas</rhyme></l>
-                        <l xml:id="L26">con que contasen cien mill escriv<rhyme label="anos">anos</rhyme></l>
-                        <l xml:id="L27">non contarían en muchos ver<rhyme label="anos">anos</rhyme></l>
-                        <l xml:id="L28">las sus fermosuras estrañas sob<rhyme label="ejas">ejas</rhyme></l>
-                        <l xml:id="L29">nin quantas estorias son nuevas e vi<rhyme label="ejas">ejas</rhyme></l>
-                        <l xml:id="L30">non son bastantes a loar su gr<rhyme label="ey">ey</rhyme></l>
-                        <l xml:id="L31">daqueste que sienpre guarda bien la l<rhyme label="ey">ey</rhyme></l>
+
+                    <lg n="4"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L25">Aunque juntasen millares d’ arv<rhyme>ejas</rhyme>
+                  </l>
+                        <l xml:id="L26">con que contasen cien mill escriv<rhyme>anos</rhyme>
+                  </l>
+                        <l xml:id="L27">non contarían en muchos ver<rhyme>anos</rhyme>
+                  </l>
+                        <l xml:id="L28">las sus fermosuras estrañas sob<rhyme>ejas</rhyme>
+                  </l>
+                        <l xml:id="L29">nin quantas estorias son nuevas e vi<rhyme>ejas</rhyme>
+                  </l>
+                        <l xml:id="L30">non son bastantes a loar su gr<rhyme>ey</rhyme>
+                  </l>
+                        <l xml:id="L31">daqueste que sienpre guarda bien la l<rhyme>ey</rhyme>
+                  </l>
                         <l xml:id="L32">e non se pagava de otras cons<rhyme label="ejas ">ejas</rhyme>.</l>
                     </lg>
-                    
-                <lg  n="5"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                        <l xml:id="L33">Asaz es propuesta su grant fermos<rhyme label="ura">ura</rhyme></l>
-                        <l xml:id="L34">daquesta ques vasso de Dios e su c<rhyme label="opa">opa</rhyme></l>
-                        <l xml:id="L35">la qual fizo saya mejor que dest<rhyme label="opa">opa</rhyme></l>
-                        <l xml:id="L36">para su buen fijo sin toda cost<rhyme label="ura">ura</rhyme></l>
-                        <l xml:id="L37">en esto se afirma la nueva escrit<rhyme label="ura">ura</rhyme></l>
-                        <l xml:id="L38">e los evangelios que son de cre<rhyme label="er">er</rhyme></l>
-                        <l xml:id="L39">e así se presume que deve sab<rhyme label="er">er</rhyme></l>
-                        <l xml:id="L40">mas el criador que non la criat<rhyme label="ura">ura</rhyme></l>
+
+                    <lg n="5"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L33">Asaz es propuesta su grant fermos<rhyme>ura</rhyme>
+                  </l>
+                        <l xml:id="L34">daquesta ques vasso de Dios e su c<rhyme>opa</rhyme>
+                  </l>
+                        <l xml:id="L35">la qual fizo saya mejor que dest<rhyme>opa</rhyme>
+                  </l>
+                        <l xml:id="L36">para su buen fijo sin toda cost<rhyme>ura</rhyme>
+                  </l>
+                        <l xml:id="L37">en esto se afirma la nueva escrit<rhyme>ura</rhyme>
+                  </l>
+                        <l xml:id="L38">e los evangelios que son de cre<rhyme>er</rhyme>
+                  </l>
+                        <l xml:id="L39">e así se presume que deve sab<rhyme>er</rhyme>
+                  </l>
+                        <l xml:id="L40">mas el criador que non la criat<rhyme>ura</rhyme>
+                  </l>
                     </lg>
-                    
-                <lg  n="6"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                    <l xml:id="L41">La fermossa luna así inclin<rhyme label="ada">ada</rhyme></l>
-                        <l xml:id="L42">so los pies daquesta señora gent<rhyme label="il">il</rhyme></l>
-                        <l xml:id="L43">sera la iglesia muy rica e sot<rhyme label="il">il</rhyme></l>
-                        <l xml:id="L44">de muchas virtudes guarnida e dot<rhyme label="ada">ada</rhyme></l>
-                        <l xml:id="L45">la su color blanca e aún color<rhyme label="ada">ada</rhyme></l>
-                        <l xml:id="L46">es que nos muestra caridat e am<rhyme label="or">or</rhyme></l>
-                        <l xml:id="L47">pues dentro en el caliz esta el redent<rhyme label="or">or</rhyme></l>
-                        <l xml:id="L48">después que la ostia es ya consagr<rhyme label="ada">ada</rhyme>.</l>
+
+                    <lg n="6"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L41">La fermossa luna así inclin<rhyme>ada</rhyme>
+                  </l>
+                        <l xml:id="L42">so los pies daquesta señora gent<rhyme>il</rhyme>
+                  </l>
+                        <l xml:id="L43">sera la iglesia muy rica e sot<rhyme>il</rhyme>
+                  </l>
+                        <l xml:id="L44">de muchas virtudes guarnida e dot<rhyme>ada</rhyme>
+                  </l>
+                        <l xml:id="L45">la su color blanca e aún color<rhyme>ada</rhyme>
+                  </l>
+                        <l xml:id="L46">es que nos muestra caridat e am<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L47">pues dentro en el caliz esta el redent<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L48">después que la ostia es ya consagr<rhyme>ada</rhyme>.</l>
                     </lg>
-                    
-                <lg  n="7"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                        <l xml:id="L49">La rica corona así reluzi<rhyme label="ente">ente</rhyme></l>
-                        <l xml:id="L50">non puedo entender que sea otra c<rhyme label="osa">osa</rhyme></l>
-                        <l xml:id="L51">sinon los testigos compaña omild<rhyme label="osa">osa</rhyme></l>
-                        <l xml:id="L52">que vieron al Iesu sin ser meresçi<rhyme label="ente">ente</rhyme></l>
-                        <l xml:id="L53">entre los judíos estar padesçi<rhyme label="ente">ente</rhyme></l>
-                        <l xml:id="L54">do las profecias fueron acab<rhyme label="adas">adas</rhyme></l>
-                        <l xml:id="L55">despues resurgió e muchas veg<rhyme label="adas">adas</rhyme></l>
-                        <l xml:id="L56">les aparesçió segunt so crey<rhyme label="ente">ente</rhyme>.</l>
+
+                    <lg n="7"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L49">La rica corona así reluzi<rhyme>ente</rhyme>
+                  </l>
+                        <l xml:id="L50">non puedo entender que sea otra c<rhyme>osa</rhyme>
+                  </l>
+                        <l xml:id="L51">sinon los testigos compaña omild<rhyme>osa</rhyme>
+                  </l>
+                        <l xml:id="L52">que vieron al Iesu sin ser meresçi<rhyme>ente</rhyme>
+                  </l>
+                        <l xml:id="L53">entre los judíos estar padesçi<rhyme>ente</rhyme>
+                  </l>
+                        <l xml:id="L54">do las profecias fueron acab<rhyme>adas</rhyme>
+                  </l>
+                        <l xml:id="L55">despues resurgió e muchas veg<rhyme>adas</rhyme>
+                  </l>
+                        <l xml:id="L56">les aparesçió segunt so crey<rhyme>ente</rhyme>.</l>
                     </lg>
-                    
-                <lg  n="8"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                        <l xml:id="L57">Su padre de aqueste un dios conosc<rhyme label="ido">ido</rhyme></l>
-                        <l xml:id="L58">sabet que non ovo por nonbre Fag<rhyme label="undo">undo</rhyme></l>
-                        <l xml:id="L59">sinon Adonay, después el seg<rhyme label="undo">undo</rhyme></l>
-                        <l xml:id="L60">Jhesu e mexías al cielo sob<rhyme label="ido">ido</rhyme></l>
-                        <l xml:id="L61">el Spiritu Santo Dios todo compl<rhyme label="ido">ido</rhyme></l>
-                        <l xml:id="L62">que son tres personas en poder igu<rhyme label="ales">ales</rhyme></l>
-                        <l xml:id="L63">con esto concuerdan las grandes señ<rhyme label="ales">ales</rhyme></l>
-                        <l xml:id="L64">que desde Adam aca han contesç<rhyme label="ido">ido</rhyme>.</l>
+
+                    <lg n="8"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L57">Su padre de aqueste un dios conosc<rhyme>ido</rhyme>
+                  </l>
+                        <l xml:id="L58">sabet que non ovo por nonbre Fag<rhyme>undo</rhyme>
+                  </l>
+                        <l xml:id="L59">sinon Adonay, después el seg<rhyme>undo</rhyme>
+                  </l>
+                        <l xml:id="L60">Jhesu e mexías al cielo sob<rhyme>ido</rhyme>
+                  </l>
+                        <l xml:id="L61">el Spiritu Santo Dios todo compl<rhyme>ido</rhyme>
+                  </l>
+                        <l xml:id="L62">que son tres personas en poder igu<rhyme>ales</rhyme>
+                  </l>
+                        <l xml:id="L63">con esto concuerdan las grandes señ<rhyme>ales</rhyme>
+                  </l>
+                        <l xml:id="L64">que desde Adam aca han contesç<rhyme>ido</rhyme>.</l>
                     </lg>
-                    
-                <lg  n="9"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">     
-                        <l xml:id="L65">La verga de fierro será el grant tem<rhyme label="or">or</rhyme></l>
-                        <l xml:id="L66">el día del Juizio que a todos desm<rhyme label="aya">aya</rhyme></l>
-                        <l xml:id="L67">que non siento omne que en tierra non c<rhyme label="aya">aya</rhyme></l>
-                        <l xml:id="L68">temiendo sentencia de grant redent<rhyme label="or">or</rhyme></l>
-                        <l xml:id="L69">pues para que vivamos sin todo renc<rhyme label="or">or</rhyme></l>
+
+                    <lg n="9"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L65">La verga de fierro será el grant tem<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L66">el día del Juizio que a todos desm<rhyme>aya</rhyme>
+                  </l>
+                        <l xml:id="L67">que non siento omne que en tierra non c<rhyme>aya</rhyme>
+                  </l>
+                        <l xml:id="L68">temiendo sentencia de grant redent<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L69">pues para que vivamos sin todo renc<rhyme>or</rhyme>
+                  </l>
                         <l xml:id="L70">sigamos las obras de los esle<rhyme label="idos">ídos</rhyme>,</l>
-                        <l xml:id="L71">santos confesores de Dios escog<rhyme label="idos">idos</rhyme>,</l>
-                        <l xml:id="L72">e así vivieremos en gloria e dulç<rhyme label="or">or</rhyme>.</l>
-                        
+                        <l xml:id="L71">santos confesores de Dios escog<rhyme>idos</rhyme>,</l>
+                        <l xml:id="L72">e así vivieremos en gloria e dulç<rhyme>or</rhyme>.</l>
+
                     </lg>
                 </lg>
-        </sp>
-    </body>
-</text>
+            </sp>
+        </body>
+    </text>
 </TEI>
-

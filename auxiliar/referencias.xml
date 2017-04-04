@@ -51,6 +51,41 @@
                <idno type="BETA"
                   ><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3534Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DBachiller+de+Salamanca%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
             </person>
+            <person xml:id="GFG">
+               <persName type="standard">Garci Fernández de Gerena</persName>
+               
+               <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3461Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Fname%3DGarci%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
+            </person>
+            <person xml:id="PCA">
+               <persName type="standard">Pedro Carrillo</persName>
+               <persName type="form">Pero Carrillo</persName>
+               <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3536Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fsearch%3Fname%3Dcarrillo%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor%26startDoc%3D21]]></idno>
+            </person>            
+            <person xml:id="NC">
+               <persName>Not Clear</persName>
+                <!-- Creo que hay mejores maneras de codificar identidades desconocidas. Pendiente de buscar -->
+            </person>
+            <person xml:id="FIM">
+               <persName type="standard"> Francisco Imperial</persName>
+               <persName type="form"> Micer Francisco Imperial</persName>
+               <idno type="VIAF">http://viaf.org/viaf/79427013/#Imperial,_Micer_Francisco.</idno>
+            </person>
+            
+            <person xml:id="FPG">
+               <persName type="standard">Fernán Pérez de Guzmán</persName>
+               <persName type="form">Ferrán Pérez de Guzmán</persName>
+               <idno type="VIAF">http://viaf.org/viaf/9983425/#Pe%CC%81rez_de_Guzma%CC%81n,_Ferna%CC%81n_ca._1377/79_-_ca._1460</idno>
+            </person>
+            <person xml:id="GDT">
+               <persName type="standard">Gutierre de Toledo</persName>
+               <idno type="BETA">
+                  <![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/1528Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Fname%3DGutierre+de+Toledo%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]>
+               </idno>
+            </person>
+            <person xml:id="JAB">
+               <persName type="standard">Juan Alfonso de Baena</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/22265905/#Baena,_Juan_Alfonso_%CB%9Cde%C5%93</idno>
+            </person>
          </listPerson>
          <listPlace>
             <place xml:id="VI1">
@@ -69,9 +104,22 @@
                <placeName>Salamanca</placeName>
                <idno type="VIAF">http://viaf.org/viaf/141322263/</idno>
             </place>
-            
-            
-            
+            <place xml:id="GE1">
+               <placeName>Gerena</placeName>
+               <idno type="VIAF">http://viaf.org/processed/BNE|XX452207</idno>
+            </place>
+            <place xml:id="BU1">
+               <placeName>Burgos</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/159439709/</idno>
+            </place>
+            <place xml:id="GUA">
+               <placeName>Guadalajara </placeName>
+               <idno type="VIAF">http://viaf.org/viaf/316430152/</idno>
+            </place>
+            <place xml:id="BA1">
+               <placeName>Baena</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/144288652/</idno>
+            </place>
          </listPlace>
          
       </body>

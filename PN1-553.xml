@@ -1,17 +1,18 @@
-
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
+    <teiHeader>
+        <fileDesc>
             <titleStmt>
                 <title>Abril ya pasado aquende</title>
-                    
-           
+
+
                 <title type="incipit">Abril ya pasado aquende</title>
-             
-                <author>Fernán Pérez de Guzmán </author>
-            
-                
+
+                <author ref="#FPG">Fernán Pérez de Guzmán</author>
+
+
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -22,22 +23,22 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
-  
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
                         <idno n="1676">Dutton 1676</idno>
-                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=553&entry=ID1676#PN1553ID1676]]></ref>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=553&amp;entry=ID1676#PN1553ID1676</ref>
                     </bibl>
-                      
-                
+
+
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Biblioteca Nacional de Francia </repository>
                         <idno>Espagnol 37</idno>
                         <altIdentifier>
-                            <idno type="PN1"/>                        
-</altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -45,56 +46,13 @@
                             <idno>PN1-553</idno>
                         </msItem>
                     </msContents>
-                   </msDesc>
-        </sourceDesc>
-    </fileDesc>
-    
-        <profileDesc>
-            <particDesc>
-                <listPerson>
-                   
-                    <person xml:id="NC">
-                        <persName>
-                            Not clear
-                       </persName>
-                    </person>
-                    <person xml:id="FPG">
-                        <persName type="standard">Fernán Pérez de Guzmán</persName>
-                    <persName type="form">Ferrán Pérez de Guzmán</persName>
-                        <idno type="VIAF">http://viaf.org/viaf/9983425/#Pe%CC%81rez_de_Guzma%CC%81n,_Ferna%CC%81n_ca._1377/79_-_ca._1460</idno>
-                    </person>
-                    <person xml:id="AAV">
-                        
-                        <persName type="standard">Alfonso Álvarez de Villasandino</persName>
-                        <persName type="form">Alfonso Álvarez</persName>
-                        <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
-                    </person>
-                </listPerson>
-            </particDesc>
-           <settingDesc>
-               <place xml:id="VI1">
-                   
-                   <placeName>Villasandino</placeName>
-                   <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
-               </place>
-           </settingDesc>
-            <textClass>
-                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
-                    <term n="162">Pregunta</term>
-                 <term n="17">Cantiga</term>
-                    
-                    <term n="174">Fazer</term>
-                  
-                   
-                   
-                  
-                </keywords>
-            </textClass>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
 
+        <profileDesc>
             <creation>
-             
-                <origDate notAfter="1430" notBefore="1465">1426-1465
-                       </origDate>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
             </creation>
 
             <langUsage>
@@ -105,93 +63,129 @@
         <revisionDesc>
             <listChange>
                 <change when="2015-09-09" who="#GDR">Changes are made</change>
-                            </listChange>
+            </listChange>
         </revisionDesc>
-</teiHeader>
+    </teiHeader>
 
-<text>
-    <body>
-        <head type="rúbrica"> 
-   
-        
-            <term cRef="#PMC:162">Pregunta</term> que <term cRef="#PMC:174">fizo</term> el dicho <persName ref="#FPG">Ferrand Pérez de Guzmán</persName></head>
+    <text>
+        <body>
+            <head type="rúbrica">
+                <term cRef="162">Pregunta</term> que <term cRef="174">fizo</term> el dicho <persName ref="#FPG">Ferrand Pérez de Guzmán</persName>
+         </head>
 
-        <sp who="#NC">
-            <speaker>Fernán Pérez de Guzmán</speaker>
-            <lg type="poema" subtype="pregunta"  unisonancia="singular"
-                isometrismo="isométrico" isoestrofismo="heteroestrófico"
-                asonancia="consonante" met="8,8,8,8,8,8,8,8/8,8,8,8" rhyme="ABBAABBA/ABBA">
-                <note> La pregunta no se dirige a ningún poeta pero la responde Villasandino. En la pieza el poeta dialoga con un papagayo</note>
-                <lg  n="1"  type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">   
-                 
-              
-                   
-            
-                    <l xml:id="L1">Abril ya pasado aqu<rhyme label="ende">ende</rhyme></l>
-                    <l xml:id="L2">e llegando el mes de m<rhyme label="ayo">ayo</rhyme></l>
-                    <l xml:id="L3"><rs ref="#FPG">mi coraçon</rs> con desm<rhyme label="ayo">ayo</rhyme>,</l>
-                    <l xml:id="L4">como quien plazer ati<rhyme label="ende">ende</rhyme>,</l>
-                    <l xml:id="L5">cuando el sol más se enci<rhyme label="ende">ende</rhyme></l>
-                    <l xml:id="L6">de un árbol dixo un g<rhyme label="ayo">ayo</rhyme>:</l>
-                    <l xml:id="L7">“aunque uno cuida el b<rhyme label="ayo">ayo</rhyme>, </l>
-                    <l xml:id="L8">quien lo ensilla al enti<rhyme label="ende">ende</rhyme>”.</l>
+            <sp who="#NC">
+                <speaker>Fernán Pérez de Guzmán</speaker>
+                <lg type="poema"
+                subtype="pregunta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="heteroestrófico"
+                asonancia="consonante"
+                met="8,8,8,8,8,8,8,8/8,8,8,8"
+                rhyme="ABBAABBA/ABBA">
+                    <note> La pregunta no se dirige a ningún poeta pero la responde Villasandino. En
+                        la pieza el poeta dialoga con un papagayo</note>
+                    <lg n="1" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+
+
+
+
+                        <l xml:id="L1">Abril ya pasado aqu<rhyme>ende</rhyme>
+                  </l>
+                        <l xml:id="L2">e llegando el mes de m<rhyme>ayo</rhyme>
+                  </l>
+                        <l xml:id="L3">
+                     <rs ref="#FPG">mi coraçon</rs> con desm<rhyme>ayo</rhyme>,</l>
+                        <l xml:id="L4">como quien plazer ati<rhyme>ende</rhyme>,</l>
+                        <l xml:id="L5">cuando el sol más se enci<rhyme>ende</rhyme>
+                  </l>
+                        <l xml:id="L6">de un árbol dixo un g<rhyme>ayo</rhyme>:</l>
+                        <l xml:id="L7">“aunque uno cuida el b<rhyme>ayo</rhyme>, </l>
+                        <l xml:id="L8">quien lo ensilla al enti<rhyme>ende</rhyme>”.</l>
+                    </lg>
+
+                    <lg n="2" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                        <l xml:id="L9">Como ferido e llag<rhyme>ado</rhyme>
+                  </l>
+                        <l xml:id="L10">
+                     <rs ref="#FPG">mi coraçon</rs> sin sosp<rhyme label="ech">echa</rhyme>
+                  </l>
+                        <l xml:id="L11">más triste dixo que end<rhyme>echa</rhyme>:</l>
+                        <l xml:id="L12">eres cantar desdon<rhyme>ado</rhyme>,</l>
+                        <l xml:id="L13">di, gayo de <rs ref="#FPG">mi cuid<rhyme>ado</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L14">cuál injuria te fue f<rhyme>echa</rhyme>
+                  </l>
+                        <l xml:id="L15">porque tu muy cruel fl<rhyme>echa</rhyme>
+                  </l>
+                        <l xml:id="L16">ha mi gozo así turb<rhyme>ado</rhyme>.</l>
+                    </lg>
+
+                    <lg n="3" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                        <l xml:id="L17">Nunca tale tu flor<rhyme>esta</rhyme>
+                  </l>
+                        <l xml:id="L18">nin corte tus nuevas flor<rhyme>es</rhyme>
+                  </l>
+                        <l xml:id="L19">a gayos nin a ruisseñor<rhyme>es</rhyme>,</l>
+                        <l xml:id="L20">nunca lance con ball<rhyme>esta</rhyme>,</l>
+                        <l xml:id="L21">mi deseo e mi requ<rhyme>esta</rhyme>
+                  </l>
+                        <l xml:id="L22">siempre fue servir amor<rhyme>es</rhyme>
+                  </l>
+                        <l xml:id="L23">a todos sus servidor<rhyme>es</rhyme>,</l>
+                        <l xml:id="L24">
+                     <rs ref="#FPG">mi voluntad</rs> es muy pr<rhyme>esta</rhyme>.</l>
+                    </lg>
+
+                    <lg n="4" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                        <l xml:id="L25">Los laureles hé por vic<rhyme>io</rhyme>,</l>
+                        <l xml:id="L26">los rosales por estr<rhyme>ena</rhyme>,</l>
+                        <l xml:id="L27">las flores de la açuc<rhyme>ena</rhyme>
+                  </l>
+                        <l xml:id="L28">ya sintieron mi servic<rhyme>io</rhyme>,</l>
+                        <l xml:id="L29">a vezes por este ofic<rhyme>io</rhyme>
+                  </l>
+                        <l xml:id="L30">hé plazer e vezes p<rhyme>ena</rhyme>,</l>
+                        <l xml:id="L31">por menor que Polic<rhyme>ena</rhyme>
+                  </l>
+                        <l xml:id="L32">nunca mi puerta desquic<rhyme>io</rhyme>
+                  </l>
+                    </lg>
+                    <lg n="5" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
+                        <l xml:id="L33">Debatiéndose e cant<rhyme>ando</rhyme>
+                  </l>
+                        <l xml:id="L34">voló e fuese su v<rhyme label="ia">ía</rhyme>,</l>
+                        <l xml:id="L35">
+                     <rs ref="#FPG">yo que vi</rs> con alegr<rhyme label="ia">ía</rhyme>
+                  </l>
+                        <l xml:id="L36">
+                     <rs ref="#FPG">quedé triste e sospir<rhyme>ando</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L37">
+                     <rs ref="#FPG">así vivo emagin<rhyme>ando</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L38">la fin deste cual ser<rhyme label="ia">ía</rhyme>,</l>
+                        <l xml:id="L39">si será de cual sol<rhyme label="ia">ía</rhyme>
+                  </l>
+                        <l xml:id="L40">ser la que sirvo mud<rhyme>ando</rhyme>.</l>
+                    </lg>
+
+                    <lg n="6" type="finda" met="8,8,8,8" rhyme="ABBA">
+                        <l xml:id="L41">Pues fuestes siempre del b<rhyme>ando</rhyme>
+                  </l>
+                        <l xml:id="L42">d’ amor en su compañ<rhyme>ía</rhyme>,</l>
+                        <l xml:id="L43">
+                     <rs ref="#NC">amigo, por cortes<rhyme>ía</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L44">id me aquesto declar<rhyme>ando</rhyme>.</l>
+                    </lg>
+
+
+
                 </lg>
-                
-                <lg n="2" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
-                    <l xml:id="L9">Como ferido e llag<rhyme label="ado">ado</rhyme></l>
-                    <l xml:id="L10"><rs ref="#FPG">mi coraçon</rs> sin sosp<rhyme label="ech">echa</rhyme></l>
-                    <l xml:id="L11">más triste dixo que end<rhyme label="echa">echa</rhyme>:</l>
-                    <l xml:id="L12">eres cantar desdon<rhyme label="ado">ado</rhyme>,</l>
-                    <l xml:id="L13">di, gayo de <rs ref="#FPG">mi cuid<rhyme label="ado">ado</rhyme></rs>,</l>
-                    <l xml:id="L14">cuál injuria te fue f<rhyme label="echa">echa</rhyme></l>
-                    <l xml:id="L15">porque tu muy cruel fl<rhyme label="echa">echa</rhyme></l>
-                    <l xml:id="L16">ha mi gozo así turb<rhyme label="ado">ado</rhyme>.</l>
-                </lg>
-                
-                <lg n="3" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
-                    <l xml:id="L17">Nunca tale tu flor<rhyme label="esta">esta</rhyme></l>
-                    <l xml:id="L18">nin corte tus nuevas flor<rhyme label="es">es</rhyme></l>
-                    <l xml:id="L19">a gayos nin a ruisseñor<rhyme label="es">es</rhyme>,</l>
-                    <l xml:id="L20">nunca lance con ball<rhyme label="esta">esta</rhyme>,</l>
-                    <l xml:id="L21">mi deseo e mi requ<rhyme label="esta">esta</rhyme></l>
-                    <l xml:id="L22">siempre fue servir amor<rhyme label="es">es</rhyme></l>
-                    <l xml:id="L23">a todos sus servidor<rhyme label="es">es</rhyme>,</l>
-                    <l xml:id="L24"><rs ref="#FPG">mi voluntad</rs> es muy pr<rhyme label="esta">esta</rhyme>.</l>
-                </lg>
-                
-                <lg n="4" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
-                    <l xml:id="L25">Los laureles hé por vic<rhyme label="io">io</rhyme>,</l>
-                    <l xml:id="L26">los rosales por estr<rhyme label="ena">ena</rhyme>,</l>
-                    <l xml:id="L27">las flores de la açuc<rhyme label="ena">ena</rhyme></l>
-                    <l xml:id="L28">ya sintieron mi servic<rhyme label="io">io</rhyme>,</l>
-                    <l xml:id="L29">a vezes por este ofic<rhyme label="io">io</rhyme></l>
-                    <l xml:id="L30">hé plazer e vezes p<rhyme label="ena">ena</rhyme>,</l>
-                    <l xml:id="L31">por menor que Polic<rhyme label="ena">ena</rhyme></l>
-                    <l xml:id="L32">nunca mi puerta desquic<rhyme label="io">io</rhyme></l>
-                </lg>
-                <lg n="5" type="octava" met="8,8,8,8,8,8,8,8" rhyme="ABBAABBA">
-                    <l xml:id="L33">Debatiéndose e cant<rhyme label="ando">ando</rhyme></l>
-                    <l xml:id="L34">voló e fuese su v<rhyme label="ia">ía</rhyme>,</l>
-                    <l xml:id="L35"><rs ref="#FPG">yo que vi</rs> con alegr<rhyme label="ia">ía</rhyme></l>
-                    <l xml:id="L36"><rs ref="#FPG">quedé triste e sospir<rhyme label="ando">ando</rhyme></rs>,</l>
-                    <l xml:id="L37"><rs ref="#FPG">así vivo emagin<rhyme label="ando">ando</rhyme></rs></l>
-                    <l xml:id="L38">la fin deste cual ser<rhyme label="ia">ía</rhyme>,</l>
-                    <l xml:id="L39">si será de cual sol<rhyme label="ia">ía</rhyme></l>
-                    <l xml:id="L40">ser la que sirvo mud<rhyme label="ando">ando</rhyme>.</l>
-                </lg>
-                
-                <lg n="6" type="finda" met="8,8,8,8,8,8,8,8" rhyme="ABBA">
-                    <l xml:id="L41">Pues fuestes siempre del b<rhyme label="ando">ando</rhyme></l>
-                    <l xml:id="L42">d’ amor en su compañ<rhyme label="ía">ía</rhyme>,</l>
-                    <l xml:id="L43"><rs ref="'#NC">amigo, por cortes<rhyme label="ía">ía</rhyme></rs></l>
-                    <l xml:id="L44">id me aquesto declar<rhyme label="ando">ando</rhyme>.</l>
-                </lg>
-                
-                    
-                    
-                </lg>
-        </sp>
-    </body>
-</text>
+            </sp>
+        </body>
+    </text>
 </TEI>
-

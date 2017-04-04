@@ -1,17 +1,18 @@
-
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
+    <teiHeader>
+        <fileDesc>
             <titleStmt>
                 <title>Amigo señor, non vos encubrades</title>
-                    
-           
+
+
                 <title type="incipit">Amigo señor, non vos encubrades</title>
-             
-                <author>Alfonso Álvarez de Villasandino</author>
-            
-                
+
+                <author ref="#AAV">Alfonso Álvarez de Villasandino</author>
+
+
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -22,71 +23,37 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
-  
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
                         <idno n="1261">Dutton 1261</idno>
-                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=121&entry=ID1261#PN1121ID1261]]></ref>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=121&amp;entry=ID1261#PN1121ID1261</ref>
                     </bibl>
-                      
-                
+
+
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Biblioteca Nacional de Francia </repository>
                         <idno>Espagnol 37</idno>
                         <altIdentifier>
-                            <idno type="PN1"/>                        
-</altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="41v" to="42r">41v-42r. </locus>
+                            <locus from="41v" to="42r">41v-42r</locus>
                             <idno>PN1-121</idno>
                         </msItem>
                     </msContents>
-                   </msDesc>
-        </sourceDesc>
-    </fileDesc>
-    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
         <profileDesc>
-            <particDesc>
-                <listPerson>
-                   <person xml:id="AAV">
-                       
-                       <persName type="standard">Alfonso Álvarez de Villasandino</persName>
-                       <persName type="form">Alfonso Álvarez</persName>
-                       <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
-                   </person>
-                    <person xml:id="NC">
-                        <persName>Not Clear</persName>
-                    </person>
-                  
-             
-                </listPerson>
-            </particDesc>
-            <settingDesc>
-                <listPlace>
-                   
-                    <place xml:id="VI1">
-                   
-                            <placeName>Villasandino</placeName>
-                            <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
-                        </place>
-                </listPlace>
-            </settingDesc>
-            <textClass>
-                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
-                    <term n="162">Pregunta</term>
-                    <term n="212">Repregunta</term>
-                  
-                </keywords>
-            </textClass>
 
             <creation>
-             
-                <origDate notAfter="1430" notBefore="1465">1426-1465
-                       </origDate>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
             </creation>
 
             <langUsage>
@@ -97,47 +64,71 @@
         <revisionDesc>
             <listChange>
                 <change when="2015-09-11" who="#GDR">Changes are made</change>
-                            </listChange>
+            </listChange>
         </revisionDesc>
-</teiHeader>
+    </teiHeader>
 
-<text>
-    <body>
-        <head type="rúbrica">      
-            <term cRef="#PMC:212">Repregunta</term> del dicho<persName ref="#AAV">Alfonso Álvarez</persName> </head>
-        
-  
+    <text>
+        <body>
+            <head type="rúbrica">
+                <term cRef="212">Repregunta</term> del dicho<persName ref="#AAV">Alfonso
+                    Álvarez</persName>
+            </head>
 
-        <sp who="#NC">
-            <speaker>Alfonso Álvarez de Villasandino</speaker>
-            <lg type="poema" subtype="repregunta" unisonancia="unisonante"
-                isometrismo="isométrico" isoestrofismo="heteroestrófico"
-                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10" rhyme="ABBAACCA/ABBA">
-                <note> Se trata de una pieza de arte mayor. La clasificación de la pieza como repregunta del mismo poeta es un unicum. El receptor, al igual que en la pieza anterior, podría ser Fernán Pérez de Guzmán.</note>
-                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
-                 
-               
-                    <l xml:id="L1">A esta <term cRef="#PMC:162">pregunta</term> que <rs ref="#AAV">me</rs>  <rs ref="#NC"><term cRef="#PMC:162">pregunt<rhyme label="ades">ades</rhyme></term></rs>,</l>
-                    <l xml:id="L2">que grande es la noche, <rs ref="#AAV">pensando la v<rhyme label="elo">elo</rhyme></rs>,</l>
-                    <l xml:id="L3">dando garpellidos como gato en c<rhyme label="elo">elo</rhyme>,</l>
-                    <l xml:id="L4">por el grant peligro que <rs ref="#NC">vos devis<rhyme label="ades">ades</rhyme></rs>,</l>
-                    <l xml:id="L5">si Dios nos comprende por nuestras mald<rhyme label="ades">ades</rhyme>,</l>
-                    <l xml:id="L6">e <rs ref="#NC">vedes</rs>, <rs ref="#NC">amigo</rs>, que desto  <rs ref="#AAV">m´enc<rhyme label="elo">elo</rhyme></rs>,</l>
-                    <l xml:id="L7">e por su venida “mi barba rep<rhyme label="elo">elo</rhyme>, </l>
-                    <l xml:id="L8"><rs ref="#NC">echad</rs> en remojo essa que rap<rhyme label="ades">ades</rhyme>”.</l>
+
+
+            <sp who="#NC">
+                <speaker>Alfonso Álvarez de Villasandino</speaker>
+                <lg type="poema"
+                subtype="repregunta"
+                unisonancia="unisonante"
+                isometrismo="isométrico"
+                isoestrofismo="heteroestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10"
+                rhyme="ABBAACCA/ABBA">
+                    <note> Se trata de una pieza de arte mayor. La clasificación de la pieza como
+                        repregunta del mismo poeta es un unicum. El receptor, al igual que en la
+                        pieza anterior, podría ser Fernán Pérez de Guzmán.</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+
+
+                        <l xml:id="L1">A esta <term cRef="162">pregunta</term> que <rs ref="#AAV">me</rs>
+                            <rs ref="#NC">
+                        <term cRef="162">pregunt<rhyme>ades</rhyme>
+                        </term>
+                     </rs>,</l>
+                        <l xml:id="L2">que grande es la noche, <rs ref="#AAV">pensando la v<rhyme>elo</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L3">dando garpellidos como gato en c<rhyme>elo</rhyme>,</l>
+                        <l xml:id="L4">por el grant peligro que <rs ref="#NC">vos devis<rhyme>ades</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L5">si Dios nos comprende por nuestras mald<rhyme>ades</rhyme>,</l>
+                        <l xml:id="L6">e <rs ref="#NC">vedes</rs>, <rs ref="#NC">amigo</rs>, que
+                            desto <rs ref="#AAV">m´enc<rhyme>elo</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L7">e por su venida “mi barba rep<rhyme>elo</rhyme>, </l>
+                        <l xml:id="L8">
+                     <rs ref="#NC">echad</rs> en remojo essa que rap<rhyme>ades</rhyme>”.</l>
+                    </lg>
+                    <lg n="2">
+
+                        <!-- Falta información métrica -->
+
+                        <l xml:id="L9">Castillos e villas con sus merind<rhyme>ades</rhyme>
+                  </l>
+                        <l xml:id="L10">fagan procesión con muy homilz<rhyme>elo</rhyme>,</l>
+                        <l xml:id="L11">que Dios nunca traiga quien diga en cong<rhyme>elo</rhyme>
+                  </l>
+                        <l xml:id="L12">porque nos turbe nuestras volunt<rhyme>ades</rhyme>.</l>
+                    </lg>
+
+
                 </lg>
-                
-                <lg n="2">
-                    <l xml:id="L9">Castillos e villas con sus merind<rhyme label="ades">ades</rhyme></l>
-                    <l xml:id="L10">fagan procesión con muy homilz<rhyme label="elo">elo</rhyme>,</l>
-                    <l xml:id="L11">que Dios nunca traiga quien diga en cong<rhyme label="elo">elo</rhyme></l>
-                    <l xml:id="L12">porque nos turbe nuestras volunt<rhyme label="ades">ades</rhyme>.</l>
-                </lg>
-                
-                    
-            </lg>
-        </sp>
-    </body>
-</text>
+            </sp>
+        </body>
+    </text>
 </TEI>
-

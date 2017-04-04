@@ -1,17 +1,18 @@
-
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
+    <teiHeader>
+        <fileDesc>
             <titleStmt>
                 <title>Tiren el clavo e ande la rueda</title>
-                    
-           
+
+
                 <title type="incipit">Tiren el clavo e ande la rueda</title>
-             
-                <author>Fernán Pérez de Guzmán </author>
-            
-                
+
+                <author ref="#FPG">Fernán Pérez de Guzmán </author>
+
+
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -22,22 +23,22 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
-  
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
                         <idno n="504">Dutton 504</idno>
-                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=547&entry=ID0504#PN1547ID0504]]></ref>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=547&amp;entry=ID0504#PN1547ID0504</ref>
                     </bibl>
-                      
-                
+
+
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Biblioteca Nacional de Francia </repository>
                         <idno>Espagnol 37</idno>
                         <altIdentifier>
-                            <idno type="PN1"/>                        
-</altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -45,44 +46,14 @@
                             <idno>PN1-547</idno>
                         </msItem>
                     </msContents>
-                   </msDesc>
-        </sourceDesc>
-    </fileDesc>
-    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
         <profileDesc>
-            <particDesc>
-                <listPerson>
-                    <person xml:id="FIM">
-                  <persName type="standard"> Francisco Imperial</persName>
-                        <persName type="form"> Micer Francisco Imperial</persName>
-                            <idno type="VIAF">http://viaf.org/viaf/79427013/#Imperial,_Micer_Francisco.</idno>
-                        </person>
-             
-                    <person xml:id="FPG">
-                        <persName type="standard">Fernán Pérez de Guzmán</persName>
-                    <persName type="form">Ferrán Pérez de Guzmán</persName>
-                        <idno type="VIAF">http://viaf.org/viaf/9983425/#Pe%CC%81rez_de_Guzma%CC%81n,_Ferna%CC%81n_ca._1377/79_-_ca._1460</idno>
-                    </person>
-                </listPerson>
-            </particDesc>
-           
-            <textClass>
-                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
-                    <term n="162">Pregunta</term>
-                 
-                    
-                    <term n="174">Fazer</term>
-                    <term n="175">Ordenar</term>
-                    <term n="203">Requesta</term>
-                   
-                  
-                </keywords>
-            </textClass>
 
             <creation>
-             
-                <origDate notAfter="1430" notBefore="1465">1426-1465
-                       </origDate>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
             </creation>
 
             <langUsage>
@@ -93,64 +64,98 @@
         <revisionDesc>
             <listChange>
                 <change when="2015-09-08" who="#GDR">Changes are made</change>
-                            </listChange>
+            </listChange>
         </revisionDesc>
-</teiHeader>
+    </teiHeader>
 
-<text>
-    <body>
-        <head type="rúbrica"> 
-            <term cRef="#PMC:162">Pregunta</term> en manera de <term cRef="#PMC:203">requesta</term> oscura e sotil que <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho <persName ref="#FPG">Ferrand Pérez de Guzmán</persName>
-            como en manera de <term cRef="#PMC:203">requesta</term> contra los trabajadores, la cual <term cRef="#PMC:174">fizo</term> por quanto el rey don Enrique avía apartado de su corte al condestable viejo e en su lugar privaba el caldenal de España </head>
-        
+    <text>
+        <body>
+            <head type="rúbrica">
+                <term cRef="162">Pregunta</term> en manera de <term cRef="203">requesta</term>
+                oscura e sotil que <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el
+                dicho <persName ref="#FPG">Ferrand Pérez de Guzmán</persName> como en manera de
+                    <term cRef="203">requesta</term> contra los trabajadores, la cual <term cRef="174">fizo</term> por quanto el rey don Enrique avía apartado de su corte
+                al condestable viejo e en su lugar privaba el caldenal de España </head>
 
-        <sp>
-            <speaker>Fernán Pérez de Guzmán</speaker>
-            <lg type="poema" subtype="pregunta"  unisonancia="singular"
-                isometrismo="isométrico" isoestrofismo="isoestrófico"
-                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">
-                <note> Se trata de una pieza de arte mayor. La pregunta no se dirige a otro poeta sino a "los trabajadores", aunque la responde Francisco Imperial (PN1-548). Está también copiada en MH1-240</note>
-                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">   
-                 
-              
-                   
-            
-                        <l xml:id="L1">Tiren el clavo e ande la ru<rhyme label="eda">eda</rhyme></l>
-                        <l xml:id="L2">que ya su firmeza non es razon<rhyme label="able">able</rhyme>,</l>
-                        <l xml:id="L3">semblante non faga un punto ser qu<rhyme label="eda">eda</rhyme></l>
-                        <l xml:id="L4">e mezcle ventura sin pleito dur<rhyme label="able">able</rhyme></l>
-                        <l xml:id="L5">e sane con vueltas la llaga incur<rhyme label="able">able</rhyme>,</l>
-                        <l xml:id="L6">alegre los tristes con sus mudam<rhyme label="ientos">ientos</rhyme>,</l>
-                        <l xml:id="L7">que si non han esta calma acorro de v<rhyme label="ientos">ientos</rhyme></l>
-                        <l xml:id="L8">paresc[i]era lana fundida en el s<rhyme label="able">able</rhyme></l>
+
+            <sp>
+                <speaker>Fernán Pérez de Guzmán</speaker>
+                <lg type="poema"
+                subtype="pregunta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="isoestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABABBCCB">
+                    <note> Se trata de una pieza de arte mayor. La pregunta no se dirige a otro
+                        poeta sino a "los trabajadores", aunque la responde Francisco Imperial
+                        (PN1-548). Está también copiada en MH1-240</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABABBCCB">
+
+
+
+
+                        <l xml:id="L1">Tiren el clavo e ande la ru<rhyme>eda</rhyme>
+                  </l>
+                        <l xml:id="L2">que ya su firmeza non es razon<rhyme>able</rhyme>,</l>
+                        <l xml:id="L3">semblante non faga un punto ser qu<rhyme>eda</rhyme>
+                  </l>
+                        <l xml:id="L4">e mezcle ventura sin pleito dur<rhyme>able</rhyme>
+                  </l>
+                        <l xml:id="L5">e sane con vueltas la llaga incur<rhyme>able</rhyme>,</l>
+                        <l xml:id="L6">alegre los tristes con sus mudam<rhyme>ientos</rhyme>,</l>
+                        <l xml:id="L7">que si non han esta calma acorro de v<rhyme>ientos</rhyme>
+                  </l>
+                        <l xml:id="L8">paresc[i]era lana fundida en el s<rhyme>able</rhyme>
+                  </l>
                     </lg>
-                    
-                <lg n="2" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">
-                        <l xml:id="L9">El rodar non cese jamás de l’ esp<rhyme label="era">era</rhyme>,</l>
-                        <l xml:id="L10">e mude los tienpos en quexosa s<rhyme label="uerte">uerte</rhyme></l>
-                        <l xml:id="L11">non se faga estable lo que de auto non <rhyme label="era">era</rhyme></l>
-                        <l xml:id="L12">que mudar costunbre sería_a par de m<rhyme label="uerte">uerte</rhyme></l>
-                        <l xml:id="L13">quier mansa quier leda entre nos ap<rhyme label="uerte">uerte</rhyme></l>
-                        <l xml:id="L14">aquesta fortuna sin calma enbi<rhyme label="ada">ada</rhyme></l>
-                        <l xml:id="L15">en tal que non viva sienpre_asoseg<rhyme label="ada">ada</rhyme></l>
-                        <l xml:id="L16">cras será mansa la que hoy vi f<rhyme label="uerte">uerte</rhyme>.</l>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABABBCCB">
+                        <l xml:id="L9">El rodar non cese jamás de l’ esp<rhyme>era</rhyme>,</l>
+                        <l xml:id="L10">e mude los tienpos en quexosa s<rhyme>uerte</rhyme>
+                  </l>
+                        <l xml:id="L11">non se faga estable lo que de auto non <rhyme>era</rhyme>
+                  </l>
+                        <l xml:id="L12">que mudar costunbre sería_a par de m<rhyme>uerte</rhyme>
+                  </l>
+                        <l xml:id="L13">quier mansa quier leda entre nos ap<rhyme>uerte</rhyme>
+                  </l>
+                        <l xml:id="L14">aquesta fortuna sin calma enbi<rhyme>ada</rhyme>
+                  </l>
+                        <l xml:id="L15">en tal que non viva sienpre_asoseg<rhyme>ada</rhyme>
+                  </l>
+                        <l xml:id="L16">cras será mansa la que hoy vi f<rhyme>uerte</rhyme>.</l>
                     </lg>
-                    
-                <lg n="3" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">
-                        <l xml:id="L17">Plaziendo a Fortuna sin toda tard<rhyme label="ança">ança</rhyme></l>
-                        <l xml:id="L18">abiertas serán las puertas de J<rhyme label="ano">ano</rhyme></l>
-                        <l xml:id="L19">aquel que mas usa de buena orden<rhyme label="ança">ança</rhyme></l>
-                        <l xml:id="L20">será obedescido del pueblo rom<rhyme label="ano">ano</rhyme>,</l>
-                        <l xml:id="L21">e los que cayeron en el tienpo ll<rhyme label="ano">ano</rhyme></l>
-                        <l xml:id="L22">serán ensalçados Fortuna corri<rhyme label="endo">endo</rhyme></l>
-                        <l xml:id="L23">e dirán los malos, pues fueron cay<rhyme label="endo">endo</rhyme>:</l>
-                        <l xml:id="L24">“viva quien vence, lo al todo es v<rhyme label="ano">ano</rhyme>.”</l>
+
+                    <lg n="3"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABABBCCB">
+                        <l xml:id="L17">Plaziendo a Fortuna sin toda tard<rhyme>ança</rhyme>
+                  </l>
+                        <l xml:id="L18">abiertas serán las puertas de J<rhyme>ano</rhyme>
+                  </l>
+                        <l xml:id="L19">aquel que mas usa de buena orden<rhyme>ança</rhyme>
+                  </l>
+                        <l xml:id="L20">será obedescido del pueblo rom<rhyme>ano</rhyme>,</l>
+                        <l xml:id="L21">e los que cayeron en el tienpo ll<rhyme>ano</rhyme>
+                  </l>
+                        <l xml:id="L22">serán ensalçados Fortuna corri<rhyme>endo</rhyme>
+                  </l>
+                        <l xml:id="L23">e dirán los malos, pues fueron cay<rhyme>endo</rhyme>:</l>
+                        <l xml:id="L24">“viva quien vence, lo al todo es v<rhyme>ano</rhyme>.”</l>
                     </lg>
-                    
-                    
+
+
                 </lg>
-        </sp>
-    </body>
-</text>
+            </sp>
+        </body>
+    </text>
 </TEI>
-

@@ -1,17 +1,18 @@
-
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
+    <teiHeader>
+        <fileDesc>
             <titleStmt>
                 <title>Muy noble señor, pues que vos pagades</title>
-                    
-           
+
+
                 <title type="incipit">Muy noble señor, pues que vos pagades</title>
-             
-                <author>Fernán Pérez de Guzmán </author>
-            
-                
+
+                <author ref="#FPG">Fernán Pérez de Guzmán </author>
+
+
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -22,22 +23,22 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
-  
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
                         <idno n="1673">Dutton 1673</idno>
-                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=549&entry=ID1673#PN1549ID1673]]></ref>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=549&amp;entry=ID1673#PN1549ID1673</ref>
                     </bibl>
-                      
-                
+
+
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Biblioteca Nacional de Francia </repository>
                         <idno>Espagnol 37</idno>
                         <altIdentifier>
-                            <idno type="PN1"/>                        
-</altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -45,51 +46,14 @@
                             <idno>PN1-549</idno>
                         </msItem>
                     </msContents>
-                   </msDesc>
-        </sourceDesc>
-    </fileDesc>
-    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
         <profileDesc>
-            <particDesc>
-                <listPerson>
-                   
-             
-                    <person xml:id="FPG">
-                        <persName type="standard">Fernán Pérez de Guzmán</persName>
-                    <persName type="form">Ferrán Pérez de Guzmán</persName>
-                        <idno type="VIAF">http://viaf.org/viaf/9983425/#Pe%CC%81rez_de_Guzma%CC%81n,_Ferna%CC%81n_ca._1377/79_-_ca._1460</idno>
-                    </person>
-                    <person xml:id="GDT">
-                        <persName type="standard">Gutierre de Toledo</persName>
-                        <idno type="BETA">
-                            <![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/1528Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Fname%3DGutierre+de+Toledo%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]>
-                        </idno>
-                    </person>
-                </listPerson>
-            </particDesc>
-           <settingDesc>
-               <place xml:id="GUA">
-                   <placeName>Guadalajara </placeName>
-                   <idno type="VIAF">http://viaf.org/viaf/316430152/</idno>
-               </place>
-           </settingDesc>
-            <textClass>
-                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
-                    <term n="162">Pregunta</term>
-                 <term n="17">Cantiga</term>
-                    
-                    <term n="174">Fazer</term>
-                    <term n="175">Ordenar</term>
-                   
-                   
-                  
-                </keywords>
-            </textClass>
 
             <creation>
-             
-                <origDate notAfter="1430" notBefore="1465">1426-1465
-                       </origDate>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
             </creation>
 
             <langUsage>
@@ -100,76 +64,134 @@
         <revisionDesc>
             <listChange>
                 <change when="2015-09-08" who="#GDR">Changes are made</change>
-                            </listChange>
+            </listChange>
         </revisionDesc>
-</teiHeader>
+    </teiHeader>
 
-<text>
-    <body>
-        <head type="rúbrica"> 
-            Esta  <term cRef="#PMC:162">pregunta</term> dizen que <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho <persName ref="#FPG">Ferrand Pérez de Guzmán</persName>
-            para <persName ref="#GDT">don Gutierre de Toledo, su primo, seyendo arcediano de <placeName ref="#GUA">Guadalajara</placeName></persName>
-        </head>
+    <text>
+        <body>
+            <head type="rúbrica"> Esta <term cRef="162">pregunta</term> dizen que <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el dicho <persName ref="#FPG">Ferrand Pérez de Guzmán</persName> para <persName ref="#GDT">don Gutierre de
+                    Toledo, su primo, seyendo arcediano de <placeName ref="#GUA">Guadalajara</placeName>
+            </persName>
+            </head>
 
-        <sp who="#GDT">
-            <speaker>Fernán Pérez de Guzmán</speaker>
-            <lg type="poema" subtype="pregunta"  unisonancia="singular"
-                isometrismo="isométrico" isoestrofismo="isoestrófico"
-                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
-                <note> Se trata de una pieza de arte mayor. La pregunta no se dirige  sino que se dedica (al primo de FPG) y no la responde ningún poeta</note>
-                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
-                 
-              
-                   
-            
-                    <l xml:id="L1"><rs ref="#GDT">Muy noble señor</rs>, pues que <rs ref="#GDT">vos pag<rhyme label="ades">ades</rhyme></rs></l>
-                    <l xml:id="L2">de oír cuando <rs ref="#FPG">fago</rs> <term cRef="#PMC:17">cantigas </term>alg<rhyme label="unas">unas</rhyme></l>
-                    <l xml:id="L3">puesto que sean rudas e ning<rhyme label="unas">unas</rhyme></l>
-                    <l xml:id="L4">por <rs ref="#GDT">vuestra merced</rs>asaz las <rs ref="#GDT">lo<rhyme label="ades">ades</rhyme></rs>,</l>
-                    <l xml:id="L5">e esto <rs ref="#FPG">entiendo</rs> que porque <rs ref="#FPG">me</rs> <rs ref="#GDT">am<rhyme label="ades">ades</rhyme></rs></l>
-                    <l xml:id="L6"><rs ref="#GDT">avedes</rs> en ellas tan grand afic<rhyme label="ion">ión</rhyme></l>
-                    <l xml:id="L7">poniendo aparte su indignac<rhyme label="ion">ión</rhyme></l>
-                    <l xml:id="L8">por <rs ref="#GDT">vuestra sentencia buenas las llam<rhyme label="ades">ades</rhyme></rs>.</l>
+            <sp who="#GDT">
+                <speaker>Fernán Pérez de Guzmán</speaker>
+                <lg type="poema"
+                subtype="pregunta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="isoestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABBAACCA">
+                    <note> Se trata de una pieza de arte mayor. La pregunta no se dirige sino que se
+                        dedica (al primo de FPG) y no la responde ningún poeta</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+
+
+
+
+                        <l xml:id="L1">
+                     <rs ref="#GDT">Muy noble señor</rs>, pues que <rs ref="#GDT">vos pag<rhyme>ades</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L2">de oír cuando <rs ref="#FPG">fago</rs>
+                            <term cRef="17">cantigas </term>alg<rhyme>unas</rhyme>
+                  </l>
+                        <l xml:id="L3">puesto que sean rudas e ning<rhyme>unas</rhyme>
+                  </l>
+                        <l xml:id="L4">por <rs ref="#GDT">vuestra merced</rs>asaz las <rs ref="#GDT">lo<rhyme>ades</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L5">e esto <rs ref="#FPG">entiendo</rs> que porque <rs ref="#FPG">me</rs>
+                            <rs ref="#GDT">am<rhyme>ades</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L6">
+                     <rs ref="#GDT">avedes</rs> en ellas tan grand afic<rhyme label="ion">ión</rhyme>
+                  </l>
+                        <l xml:id="L7">poniendo aparte su indignac<rhyme label="ion">ión</rhyme>
+                  </l>
+                        <l xml:id="L8">por <rs ref="#GDT">vuestra sentencia buenas las llam<rhyme>ades</rhyme>
+                     </rs>.</l>
+                    </lg>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L9">
+                     <rs ref="#FPG">Oí </rs>muchas vezes, <rs ref="#GDT">señor</rs>, afirm<rhyme>ar</rhyme>
+                  </l>
+                        <l xml:id="L10">quel grand amorío que muestra el señ<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L11">al de su casa o pariente men<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L12">le da osadía para atal fabl<rhyme>ar</rhyme>
+                  </l>
+                        <l xml:id="L13">por ende <rs ref="#FPG">yo</rs> usando en este lug<rhyme>ar</rhyme>
+                  </l>
+                        <l xml:id="L14">de aquesta audancia e atrevim<rhyme label="ientp">iento</rhyme>
+                  </l>
+                        <l xml:id="L15">por la voluntad que en <rs ref="#GDT">vos, señor</rs>, <rs ref="#FPG">s<rhyme>iento</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L16">
+                     <rs ref="#GDT">vos</rs>
+                            <rs ref="#FPG">quiero</rs> esta simple cuestión <term cRef="162">pregunt<rhyme>ar</rhyme>
+                     </term>.</l>
+                    </lg>
+
+                    <lg n="3"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L17">Un buen omne <rs ref="#FPG">veo</rs> a Dios e al m<rhyme>undo</rhyme>
+                  </l>
+                        <l xml:id="L18">que segund sus obras mucho bien mer<rhyme>esce</rhyme>
+                  </l>
+                        <l xml:id="L19">e de cada día su pleito par<rhyme>esce</rhyme>
+                  </l>
+                        <l xml:id="L20">e declina siempre a mal muy prof<rhyme>undo</rhyme>
+                  </l>
+                        <l xml:id="L21">lo contrario <rs ref="#FPG">veo</rs> a otro seg<rhyme>undo</rhyme>
+                  </l>
+                        <l xml:id="L22">a Dios ser muy malo al mundo pe<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L23">non yerra de Papa o de emperad<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L24">aqueste es el punto sobre que <rs ref="#FPG">me f<rhyme>undo</rhyme>
+                     </rs>.</l>
+                    </lg>
+
+                    <lg n="4"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L25">Dizen los letrados, <rs ref="#GDT">señor</rs>, que es
+                                err<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L26">creer que hay ventura e que es vanid<rhyme>ad</rhyme>
+                  </l>
+                        <l xml:id="L27">e que natura puede en algo es verd<rhyme>ad</rhyme>
+                  </l>
+                        <l xml:id="L28">pero sobre todo es Dios fazed<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L29">e que en sí solo poder nin val<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L30">non ha de mudar su sola presenc<rhyme>ia</rhyme>,</l>
+                        <l xml:id="L31">que Dios muchas vezes muda la setenc<rhyme>ia</rhyme>
+                  </l>
+                        <l xml:id="L32">que ordenatura en bien o mej<rhyme>or</rhyme>.</l>
+                    </lg>
+
+
+
                 </lg>
-                
-                <lg n="2" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
-                    <l xml:id="L9"><rs ref="#FPG">Oí </rs>muchas vezes, <rs ref="#GDT">señor</rs>, afirm<rhyme label="ar">ar</rhyme></l>
-                    <l xml:id="L10">quel grand amorío que muestra el señ<rhyme label="or">or</rhyme></l>
-                    <l xml:id="L11">al de su casa o pariente men<rhyme label="or">or</rhyme></l>
-                    <l xml:id="L12">le da osadía para atal fabl<rhyme label="ar">ar</rhyme></l>
-                    <l xml:id="L13">por ende <rs ref="#FPG">yo</rs> usando en este lug<rhyme label="ar">ar</rhyme></l>
-                    <l xml:id="L14">de aquesta audancia e atrevim<rhyme label="ientp">iento</rhyme></l>
-                    <l xml:id="L15">por la voluntad que en <rs ref="#GDT">vos, señor</rs>, <rs ref="#FPG">s<rhyme label="iento">iento</rhyme></rs></l>
-                    <l xml:id="L16"><rs ref="#GDT">vos</rs> <rs ref="#FPG">quiero</rs> esta simple cuestión <term cRef="#PMC:162">pregunt<rhyme label="ar">ar</rhyme></term>.</l>
-                </lg>
-                
-                <lg n="3" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
-                    <l xml:id="L17">Un buen omne <rs ref="#FPG">veo</rs> a Dios e al m<rhyme label="undo">undo</rhyme></l>
-                    <l xml:id="L18">que segund sus obras mucho bien mer<rhyme label="esce">esce</rhyme></l>
-                    <l xml:id="L19">e de cada día su pleito par<rhyme label="esce">esce</rhyme></l>
-                    <l xml:id="L20">e declina siempre a mal muy prof<rhyme label="undo">undo</rhyme></l>
-                    <l xml:id="L21">lo contrario <rs ref="#FPG">veo</rs> a otro seg<rhyme label="undo">undo</rhyme></l>
-                    <l xml:id="L22">a Dios ser muy malo al mundo pe<rhyme label="or">or</rhyme></l>
-                    <l xml:id="L23">non yerra de Papa o de emperad<rhyme label="or">or</rhyme></l>
-                    <l xml:id="L24">aqueste es el punto sobre que <rs ref="#FPG">me f<rhyme label="undo">undo</rhyme></rs>.</l>
-                </lg>
-                
-                <lg n="4" type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">
-                    <l xml:id="L25">Dizen los letrados, <rs ref="#GDT">señor</rs>, que es err<rhyme label="or">or</rhyme></l>
-                    <l xml:id="L26">creer que hay ventura e que es vanid<rhyme label="ad">ad</rhyme></l>
-                    <l xml:id="L27">e que natura puede en algo es verd<rhyme label="ad">ad</rhyme></l>
-                    <l xml:id="L28">pero sobre todo es Dios fazed<rhyme label="or">or</rhyme></l>
-                    <l xml:id="L29">e que en sí solo poder nin val<rhyme label="or">or</rhyme></l>
-                    <l xml:id="L30">non ha de mudar su sola presenc<rhyme label="ia">ia</rhyme>,</l>
-                    <l xml:id="L31">que Dios muchas vezes muda la setenc<rhyme label="ia">ia</rhyme></l>
-                    <l xml:id="L32">que ordenatura en bien o mej<rhyme label="or">or</rhyme>.</l>
-                </lg>
-                
-                    
-                    
-                </lg>
-        </sp>
-    </body>
-</text>
+            </sp>
+        </body>
+    </text>
 </TEI>
-

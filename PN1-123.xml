@@ -1,17 +1,18 @@
-
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
+    <teiHeader>
+        <fileDesc>
             <titleStmt>
                 <title>Tiren el clavo e ande la rueda</title>
-                    
-           
+
+
                 <title type="incipit">Tiren el clavo e ande la rueda</title>
-             
+
                 <author>Fernán Pérez de Guzmán </author>
-            
-                
+
+
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -22,22 +23,22 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
-  
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
                         <idno n="504">Dutton 504</idno>
-                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=547&entry=ID0504#PN1547ID0504]]></ref>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=547&amp;entry=ID0504#PN1547ID0504</ref>
                     </bibl>
-                      
-                
+
+
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Biblioteca Nacional de Francia </repository>
                         <idno>Espagnol 37</idno>
                         <altIdentifier>
-                            <idno type="PN1"/>                        
-</altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -45,44 +46,14 @@
                             <idno>PN1-547</idno>
                         </msItem>
                     </msContents>
-                   </msDesc>
-        </sourceDesc>
-    </fileDesc>
-    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
         <profileDesc>
-            <particDesc>
-                <listPerson>
-                    <person xml:id="FIM">
-                  <persName type="standard"> Francisco Imperial</persName>
-                        <persName type="form"> Micer Francisco Imperial</persName>
-                            <idno type="VIAF">http://viaf.org/viaf/79427013/#Imperial,_Micer_Francisco.</idno>
-                        </person>
-             
-                    <person xml:id="FPG">
-                        <persName type="standard">Fernán Pérez de Guzmán</persName>
-                    <persName type="form">Ferrán Pérez de Guzmán</persName>
-                        <idno type="VIAF">http://viaf.org/viaf/9983425/#Pe%CC%81rez_de_Guzma%CC%81n,_Ferna%CC%81n_ca._1377/79_-_ca._1460</idno>
-                    </person>
-                </listPerson>
-            </particDesc>
-           
-            <textClass>
-                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
-                    <term n="162">Pregunta</term>
-                 
-                    
-                    <term n="174">Fazer</term>
-                    <term n="175">Ordenar</term>
-                    <term n="203">Requesta</term>
-                   
-                  
-                </keywords>
-            </textClass>
 
             <creation>
-             
-                <origDate notAfter="1430" notBefore="1465">1426-1465
-                       </origDate>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
             </creation>
 
             <langUsage>
@@ -93,70 +64,106 @@
         <revisionDesc>
             <listChange>
                 <change when="2015-09-08" who="#GDR">Changes are made</change>
-                            </listChange>
+            </listChange>
         </revisionDesc>
-</teiHeader>
+    </teiHeader>
 
-<text>
-    <body>
-        <head type="rúbrica"> 
-            <term cRef="#PMC:162">Pregunta</term> en manera de <term cRef="#PMC:203">requesta</term> oscura e sotil que <term cRef="#PMC:174">fizo</term> e <term cRef="#PMC:175">ordenó</term> el dicho <persName ref="#FPG">Ferrand Pérez de Guzmán</persName>
-            como en manera de <term cRef="#PMC:203">requesta</term> contra los trabajadores, la cual <term cRef="#PMC:174">fizo</term> por quanto el rey don Enrique avía apartado de su corte al condestable viejo e en su lugar privaba el caldenal de España </head>
-        
+    <text>
+        <body>
+            <head type="rúbrica">
+                <term cRef="162">Pregunta</term> en manera de <term cRef="203">requesta</term>
+                oscura e sotil que <term cRef="174">fizo</term> e <term cRef="175">ordenó</term> el
+                dicho <persName ref="#FPG">Ferrand Pérez de Guzmán</persName> como en manera de
+                    <term cRef="203">requesta</term> contra los trabajadores, la cual <term cRef="174">fizo</term> por quanto el rey don Enrique avía apartado de su corte
+                al condestable viejo e en su lugar privaba el caldenal de España </head>
 
-        <sp>
-            <speaker>Fernán Pérez de Guzmán</speaker>
-            <lg type="poema" subtype="pregunta"  unisonancia="singular"
-                isometrismo="isométrico" isoestrofismo="isoestrófico"
-                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">
-                <note> Se trata de una pieza de arte mayor. La pregunta no se dirige a otro poeta sino a "los trabajadores", aunque la responde Francisco Imperial (PN1-548). Está también copiada en MH1-240</note>
-                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABABBCCB">   
-                 
-              
-                   
-            
-                    <l xml:id="L1">Pena le pone la setena part<rhyme label='ida'>ida</rhyme></l>
-                    <l xml:id="L2">al que es disfamoso componed<rhyme label='or'>or</rhyme></l>
-                    <l xml:id="L3">cuanto más al que es trobad<rhyme label='or'>or</rhyme></l>
-                    <l xml:id="L4">de desonores, que es cosa sab<rhyme label='ida'>ida</rhyme></l>
-                    <l xml:id="L5">que si la parte fuesse o<rhyme label='ida'>ída</rhyme></l>
-                    <l xml:id="L6">e le tornasse lo de Cabr<rhyme label='ejas'>eja</rhyme>s</l>
-                    <l xml:id="L7">todos aquellos que comen arv<rhyme label='ejas'>ejas</rhyme></l>
-                    <l xml:id="L8">serían plazenteros de su ven<rhyme label='ida'>ida</rhyme>.</l>
+
+            <sp>
+                <speaker>Fernán Pérez de Guzmán</speaker>
+                <lg type="poema"
+                subtype="pregunta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="isoestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10"
+                rhyme="ABABBCCB">
+                    <note> Se trata de una pieza de arte mayor. La pregunta no se dirige a otro
+                        poeta sino a "los trabajadores", aunque la responde Francisco Imperial
+                        (PN1-548). Está también copiada en MH1-240</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABABBCCB">
+
+
+
+
+                        <l xml:id="L1">Pena le pone la setena part<rhyme>ida</rhyme>
+                  </l>
+                        <l xml:id="L2">al que es disfamoso componed<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L3">cuanto más al que es trobad<rhyme>or</rhyme>
+                  </l>
+                        <l xml:id="L4">de desonores, que es cosa sab<rhyme>ida</rhyme>
+                  </l>
+                        <l xml:id="L5">que si la parte fuesse o<rhyme label="ida">ída</rhyme>
+                  </l>
+                        <l xml:id="L6">e le tornasse lo de Cabr<rhyme label="ejas">eja</rhyme>s</l>
+                        <l xml:id="L7">todos aquellos que comen arv<rhyme>ejas</rhyme>
+                  </l>
+                        <l xml:id="L8">serían plazenteros de su ven<rhyme>ida</rhyme>.</l>
+                    </lg>
+
+                    <lg n="2">
+                        <!-- Falta información métrica  -->
+
+                        <l xml:id="L9">Si bien pensaredes en estos part<rhyme>idos</rhyme>
+                  </l>
+                        <l xml:id="L10">en cuanto atañe a la clara l<rhyme>uz</rhyme>
+                  </l>
+                        <l xml:id="L11">non tomaredes en la vera cr<rhyme>uz</rhyme>
+                  </l>
+                        <l xml:id="L12">con consonantes de mal escog<rhyme>idos</rhyme>,</l>
+                        <l xml:id="L13">esto fazedes por non ser o<rhyme label="idos">ídos</rhyme>
+                  </l>
+                        <l xml:id="L14">por nobles derechos en esta saz<rhyme label="on">ón</rhyme>,</l>
+                        <l xml:id="L15">todo se ordena muy contra raz<rhyme label="on">ón</rhyme>
+                  </l>
+                        <l xml:id="L16">porque vos daba los preparat<rhyme label="i-os">ivos</rhyme>.</l>
+                    </lg>
+
+                    <lg n="3">
+
+                        <!-- Falta información métrica  -->
+
+                        <l xml:id="L17">Esta envidia es por la priv<rhyme>ança</rhyme>
+                  </l>
+                        <l xml:id="L18">que non vos plaze que haya perl<rhyme>ado</rhyme>,</l>
+                        <l xml:id="L19">mas quanto de mí vos es otorg<rhyme>ado</rhyme>,</l>
+                        <l xml:id="L20">que su daño, faze aquel que la alc<rhyme>ança</rhyme>,</l>
+                        <l xml:id="L21">que preça vos vistes andar en bal<rhyme>ança</rhyme>
+                  </l>
+                        <l xml:id="L22">de grandes señores venir a prov<rhyme>eza</rhyme>,</l>
+                        <l xml:id="L23">por ende tenet que faze pro<rhyme>eza</rhyme>
+                  </l>
+                        <l xml:id="L24">el que se quita desta tribul<rhyme>ança</rhyme>.</l>
+                    </lg>
+
+                    <lg n="4">
+
+                        <!-- Falta información métrica  -->
+
+                        <l xml:id="L25">Por ende, señores, con grant acord<rhyme>ança</rhyme>
+                  </l>
+                        <l xml:id="L26">nos ayuntemos a ver este f<rhyme>echo</rhyme>,</l>
+                        <l xml:id="L27">pues es todo ello punto de der<rhyme>echo</rhyme>
+                  </l>
+                        <l xml:id="L28">a quien será dada la tal buen and<rhyme>ança</rhyme>.</l>
+                    </lg>
+
                 </lg>
-                
-                <lg n='2'>
-                    <l xml:id="L9">Si bien pensaredes en estos part<rhyme label='idos'>idos</rhyme></l>
-                    <l xml:id="L10">en cuanto atañe a la clara l<rhyme label='uz'>uz</rhyme></l>
-                    <l xml:id="L11">non tomaredes en la vera cr<rhyme label='uz'>uz</rhyme></l>
-                    <l xml:id="L12">con consonantes de mal escog<rhyme label='idos'>idos</rhyme>,</l>
-                    <l xml:id="L13">esto fazedes por non ser o<rhyme label='idos'>ídos</rhyme></l>
-                    <l xml:id="L14">por nobles derechos en esta saz<rhyme label='on'>ón</rhyme>,</l>
-                    <l xml:id="L15">todo se ordena muy contra raz<rhyme label='on'>ón</rhyme></l>
-                    <l xml:id="L16">porque vos daba los preparat<rhyme label='i-os'>ivos</rhyme>.</l>
-                </lg>
-                
-                <lg n='3'>
-                    <l xml:id="L17">Esta envidia es por la priv<rhyme label='ança'>ança</rhyme></l>
-                    <l xml:id="L18">que non vos plaze que haya perl<rhyme label='ado'>ado</rhyme>,</l>
-                    <l xml:id="L19">mas quanto de mí vos es otorg<rhyme label='ado'>ado</rhyme>,</l>
-                    <l xml:id="L20">que su daño, faze aquel que la alc<rhyme label='ança'>ança</rhyme>,</l>
-                    <l xml:id="L21">que preça vos vistes andar en bal<rhyme label='ança'>ança</rhyme></l>
-                    <l xml:id="L22">de grandes señores venir a prov<rhyme label='eza'>eza</rhyme>,</l>
-                    <l xml:id="L23">por ende tenet que faze pro<rhyme label='eza'>eza</rhyme></l>
-                    <l xml:id="L24">el que se quita desta tribul<rhyme label='ança'>ança</rhyme>.</l>
-                </lg>
-                
-                <lg n='4'>
-                    <l xml:id="L25">Por ende, señores, con grant acord<rhyme label='ança'>ança</rhyme></l>
-                    <l xml:id="L26">nos ayuntemos a ver este f<rhyme label='echo'>echo</rhyme>,</l>
-                    <l xml:id="L27">pues es todo ello punto de der<rhyme label='echo'>echo</rhyme></l>
-                    <l xml:id="L28">a quien será dada la tal buen and<rhyme label='ança'>ança</rhyme>.</l>
-                </lg>
-                    
-                </lg>
-        </sp>
-    </body>
-</text>
+            </sp>
+        </body>
+    </text>
 </TEI>
-

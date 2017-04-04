@@ -1,17 +1,18 @@
-
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
+    <teiHeader>
+        <fileDesc>
             <titleStmt>
                 <title>Non siento tal lego, amigo, en España</title>
-                    
-           
+
+
                 <title type="incipit">Non siento tal lego, amigo, en España</title>
-             
-                <author>Alfonso Álvarez de Villasandino</author>
-            
-                
+
+                <author ref="#AAV">Alfonso Álvarez de Villasandino</author>
+
+
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -22,82 +23,37 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
-  
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
                         <idno n="1229">Dutton 1229</idno>
-                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=89&entry=ID1229%20R%201228#PN189ID1229_R_1228]]></ref>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=89&amp;entry=ID1229%20R%201228#PN189ID1229_R_1228</ref>
                     </bibl>
-                      
-                
+
+
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Biblioteca Nacional de Francia </repository>
                         <idno>Espagnol 37</idno>
                         <altIdentifier>
-                            <idno type="PN1"/>                        
-</altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="31v" to="32r">31v-32r. </locus>
+                            <locus from="31v" to="32r">31v-32r</locus>
                             <idno>PN1-89</idno>
                         </msItem>
                     </msContents>
-                   </msDesc>
-        </sourceDesc>
-    </fileDesc>
-    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
         <profileDesc>
-            <particDesc>
-                <listPerson>
-                   <person xml:id="AAV">
-                       
-                       <persName type="standard">Alfonso Álvarez de Villasandino</persName>
-                       <persName type="form">Alfonso Álvarez</persName>
-                       <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
-                   </person>
-                  
-                    <person xml:id="BSA">
-                        <persName type="standard">Bachiller en Artes de Salamanca</persName>
-                        <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3534Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DBachiller+de+Salamanca%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
-                    </person>
-             
-                </listPerson>
-            </particDesc>
-            <settingDesc>
-                <listPlace>
-                   
-                    <place xml:id="VI1">
-                   
-                            <placeName>Villasandino</placeName>
-                            <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
-                        </place>
-                    <place xml:id="SA1">
-                        <placeName>Salamanca</placeName>
-                        <idno type="VIAF">http://viaf.org/viaf/141322263/</idno>
-                    </place>
-                </listPlace>
-            </settingDesc>
-            <textClass>
-                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
-                    <term n="162">Pregunta</term>
-                    <term n="163">Respuesta</term>
-                    <term n="43">Contrafactum</term>
-                    <term n="89">Razón</term>
-                    <term n="192">Fazaña</term>
-                    <term n="193">Poetría</term>
-                    <term n="189">Limado</term>
-                    <term n="194">Compuesto</term>
-                    <term n="195">Ciencia</term>
-                </keywords>
-            </textClass>
 
             <creation>
-             
-                <origDate notAfter="1430" notBefore="1465">1426-1465
-                       </origDate>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
             </creation>
 
             <langUsage>
@@ -108,56 +64,92 @@
         <revisionDesc>
             <listChange>
                 <change when="2015-09-02" who="#GDR">Changes are made</change>
-                            </listChange>
+            </listChange>
         </revisionDesc>
-</teiHeader>
+    </teiHeader>
 
-<text>
-    <body>
-        <head type="rúbrica">       
-            <term cRef="#PMC:163">Respuesta</term> de <persName ref="#AAV">Alfonso Álvarez</persName> contra el <persName ref="#BSA">Bachiller</persName> </head>
-  
+    <text>
+        <body>
+            <head type="rúbrica">
+                <term cRef="163">Respuesta</term> de <persName ref="#AAV">Alfonso Álvarez</persName>
+                contra el <persName ref="#BSA">Bachiller</persName>
+            </head>
 
-        <sp who="#AAV">
-            <speaker>Alfonso Álvarez de Villasandino</speaker>
-            <lg type="poema" subtype="respuesta" unisonancia="singular"
-                isometrismo="isométrico" isoestrofismo="heteroestrófico"
-                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10" rhyme="ABBAACCA/AAB">
-                <note> Se trata de una pieza de arte mayor</note>
-                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
-                 
-               
-                    <l xml:id="L1">Non siento tal lego, <rs ref="#BSA">amigo</rs>, en Esp<rhyme label="aña">aña</rhyme></l>
-                    <l xml:id="L2">que <rs ref="#BSA">vos</rs> declarasse luego en prov<rhyme label="isso">iso</rhyme></l>
-                        <l xml:id="L3">las obras del cielo nin Dios por que qu<rhyme label="iso">iso</rhyme></l>
-                        <l xml:id="L4">criar la natura por fuerça o por m<rhyme label="aña">aña</rhyme>,</l>
-                    <l xml:id="L5">a esto <rs ref="#AAV">respondo</rs> como por <term cRef="#PMC:192">faz<rhyme label="aña">aña</rhyme></term></l>
-                        <l xml:id="L6">que es un secreto d´escura carr<rhyme label="era">era</rhyme></l>
-                        <l xml:id="L7">del alto sin fin sin cuento e sin <rhyme label="era">era</rhyme>,</l>
-                        <l xml:id="L8">e quien de al enfinge creo que se eng<rhyme label="aña">aña</rhyme>.</l>
+
+            <sp who="#AAV">
+                <speaker>Alfonso Álvarez de Villasandino</speaker>
+                <lg type="poema"
+                subtype="respuesta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="heteroestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10"
+                rhyme="ABBAACCA/AAB">
+                    <note> Se trata de una pieza de arte mayor</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+
+
+                        <l xml:id="L1">Non siento tal lego, <rs ref="#BSA">amigo</rs>, en Esp<rhyme>aña</rhyme>
+                  </l>
+                        <l xml:id="L2">que <rs ref="#BSA">vos</rs> declarasse luego en prov<rhyme label="isso">iso</rhyme>
+                  </l>
+                        <l xml:id="L3">las obras del cielo nin Dios por que qu<rhyme>iso</rhyme>
+                  </l>
+                        <l xml:id="L4">criar la natura por fuerça o por m<rhyme>aña</rhyme>,</l>
+                        <l xml:id="L5">a esto <rs ref="#AAV">respondo</rs> como por <term cRef="192">faz<rhyme>aña</rhyme>
+                     </term>
+                  </l>
+                        <l xml:id="L6">que es un secreto d´escura carr<rhyme>era</rhyme>
+                  </l>
+                        <l xml:id="L7">del alto sin fin sin cuento e sin <rhyme>era</rhyme>,</l>
+                        <l xml:id="L8">e quien de al enfinge creo que se eng<rhyme>aña</rhyme>.</l>
                     </lg>
-                    
-                <lg  n="2"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
-                    <l xml:id="L9"><rs ref="#BSA">Amigo</rs>, ya <rs ref="#AAV">tengo mi <term ref="#PMC:89">razón</term> prop<rhyme label="esta">uesta</rhyme></rs></l>
+
+                    <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L9">
+                     <rs ref="#BSA">Amigo</rs>, ya <rs ref="#AAV">tengo mi <term ref="#PMC:89">razón</term> prop<rhyme label="esta">uesta</rhyme>
+                     </rs>
+                  </l>
                         <l xml:id="L10">que este secreto es del que non m<rhyme label="iente">ient</rhyme>e</l>
-                        <l xml:id="L11">e sobre natura inpera viv<rhyme label="iente">iente</rhyme></l>
-                        <l xml:id="L12">potestad divina luz clara e ap<rhyme label="esta">uesta</rhyme></l>
-                        <l xml:id="L13">quien al me demanda su saber den<rhyme label="uesta">uesta</rhyme>,</l>
-                    <l xml:id="L14">que <rs ref="#AAV">yo non entiendo</rs> qu´es astrolog<rhyme label="ia">ía</rhyme></l>
-                    <l xml:id="L15">nin sus almanaques mas por <term ref="#PMC:193">poetr<rhyme label="ia">ía</rhyme></term></l>
-                    <l xml:id="L16">faré mi <term cRef="#PMC:89">razón</term> <term cRef="#PMC:189">limada</term> <term cRef="#PMC:194" >conp<rhyme label="uesta">uesta</rhyme></term>.</l>
+                        <l xml:id="L11">e sobre natura inpera viv<rhyme>iente</rhyme>
+                  </l>
+                        <l xml:id="L12">potestad divina luz clara e ap<rhyme label="esta">uesta</rhyme>
+                  </l>
+                        <l xml:id="L13">quien al me demanda su saber den<rhyme>uesta</rhyme>,</l>
+                        <l xml:id="L14">que <rs ref="#AAV">yo non entiendo</rs> qu´es astrolog<rhyme label="ia">ía</rhyme>
+                  </l>
+                        <l xml:id="L15">nin sus almanaques mas por <term ref="#PMC:193">poetr<rhyme label="ia">ía</rhyme>
+                     </term>
+                  </l>
+                        <l xml:id="L16">faré mi <term cRef="89">razón</term>
+                            <term cRef="189">limada</term>
+                            <term cRef="194">conp<rhyme>uesta</rhyme>
+                     </term>.</l>
                     </lg>
-                    
-                <lg  n="3"  type="finda" met="10,10, 10" rhyme="AAB">   
-                    <l xml:id="L17"><rs ref="#BSA">Amigo señor</rs>, <rs ref="#AAV">yo nunca aprend<rhyme label="i">í</rhyme></rs></l>
-                    <l xml:id="L18">ninguna <term cRef="#PMC:195">ciencia</term>salvo que<rs ref="#AAV"><rhyme label="io"> yo</rhyme></rs></l>
-                        <l xml:id="L19">tañer, dançar docida e trasp<rhyme label="uesta">uesta</rhyme>.</l>
-                    </lg>
-                    
-                    
-            </lg>
-        </sp>
-    </body>
-</text>
-</TEI>
 
+                    <lg n="3" type="finda" met="10,10, 10" rhyme="AAB">
+                        <l xml:id="L17">
+                     <rs ref="#BSA">Amigo señor</rs>, <rs ref="#AAV">yo nunca
+                                    aprend<rhyme label="i">í</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L18">ninguna <term cRef="195">ciencia</term>salvo que<rs ref="#AAV">
+                        <rhyme label="io"> yo</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L19">tañer, dançar docida e trasp<rhyme>uesta</rhyme>.</l>
+                    </lg>
+
+
+                </lg>
+            </sp>
+        </body>
+    </text>
+</TEI>

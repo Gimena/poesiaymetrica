@@ -1,17 +1,18 @@
-
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
+    <teiHeader>
+        <fileDesc>
             <titleStmt>
                 <title>A esta pregunta que me preguntades</title>
-                    
-           
+
+
                 <title type="incipit">A esta pregunta que me preguntades</title>
-             
-                <author>Alfonso Álvarez de Villasandino</author>
-            
-                
+
+                <author ref="#AAV">Alfonso Álvarez de Villasandino</author>
+
+
                 <editor xml:id="GDR">Gimena del Rio</editor>
             </titleStmt>
             <publicationStmt>
@@ -22,71 +23,38 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl type="url"> 
-                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
-  
+                    <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
                         <idno n="1262">Dutton 1262</idno>
-                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=122&entry=ID1262#PN1122ID1262]]></ref>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=122&amp;entry=ID1262#PN1122ID1262</ref>
                     </bibl>
-                      
-                
+
+
                 </listBibl>
                 <msDesc>
                     <msIdentifier>
                         <repository>Biblioteca Nacional de Francia </repository>
                         <idno>Espagnol 37</idno>
                         <altIdentifier>
-                            <idno type="PN1"/>                        
-</altIdentifier>
+                            <idno type="PN1"/>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <locus from="42r" to="42r">42r. </locus>
+                            <locus from="42r" to="42r">42r</locus>
                             <idno>PN1-122</idno>
                         </msItem>
                     </msContents>
-                   </msDesc>
-        </sourceDesc>
-    </fileDesc>
-    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
         <profileDesc>
-            <particDesc>
-                <listPerson>
-                   <person xml:id="AAV">
-                       
-                       <persName type="standard">Alfonso Álvarez de Villasandino</persName>
-                       <persName type="form">Alfonso Álvarez</persName>
-                       <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
-                   </person>
-                    <person xml:id="NC">
-                        <persName>Not Clear</persName>
-                    </person>
-                  
-             
-                </listPerson>
-            </particDesc>
-            <settingDesc>
-                <listPlace>
-                   
-                    <place xml:id="VI1">
-                   
-                            <placeName>Villasandino</placeName>
-                            <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
-                        </place>
-                </listPlace>
-            </settingDesc>
-            <textClass>
-                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
-               
-                    <term n="162">Pregunta</term>
-                  
-                </keywords>
-            </textClass>
+
 
             <creation>
-             
-                <origDate notAfter="1430" notBefore="1465">1426-1465
-                       </origDate>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
             </creation>
 
             <langUsage>
@@ -97,47 +65,71 @@
         <revisionDesc>
             <listChange>
                 <change when="2015-09-11" who="#GDR">Changes are made</change>
-                            </listChange>
+            </listChange>
         </revisionDesc>
-</teiHeader>
+    </teiHeader>
 
-<text>
-    <body>
-        <head type="rúbrica">      
-            <term cRef="#PMC:162">Pregunta</term> que le dio <persName ref="#AAV">Alfonso Álvarez</persName> </head>
-       
+    <text>
+        <body>
+            <head type="rúbrica">
+                <term cRef="162">Pregunta</term> que le dio <persName ref="#AAV">Alfonso
+                    Álvarez</persName>
+            </head>
 
-        <sp who="#NC">
-            <speaker>Alfonso Álvarez de Villasandino</speaker>
-            <lg type="poema" subtype="pregunta" unisonancia="unisonante"
-                isometrismo="isométrico" isoestrofismo="heteroestrófico"
-                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10" rhyme="ABBAACCA/ABBA">
-                <note> Se trata de una pieza de arte mayor. La pregunta no tiene un destinatario, pero por la estructura de la rúbrica parecería estar dirigida a Fernán Pérez de Guzmán, rceptor de las piezas que la antedecen. 
-                    La pregunta no sigue las rimas de estas, con lo que no puede sostenerse con solidez la hipótesis.</note>
-                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
-                    <l xml:id="L1"><rs ref="NC">Amigo señor</rs>, <rs ref="NC">non vos encubr<rhyme label="ades">ades</rhyme></rs></l>
-                    <l xml:id="L2">deste negocio solamente un p<rhyme label="elo">elo</rhyme>,</l>
-                    <l xml:id="L3">ca muchos la temen e <rs ref="#AAV">yo la rec<rhyme label="elo">elo</rhyme></rs>,</l>
-                    <l xml:id="L4">la grant turbamulta que <rs ref="NC">vos recel<rhyme label="ades">ades</rhyme></rs>,</l>
-                    <l xml:id="L5">por ende, <rs ref="NC">señor</rs>, <rs ref="NC">dezid que viv<rhyme label="ades">ades</rhyme></rs></l>
-                    <l xml:id="L6"><rs ref="NC">que sintiredes en diciendo <rhyme label="elo">elo</rhyme></rs>,</l>
-                    <l xml:id="L7">o si hay tal poste, pilar, nin est<rhyme label="elo">elo</rhyme>,</l>
-                    <l xml:id="L8">que todos non tiemblan peor que tembl<rhyme label="ades">ades</rhyme>.</l>
+
+            <sp who="#NC">
+                <speaker>Alfonso Álvarez de Villasandino</speaker>
+                <lg type="poema"
+                subtype="pregunta"
+                unisonancia="unisonante"
+                isometrismo="isométrico"
+                isoestrofismo="heteroestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10, 10"
+                rhyme="ABBAACCA/ABBA">
+                    <note> Se trata de una pieza de arte mayor. La pregunta no tiene un
+                        destinatario, pero por la estructura de la rúbrica parecería estar dirigida
+                        a Fernán Pérez de Guzmán, rceptor de las piezas que la antedecen. La
+                        pregunta no sigue las rimas de estas, con lo que no puede sostenerse con
+                        solidez la hipótesis.</note>
+                    <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">
+                        <l xml:id="L1">
+                     <rs ref="#NC">Amigo señor</rs>, <rs ref="#NC">non vos
+                                    encubr<rhyme>ades</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L2">deste negocio solamente un p<rhyme>elo</rhyme>,</l>
+                        <l xml:id="L3">ca muchos la temen e <rs ref="#AAV">yo la rec<rhyme>elo</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L4">la grant turbamulta que <rs ref="#NC">vos recel<rhyme>ades</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L5">por ende, <rs ref="#NC">señor</rs>, <rs ref="#NC">dezid que
+                                    viv<rhyme>ades</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L6">
+                     <rs ref="#NC">que sintiredes en diciendo <rhyme>elo</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L7">o si hay tal poste, pilar, nin est<rhyme>elo</rhyme>,</l>
+                        <l xml:id="L8">que todos non tiemblan peor que tembl<rhyme>ades</rhyme>.</l>
+                    </lg>
+
+                    <lg n="2" type="finda" met="10,10, 10, 10" rhyme="ABBA">
+                        <l xml:id="L9">Villas e aldeas, castillos, cibd<rhyme>ades</rhyme>,</l>
+                        <l xml:id="L10">delante sus ojos verán negro v<rhyme>elo</rhyme>,</l>
+                        <l xml:id="L11">si <rs ref="#NC">vos lo sabedes</rs> que quanto <rs ref="#AAV">yo s<rhyme>elo</rhyme>
+                     </rs>,</l>
+                        <l xml:id="L12">por moros, judíos, legos, ab<rhyme>ades</rhyme>.</l>
+                    </lg>
+
+
+
+
                 </lg>
-                
-                <lg n="2" type="finda" met="10,10, 10, 10" rhyme="ABBA">
-                    <l xml:id="L9">Villas e aldeas, castillos, cibd<rhyme label="ades">ades</rhyme>,</l>
-                    <l xml:id="L10">delante sus ojos verán negro v<rhyme label="elo">elo</rhyme>,</l>
-                    <l xml:id="L11">si <rs ref="NC">vos lo sabedes</rs> que quanto <rs ref="#AAV">yo s<rhyme label="elo">elo</rhyme></rs>,</l>
-                    <l xml:id="L12">por moros, judíos, legos, ab<rhyme label="ades">ades</rhyme>.</l>
-                </lg>
-                
-               
-                  
-                    
-            </lg>
-        </sp>
-    </body>
-</text>
+            </sp>
+        </body>
+    </text>
 </TEI>
-

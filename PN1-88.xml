@@ -1,15 +1,16 @@
-
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
+   <teiHeader>
+      <fileDesc>
             <titleStmt>
                 <title>Señor, non tomedes enojo nin saña</title>
                     
            
                 <title type="incipit">Señor, non tomedes enojo nin saña</title>
              
-                <author>Bachiller en Artes de Salamanca</author>
+                <author ref="#BSA">Bachiller en Artes de Salamanca</author>
             
                 
                 <editor xml:id="GDR">Gimena del Rio</editor>
@@ -26,7 +27,7 @@
                         <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
   
                         <idno n="1228">Dutton 1228</idno>
-                        <ref><![CDATA[http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&sms=1&item=88&entry=ID1228#PN188ID1228]]></ref>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=88&amp;entry=ID1228#PN188ID1228</ref>
                     </bibl>
                       
                 
@@ -37,7 +38,7 @@
                         <idno>Espagnol 37</idno>
                         <altIdentifier>
                             <idno type="PN1"/>                        
-</altIdentifier>
+                  </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -47,50 +48,13 @@
                     </msContents>
                    </msDesc>
         </sourceDesc>
-    </fileDesc>
+      </fileDesc>
     
         <profileDesc>
-            <particDesc>
-                <listPerson>
-                   <person xml:id="AAV">
-                       
-                       <persName type="standard">Alfonso Álvarez de Villasandino</persName>
-                       <idno type="VIAF">http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
-                   </person>
-                  
-                    <person xml:id="BSA">
-                        <persName type="standard">Bachiller en Artes de Salamanca</persName>
-                        <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3534Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DBachiller+de+Salamanca%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
-                    </person>
-             
-                </listPerson>
-            </particDesc>
-            <settingDesc>
-                <listPlace>
-                   
-                    <place xml:id="VI1">
-                   
-                            <placeName>Villasandino</placeName>
-                            <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
-                        </place>
-                    <place xml:id="SA1">
-                        <placeName>Salamanca</placeName>
-                        <idno type="VIAF">http://viaf.org/viaf/141322263/</idno>
-                    </place>
-                </listPlace>
-            </settingDesc>
-            <textClass>
-                <keywords xml:id="PMC" scheme="http://vocabularios.caicyt.gov.ar/pmc/">
-                    <term n="162">Pregunta</term>
-                    <term n="163">Respuesta</term>
-                    <term n="113">Religión</term>
-                </keywords>
-            </textClass>
 
             <creation>
              
-                <origDate notAfter="1430" notBefore="1465">1426-1465
-                       </origDate>
+                <origDate notBefore="1426" notAfter="1465">1426-1465</origDate>
             </creation>
 
             <langUsage>
@@ -103,56 +67,89 @@
                 <change when="2015-09-02" who="#GDR">Changes are made</change>
                             </listChange>
         </revisionDesc>
-</teiHeader>
+   </teiHeader>
 
-<text>
-    <body>
+   <text>
+      <body>
         <head type="rúbrica"> 
             
-            <term cRef="'#PMC:162">Pregunta</term> del dicho <persName ref="#BSA">Bachiller</persName> contra <persName ref="#AAV">Alfonso Álvarez</persName>
+            <term cRef="162">Pregunta</term> del dicho <persName ref="#BSA">Bachiller</persName> contra <persName ref="#AAV">Alfonso Álvarez</persName>
                         </head>
   
 
         <sp who="#AAV">
             <speaker>Bachiller en Artes de Salamanca</speaker>
-            <lg type="poema" subtype="pregunta"  unisonancia="singular"
-                isometrismo="isométrico" isoestrofismo="heteroestrófico"
-                asonancia="consonante" met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10" rhyme="ABBAACCA/AAB">
+            <lg type="poema"
+                subtype="pregunta"
+                unisonancia="singular"
+                isometrismo="isométrico"
+                isoestrofismo="heteroestrófico"
+                asonancia="consonante"
+                met="10,10, 10, 10, 10, 10, 10, 10/10, 10, 10"
+                rhyme="ABBAACCA/AAB">
                 <note> Se trata de una pieza de arte mayor</note>
-                <lg  n="1"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
+                <lg n="1"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">   
                  
-                    <l xml:id="L1"><rs ref="'#AAV">Señor</rs>, non tomedes enojo nin s<rhyme label="aña">aña</rhyme></l>
-                    <l xml:id="L2">por <rs ref="'#AAV">vos preguntar</rs> quien poco depr<rhyme label="isso">isso</rhyme>,</l>
-                    <l xml:id="L3">que bien <rs ref="'#BSA">se</rs> que <rs ref="'#AAV">sodes cortés e env<rhyme label="isso">iso</rhyme></rs></l>
-                        <l xml:id="L4">e muy bien criado de noble conp<rhyme label="aña">aña</rhyme></l>
-                    <l xml:id="L5">porque <rs ref="'#BSA">yo veo</rs> cossa muy estr<rhyme label="aña">aña</rhyme></l>
-                        <l xml:id="L6">en razón del cielo e de su esp<rhyme label="era">era</rhyme></l>
-                        <l xml:id="L7">que siempre se muda de una man<rhyme label="era">era</rhyme></l>
-                    <l xml:id="L8"><rs ref="'#AAV">dezid</rs> quien la muda siendo tam<rhyme label="aña">aña</rhyme>.</l>
+                    <l xml:id="L1">
+                     <rs ref="#AAV">Señor</rs>, non tomedes enojo nin s<rhyme>aña</rhyme>
+                  </l>
+                    <l xml:id="L2">por <rs ref="#AAV">vos preguntar</rs> quien poco depr<rhyme>isso</rhyme>,</l>
+                    <l xml:id="L3">que bien <rs ref="#BSA">se</rs> que <rs ref="#AAV">sodes cortés e env<rhyme label="isso">iso</rhyme>
+                     </rs>
+                  </l>
+                        <l xml:id="L4">e muy bien criado de noble conp<rhyme>aña</rhyme>
+                  </l>
+                    <l xml:id="L5">porque <rs ref="#BSA">yo veo</rs> cossa muy estr<rhyme>aña</rhyme>
+                  </l>
+                        <l xml:id="L6">en razón del cielo e de su esp<rhyme>era</rhyme>
+                  </l>
+                        <l xml:id="L7">que siempre se muda de una man<rhyme>era</rhyme>
+                  </l>
+                    <l xml:id="L8">
+                     <rs ref="#AAV">dezid</rs> quien la muda siendo tam<rhyme>aña</rhyme>.</l>
                     </lg>
                     
-                <lg  n="2"  type="octava" met="10,10, 10, 10, 10, 10, 10, 10" rhyme="ABBAACCA">   
-                        <l xml:id="L9">Ca non se mueve d´allí do es pu<rhyme label="esta">esta</rhyme></l>
-                        <l xml:id="L10">desque fue criada del primer movimi<rhyme label="ent%">ento</rhyme></l>
-                        <l xml:id="L11">maguer faze cursso tan súbitam<rhyme label="ent%">ente</rhyme></l>
-                        <l xml:id="L12">a parte adverssa jamás non ac<rhyme label="uesta">uesta</rhyme></l>
-                    <l xml:id="L13">a esto me dad, <rs ref="'#AAV">señor</rs>, la <term cRef="#PM">resp<rhyme label="uesta">uesta</rhyme></term></l>
-                        <l xml:id="L14">por los almanques de filosof<rhyme label="´´ia">ía</rhyme></l>
-                        <l xml:id="L15">o por vuestra bondat o por cortes<rhyme label="ía">ía</rhyme></l>
-                        <l xml:id="L16">ca en lo dezir muy poco vos cu<rhyme label="esta">esta</rhyme>.</l>
+                <lg n="2"
+                   type="octava"
+                   met="10,10, 10, 10, 10, 10, 10, 10"
+                   rhyme="ABBAACCA">   
+                        <l xml:id="L9">Ca non se mueve d´allí do es pu<rhyme>esta</rhyme>
+                  </l>
+                        <l xml:id="L10">desque fue criada del primer movimi<rhyme label="ent%">ento</rhyme>
+                  </l>
+                        <l xml:id="L11">maguer faze cursso tan súbitam<rhyme label="ent%">ente</rhyme>
+                  </l>
+                        <l xml:id="L12">a parte adverssa jamás non ac<rhyme>uesta</rhyme>
+                  </l>
+                    <l xml:id="L13">a esto me dad, <rs ref="#AAV">señor</rs>, la <term cRef="163">resp<rhyme>uesta</rhyme>
+                     </term>
+                  </l>
+                        <l xml:id="L14">por los almanques de filosof<rhyme label="´´ia">ía</rhyme>
+                  </l>
+                        <l xml:id="L15">o por vuestra bondat o por cortes<rhyme>ía</rhyme>
+                  </l>
+                        <l xml:id="L16">ca en lo dezir muy poco vos cu<rhyme>esta</rhyme>.</l>
                     </lg>
                 
-                <lg  n="3"  type="finda" met="10,10, 10" rhyme="AAB">   
-                    <l xml:id="L17"><rs ref="'#BSA">Ruego</rs> <rs ref="'#AAV">vos</rs> mucho por amor de m<rhyme label="i">i</rhyme></l>
-                    <l xml:id="L18">que esta demanda que <rs ref="'#AAV">vos</rs> <rs ref="'#BSA">fago</rs> aqu<rhyme label="i">i</rhyme></l>
-                    <l xml:id="L19"><rs ref="'#BSA">me</rs> sea por <rs ref="'#AAV">vos</rs> con razón espu<rhyme label="esta">esta</rhyme>.</l>
+                <lg n="3" type="finda" met="10,10, 10" rhyme="AAB">   
+                    <l xml:id="L17">
+                     <rs ref="#BSA">Ruego</rs> 
+                     <rs ref="#AAV">vos</rs> mucho por amor de m<rhyme>i</rhyme>
+                  </l>
+                    <l xml:id="L18">que esta demanda que <rs ref="#AAV">vos</rs> 
+                     <rs ref="#BSA">fago</rs> aqu<rhyme>i</rhyme>
+                  </l>
+                    <l xml:id="L19">
+                     <rs ref="#BSA">me</rs> sea por <rs ref="#AAV">vos</rs> con razón espu<rhyme>esta</rhyme>.</l>
                     
                 </lg>
                     
                     
             </lg>
         </sp>
-    </body>
-</text>
+      </body>
+   </text>
 </TEI>
-
