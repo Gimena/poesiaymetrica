@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/myTEI-converted-from-compact.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schemas/validador-referencias.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="schemas/tei_facsimil-met.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -61,15 +61,29 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    
+    <!--Introducción de imagen -->
+    
+    <facsimile>
+        <graphic url="imagenes/nombre-del-archivo-con-la-extensión" xml:id="id_im"></graphic>
+    </facsimile>  
+    
     <text>
         <body>
+            
+            <!-- Elemento <pb/> con la referencia a la imagen. Si el poema
+            contiene un salto de folio (por lo que tendría dos imágenes facsimilares
+            asociadas, se colocaría el segundo elemento <pb/> en el sitio correspondiente
+            de la edición)-->
+            
+            <pb facs="#id_im"/>
+            
+            
             <head type="rúbrica">Esta <term cRef="162">pregunta</term>
                 <term cRef="174">fizo</term> e <term cRef="175">ordenó</term>
                 <persName ref="#AAV">Alfonso Álvarez</persName> de <placeName ref="#VI1">Villasandino</placeName> contra Garcia <persName ref="#GFG">Ferrandes de
                         <placeName ref="#GE1">Gerena</placeName>
             </persName> quando se tornó moro</head>
-
-
             <sp who="#GFG">
                 <speaker>Alfonso Álvarez de Villasandino</speaker>
                 <lg type="poema"

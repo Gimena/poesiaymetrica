@@ -10,7 +10,7 @@
 
                 <title type="incipit">Tiren el clavo e ande la rueda</title>
 
-                <author>Fernán Pérez de Guzmán </author>
+                <author ref="#FPG">Fernán Pérez de Guzmán </author>
 
 
                 <editor xml:id="GDR">Gimena del Rio</editor>
@@ -43,7 +43,8 @@
                     <msContents>
                         <msItem>
                             <locus from="183v" to="184r">183v-184r</locus>
-                            <idno>PN1-547</idno>
+                            <idno>PN1-547</idno> 
+                        <!--  ATENCIÓN!! -->
                         </msItem>
                     </msContents>
                 </msDesc>
